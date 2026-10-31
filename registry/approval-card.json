@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "approval-card",
+  "type": "registry:ui",
+  "title": "Approval Card",
+  "description": "An agent asks before it acts – risk badge, preview, Approve and Deny with shortcuts, a pausing countdown, and a smooth morph into a resolved row",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "approval-card.tsx",
+      "type": "registry:ui",
+      "content": "/* Usage example (recovered from demo-CE77ZcMp.js) */\n\nimport { t as e } from \"./react-BkAXpnfr.js\";\nimport { t } from \"./jsx-runtime-CTsRTJUX.js\";\n/* empty css             */ import { t as n } from \"./component-LmNOI4Lq.js\";\nvar r = e(),\n  i = t(),\n  a = [`M`, `J`, `S`, `A`];\nfunction o() {\n  let [e, t] = (0, r.useState)(`pending`),\n    [o, s] = (0, r.useState)(!1),\n    [c, l] = (0, r.useState)(!1),\n    u = (0, r.useRef)(null);\n  (0, r.useEffect)(() => {\n    if (o) return;\n    let n = [];\n    if (e === `pending`) {\n      if (c) return;\n      let e = () => u.current?.querySelector(`.ui-ap__approve`);\n      (n.push(window.setTimeout(() => e()?.setAttribute(`data-pressed`, ``), 2800)),\n        n.push(\n          window.setTimeout(() => {\n            (e()?.removeAttribute(`data-pressed`), e()?.click());\n          }, 3e3),\n        ));\n    } else n.push(window.setTimeout(() => t(`pending`), 3200));\n    return () => {\n      (n.forEach(clearTimeout), u.current?.querySelector(`.ui-ap__approve`)?.removeAttribute(`data-pressed`));\n    };\n  }, [e, o, c]);\n  let d = () => s(!0);\n  return (0, i.jsx)(`div`, {\n    className: `ap-demo`,\n    children: (0, i.jsxs)(`div`, {\n      ref: u,\n      className: `ap-demo__chat`,\n      onPointerDown: d,\n      onKeyDown: d,\n      onPointerEnter: () => l(!0),\n      onPointerLeave: () => l(!1),\n      children: [\n        (0, i.jsxs)(`div`, {\n          className: `ap-demo__agent`,\n          children: [\n            (0, i.jsx)(`span`, {\n              className: `ap-demo__bot`,\n              \"aria-hidden\": `true`,\n              children: (0, i.jsx)(`svg`, {\n                viewBox: `0 0 24 24`,\n                children: (0, i.jsx)(`path`, {\n                  d: `M12 3.5 13.9 9l5.6 1.9-5.6 1.9L12 18.5l-1.9-5.7-5.6-1.9L10.1 9 12 3.5Z`,\n                }),\n              }),\n            }),\n            (0, i.jsx)(`p`, {\n              className: `ap-demo__msg`,\n              children: `I drafted the October newsletter. Ready to send?`,\n            }),\n          ],\n        }),\n        (0, i.jsx)(n, {\n          title: `Send campaign email`,\n          description: `October product update · Newsletter`,\n          risk: `medium`,\n          icon: (0, i.jsxs)(`svg`, {\n            viewBox: `0 0 24 24`,\n            children: [\n              (0, i.jsx)(`path`, { d: `M4 6.5h16v11H4z` }),\n              (0, i.jsx)(`path`, { d: `m4.5 7 7.5 6 7.5-6` }),\n            ],\n          }),\n          status: e,\n          onApprove: () => new Promise((e) => window.setTimeout(e, 700)).then(() => t(`approved`)),\n          onDeny: () => t(`denied`),\n          details: [\n            { label: `Subject`, value: `What's new in October` },\n            { label: `Send`, value: `Today, 9:00 AM` },\n          ],\n          children: (0, i.jsxs)(`div`, {\n            className: `ap-demo__people`,\n            children: [\n              (0, i.jsx)(`span`, {\n                className: `ap-demo__avatars`,\n                \"aria-hidden\": `true`,\n                children: a.map((e, t) =>\n                  (0, i.jsx)(`span`, { className: `ap-demo__avatar`, \"data-i\": t, children: e }, e),\n                ),\n              }),\n              (0, i.jsxs)(`span`, {\n                className: `ap-demo__to`,\n                children: [\n                  (0, i.jsx)(`span`, { className: `ap-demo__names`, children: `Mia, Jonas, Sara, Alex` }),\n                  (0, i.jsx)(`span`, { className: `ap-demo__more`, children: `+38 more` }),\n                ],\n              }),\n            ],\n          }),\n        }),\n        o &&\n          e !== `pending` &&\n          (0, i.jsx)(`button`, {\n            type: `button`,\n            className: `ap-demo__replay`,\n            onClick: () => t(`pending`),\n            children: `Replay`,\n          }),\n      ],\n    }),\n  });\n}\n"
+    }
+  ],
+  "meta": {
+    "affectui": {
+      "pro": true,
+      "recoveredFrom": "component-LmNOI4Lq.js",
+      "license": "affectUI commercial / MIT for free items"
+    }
+  }
+}

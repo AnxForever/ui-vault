@@ -1,0 +1,2781 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "affectui-local",
+  "homepage": "http://127.0.0.1:8787",
+  "items": [
+    {
+      "name": "agent-chat",
+      "type": "registry:ui",
+      "title": "Agent Chat",
+      "description": "Chat with an orchestrating agent, the agents at work, and a brief to fill in beside it",
+      "files": [
+        {
+          "path": "agent-chat.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-cursors",
+      "type": "registry:ui",
+      "title": "Agent Cursors",
+      "description": "Agents working in a document like teammates in a multiplayer editor – live pointers with names, suggestions typed letter by letter, images they resize, code they fix and comments beside the page",
+      "files": [
+        {
+          "path": "agent-cursors.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-T2vp62ci.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-findings",
+      "type": "registry:ui",
+      "title": "Agent Findings",
+      "description": "A swarm of agents checking something – one calm row per agent with its progress, and their findings sliding into a short feed as they're found",
+      "files": [
+        {
+          "path": "agent-findings.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-oWyfFMeM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-gallery",
+      "type": "registry:ui",
+      "title": "Agent Gallery",
+      "description": "Slim gradient panels with one open product screen in the middle – pick a panel and it glides open",
+      "files": [
+        {
+          "path": "agent-gallery.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-zt7AXopF.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-graph",
+      "type": "registry:ui",
+      "title": "Agent Graph",
+      "description": "Agents and the tools they call as a living network – a pulse along the link for every call and its answer, busy links growing thicker, agents that breathe while they work and turn amber when they need you",
+      "files": [
+        {
+          "path": "agent-graph.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BbHNVcxq.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-handoff",
+      "type": "registry:ui",
+      "title": "Agent Handoff",
+      "description": "A task passed from agent to agent like a relay – at every handoff what went along to the next one, and what got lost on the way",
+      "files": [
+        {
+          "path": "agent-handoff.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CW_0t88D.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-inbox",
+      "type": "registry:ui",
+      "title": "Agent Inbox",
+      "description": "All your background agent tasks in one calm list – live clocks and status tags, filter tabs with rolling counts, rows that unfold to the last steps with Approve, Reject, Retry or Open, and glide to their new place",
+      "files": [
+        {
+          "path": "agent-inbox.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Ck6EJPHF.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-lanes",
+      "type": "registry:ui",
+      "title": "Agent Lanes",
+      "description": "Where every agent is right now – a live timeline with a lane per agent, tasks growing into “now”, hand-offs drawn between agents and approvals right on the block",
+      "files": [
+        {
+          "path": "agent-lanes.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-D2be2q7n.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-ledger",
+      "type": "registry:ui",
+      "title": "Agent Ledger",
+      "description": "Everything an agent changed in your systems, each change with an undo – before and after per row, and pointing at Undo shows what builds on it: what would be undone too, and what can't be taken back",
+      "files": [
+        {
+          "path": "agent-ledger.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CGzh0xx5.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-monitor",
+      "type": "registry:ui",
+      "title": "Agent Monitor",
+      "description": "One agent at work, as a card – its current step with a clock and the bill so far, a time strip and the finished steps with the logo of each tool, a click on any of them for the details; the exact command when it needs your OK; folds into a small bar with the tools it has used",
+      "files": [
+        {
+          "path": "agent-monitor.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BbTawgt2.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-plan",
+      "type": "registry:ui",
+      "title": "Agent Plan",
+      "description": "affectUI agent-plan",
+      "files": [
+        {
+          "path": "agent-plan.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-CZU1So1R.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-queue",
+      "type": "registry:ui",
+      "title": "Agent Queue",
+      "description": "The work waiting for your agents, and how fast it moves – jobs drop into a live queue, glide into free worker slots as growing bars and land in Done or Failed, while a depth chart shows the backlog build up when a rate limit pauses the workers and drain when they resume",
+      "files": [
+        {
+          "path": "agent-queue.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CRKNaMKk.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-run",
+      "type": "registry:ui",
+      "title": "Agent Run",
+      "description": "One autonomous agent run: the plan ticking through its steps, the tool calls, an approval it waits on and the draft it wrote",
+      "files": [
+        {
+          "path": "agent-run.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-CZU1So1R.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-steering",
+      "type": "registry:ui",
+      "title": "Agent Steering",
+      "description": "Steer an agent while it works – queue a note for the next step and watch it glide into the plan when the agent picks it up, or interrupt right away",
+      "files": [
+        {
+          "path": "agent-steering.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BlCEXjmy.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-team",
+      "type": "registry:ui",
+      "title": "Agent Team",
+      "description": "A prompt types itself and branches out into three agents, each with a role and overlapping tool logos",
+      "files": [
+        {
+          "path": "agent-team.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BtlH6dH8.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "agent-tree",
+      "type": "registry:ui",
+      "title": "Agent Tree",
+      "description": "Who started whom – an orchestrator and its sub-agents as a live tree, with status, cost and time on every card, costs rolling up each branch, and branches that fold to one line",
+      "files": [
+        {
+          "path": "agent-tree.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-B_JQedQ8.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "ai-answer",
+      "type": "registry:ui",
+      "title": "AI Answer",
+      "description": "Streamed answer with source cards, citation chips that preview their source, copy, regenerate, feedback and follow-ups",
+      "files": [
+        {
+          "path": "ai-answer.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DBAxVX0U.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "ai-workspace",
+      "type": "registry:ui",
+      "title": "AI Workspace",
+      "description": "Complete assistant app – sidebar, welcome, streaming chat and projects, built on the Chat Composer",
+      "files": [
+        {
+          "path": "ai-workspace.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-CDhV0WHL.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "analytics",
+      "type": "registry:ui",
+      "title": "Analytics",
+      "description": "Revenue dashboard: key figures, revenue by channel, breakdown, top products and weekly trends",
+      "files": [
+        {
+          "path": "analytics.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "app-directory",
+      "type": "registry:ui",
+      "title": "App Directory",
+      "description": "Browse, search and connect integrations – categories, filters and app cards with a connect flow",
+      "files": [
+        {
+          "path": "app-directory.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-S9qKZHRx.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "app-shell-flat",
+      "type": "registry:ui",
+      "title": "App Shell Flat",
+      "description": "The App Shell laid flat – gray sidebar and an edge-to-edge page, split by a single hairline",
+      "files": [
+        {
+          "path": "app-shell-flat.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-90nTR1WK.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "app-shell-workspace-flat",
+      "type": "registry:ui",
+      "title": "App Shell Workspace Flat",
+      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
+      "files": [
+        {
+          "path": "app-shell-workspace-flat.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-90nTR1WK.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "app-shell-workspace",
+      "type": "registry:ui",
+      "title": "App Shell Workspace Flat",
+      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
+      "files": [
+        {
+          "path": "app-shell-workspace.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-90nTR1WK.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "app-shell",
+      "type": "registry:ui",
+      "title": "App Shell Flat",
+      "description": "The App Shell laid flat – gray sidebar and an edge-to-edge page, split by a single hairline",
+      "files": [
+        {
+          "path": "app-shell.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-90nTR1WK.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "approval-card",
+      "type": "registry:ui",
+      "title": "Approval Card",
+      "description": "An agent asks before it acts – risk badge, preview, Approve and Deny with shortcuts, a pausing countdown, and a smooth morph into a resolved row",
+      "files": [
+        {
+          "path": "approval-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-LmNOI4Lq.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "assistant-home",
+      "type": "registry:ui",
+      "title": "Assistant Home",
+      "description": "AI assistant start page: greeting, prompt box with tools, connected apps and suggestions",
+      "files": [
+        {
+          "path": "assistant-home.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-CX7lsfhr.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "autonomy-dial",
+      "type": "registry:ui",
+      "title": "Autonomy Dial",
+      "description": "How much an agent may do on its own – a three-stop dial, and its real actions gliding between “Runs on its own” and “Asks you first”, with a lock for what always asks",
+      "files": [
+        {
+          "path": "autonomy-dial.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-D1Cm2Y4U.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "billing-schedule",
+      "type": "registry:ui",
+      "title": "Billing Schedule",
+      "description": "Build a billing phase – start date, duration, products with repeats and timing, discount, minimum and live totals",
+      "files": [
+        {
+          "path": "billing-schedule.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-COJAGeNk.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "blur-crossfade",
+      "type": "registry:ui",
+      "title": "Blur Crossfade",
+      "description": "Swaps content with a soft blur while the box glides smoothly to the size of what comes next",
+      "files": [
+        {
+          "path": "blur-crossfade.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Ye53Zfy1.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "breakdown-chart",
+      "type": "registry:ui",
+      "title": "Breakdown Chart",
+      "description": "Stacked bar chart with measure, slice and segment pickers, a hover breakdown and a linked table",
+      "files": [
+        {
+          "path": "breakdown-chart.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-oa1F6huF.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "button-clean",
+      "type": "registry:ui",
+      "title": "button-clean",
+      "description": "affectUI button-clean",
+      "files": [
+        {
+          "path": "button-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "Primary, secondary, ghost and destructive buttons with icons, sizes and a shimmering loading state",
+      "files": [
+        {
+          "path": "button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "change-summary-clean",
+      "type": "registry:ui",
+      "title": "change-summary-clean",
+      "description": "affectUI change-summary-clean",
+      "files": [
+        {
+          "path": "change-summary-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "change-summary",
+      "type": "registry:ui",
+      "title": "Change Summary",
+      "description": "What moved since last time – one metric per row with a colored trend",
+      "files": [
+        {
+          "path": "change-summary.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-IBGa6B_0.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "chat-composer",
+      "type": "registry:ui",
+      "title": "Chat Composer",
+      "description": "Prompt composer with model picker, voice input, app connections and approval request",
+      "files": [
+        {
+          "path": "chat-composer.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-CDhV0WHL.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "cited-answer",
+      "type": "registry:ui",
+      "title": "Cited Answer",
+      "description": "An AI answer wired to its sources – point at a citation to light up its sentence and source, click to unfold the quoted passage with the matching words marked",
+      "files": [
+        {
+          "path": "cited-answer.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Dvsf4FXI.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "client-context",
+      "type": "registry:ui",
+      "title": "Client Context",
+      "description": "A client workspace with live numbers and a shared context timeline – switch clients, search, filter and add notes or files",
+      "files": [
+        {
+          "path": "client-context.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-borEBI1Z.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "title": "Combobox",
+      "description": "Pick one or many from a searchable, grouped list – chips with avatars, highlighted matches, create-on-the-fly and full keyboard support",
+      "files": [
+        {
+          "path": "combobox.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DqZv_kIm.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "command-menu",
+      "type": "registry:ui",
+      "title": "Command Menu",
+      "description": "Search and run anything from one field – tool actions with logos and ⌘1–⌘5, everyday commands with icons",
+      "files": [
+        {
+          "path": "command-menu.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BloxR6eN.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "comment-thread-clean",
+      "type": "registry:ui",
+      "title": "comment-thread-clean",
+      "description": "affectUI comment-thread-clean",
+      "files": [
+        {
+          "path": "comment-thread-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "comment-thread",
+      "type": "registry:ui",
+      "title": "Comment Thread",
+      "description": "One comment with replies – an assistant reports what it did, folds open details and answers @mentions",
+      "files": [
+        {
+          "path": "comment-thread.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-ElZs8qP_.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "comments-panel",
+      "type": "registry:ui",
+      "title": "Comments Panel",
+      "description": "Comment feed with filters, runnable /edit commands, resolve and a composer",
+      "files": [
+        {
+          "path": "comments-panel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Ioffv_GL.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "compact-breakdown",
+      "type": "registry:ui",
+      "title": "Compact Breakdown",
+      "description": "A total split into its parts in one small card – numbers roll, the bar glides and the ranked rows trade places when the period changes",
+      "files": [
+        {
+          "path": "compact-breakdown.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-v8zKTRWM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "conflict-radar",
+      "type": "registry:ui",
+      "title": "Conflict Radar",
+      "description": "Agents working on their own branches at once, and where they get in each other's way – a row per file and a column per agent, a line between the agents that changed the same lines, each agent's way in one sentence to pick from, and Merge once all are settled",
+      "files": [
+        {
+          "path": "conflict-radar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-C8n-KhXq.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "context-map",
+      "type": "registry:ui",
+      "title": "Context Map",
+      "description": "What fills an agent's context window, as a living treemap – system prompt, tools, memory, every file, the chat and tool results as tiles that glide as it grows, the free space dashed, and compaction squeezing old turns into a summary",
+      "files": [
+        {
+          "path": "context-map.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-B9Q3KRp_.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "context-window",
+      "type": "registry:ui",
+      "title": "Context Window",
+      "description": "What fills the model's context, as a field of cells – hover a part to light it up, remove files, and compact the conversation while its cells shimmer and clear",
+      "files": [
+        {
+          "path": "context-window.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-C8rgC34B.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "cover-flow",
+      "type": "registry:ui",
+      "title": "Cover Flow",
+      "description": "Browse covers in 3D – drag, flick or scrub the row, it springs to the nearest cover; images drift in their frames over a soft reflection",
+      "files": [
+        {
+          "path": "cover-flow.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-C2jfF4UB.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "crm",
+      "type": "registry:ui",
+      "title": "CRM",
+      "description": "Company list with pipelines, open views as tabs and an editable data table",
+      "files": [
+        {
+          "path": "crm.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-DD7VCqiB.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "data-table",
+      "type": "registry:ui",
+      "title": "Data Table",
+      "description": "affectUI data-table",
+      "files": [
+        {
+          "path": "data-table.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-DD7VCqiB.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "date-range-picker",
+      "type": "registry:ui",
+      "title": "Date Range Picker",
+      "description": "Presets and two calendars with a hover preview, comparison with the previous period or year, full keyboard control",
+      "files": [
+        {
+          "path": "date-range-picker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BFXVVPt-.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "decision-inbox-clean",
+      "type": "registry:ui",
+      "title": "decision-inbox-clean",
+      "description": "affectUI decision-inbox-clean",
+      "files": [
+        {
+          "path": "decision-inbox-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "decision-inbox",
+      "type": "registry:ui",
+      "title": "Decision Inbox",
+      "description": "Open decisions with two quick answers each – answered ones confirm and fold away",
+      "files": [
+        {
+          "path": "decision-inbox.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BTRtmfz4.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "decision-tree",
+      "type": "registry:ui",
+      "title": "Decision Tree",
+      "description": "An agent stuck on a decision lays out its options as a tree – the consequences of each branch, the risky ones marked, its own pick highlighted – and you choose a path or write your own",
+      "files": [
+        {
+          "path": "decision-tree.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BCVR2Hhf.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "delegate-board",
+      "type": "registry:ui",
+      "title": "Delegate Board",
+      "description": "Hand work to your agents by dragging it onto them – each agent previews its new “busy until” time, or switch to Auto and every new task goes to whoever is free first",
+      "files": [
+        {
+          "path": "delegate-board.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DHNjSsE4.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "dropzone",
+      "type": "registry:ui",
+      "title": "Dropzone",
+      "description": "Drag files in and watch them upload – fanning documents, colored type badges, progress with time left, errors with retry",
+      "files": [
+        {
+          "path": "dropzone.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BaVYNLv-.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "email-draft-clean",
+      "type": "registry:ui",
+      "title": "email-draft-clean",
+      "description": "affectUI email-draft-clean",
+      "files": [
+        {
+          "path": "email-draft-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "email-draft",
+      "type": "registry:ui",
+      "title": "Email Draft",
+      "description": "affectUI email-draft",
+      "files": [
+        {
+          "path": "email-draft.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BqE2nm6j.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "empty-calendar",
+      "type": "registry:ui",
+      "title": "Empty Calendar",
+      "description": "Stack of calendar cards marked empty, fanning out on hover",
+      "files": [
+        {
+          "path": "empty-calendar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-MXjIQshC.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "enrichment-orbit",
+      "type": "registry:ui",
+      "title": "Enrichment Orbit",
+      "description": "Grok tile inside two rings with comets and data nodes orbiting around it",
+      "files": [
+        {
+          "path": "enrichment-orbit.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-CU49Fdlm.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "evals",
+      "type": "registry:ui",
+      "title": "Evals",
+      "description": "Prompt evaluation dashboard: pass rate by version, reviewable prompt changes and test cases you can re-run",
+      "files": [
+        {
+          "path": "evals.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "experiment-card",
+      "type": "registry:ui",
+      "title": "Experiment Card",
+      "description": "An A/B test in two lines that quietly unfolds on hover – variants linked to a tiny chart, a metric switch with rolling numbers, and a winner you pick with a click",
+      "files": [
+        {
+          "path": "experiment-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DBtQYhoC.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "fallback-chain",
+      "type": "registry:ui",
+      "title": "Fallback Chain",
+      "description": "One request finding a model that answers, as a small flow diagram – the request branches out to each model in its fallback order, a light runs to the one being tried, failed branches break red, and the one that answers runs on to the response",
+      "files": [
+        {
+          "path": "fallback-chain.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Cr3cCxya.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "fan-out-grid",
+      "type": "registry:ui",
+      "title": "Fan-out Grid",
+      "description": "One agent hands a big job to many workers – every task a cell on a live grid that fills in as they get through it, with retries, failures, cost and the time left, and the details of any task on hover",
+      "files": [
+        {
+          "path": "fan-out-grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BFd3gKrI.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "files",
+      "type": "registry:ui",
+      "title": "Folders",
+      "description": "Folder overview with tabs, search, sort, grid/list toggle and file templates",
+      "files": [
+        {
+          "path": "files.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "filter-menu-clean",
+      "type": "registry:ui",
+      "title": "filter-menu-clean",
+      "description": "affectUI filter-menu-clean",
+      "files": [
+        {
+          "path": "filter-menu-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "filter-menu",
+      "type": "registry:ui",
+      "title": "Filter Menu",
+      "description": "Grouped filters with removable chips, collapsible checkbox groups, Clear all and full keyboard control",
+      "files": [
+        {
+          "path": "filter-menu.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-CuOxVraS.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "folder",
+      "type": "registry:ui",
+      "title": "Folder",
+      "description": "Inside one folder: breadcrumbs, file cards with previews, and an empty state",
+      "files": [
+        {
+          "path": "folder.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "frost-cloud",
+      "type": "registry:ui",
+      "title": "Frost Cloud",
+      "description": "A frosted white cloud with eyes cut out of it, on a red-orange or blue sky – it floats, turns to look around, blinks, follows the pointer and bounces with a wink when clicked",
+      "files": [
+        {
+          "path": "frost-cloud.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-DrDu-VuE.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "ghosted-chat",
+      "type": "registry:ui",
+      "title": "Ghosted Chat",
+      "description": "Unanswered chat messages marked as read, with a thumbs-down reply on hover",
+      "files": [
+        {
+          "path": "ghosted-chat.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Cm2FVMWj.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "glass-folder",
+      "type": "registry:ui",
+      "title": "Glass Folder",
+      "description": "Glassy blue folder with documents behind a frosted pocket that tips open on hover",
+      "files": [
+        {
+          "path": "glass-folder.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DO6U7ZR7.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "glow-cloud",
+      "type": "registry:ui",
+      "title": "Glow Cloud",
+      "description": "A glowing cloud with eyes in blue or red-orange – it floats, turns to look around, blinks, follows the pointer and bounces with a wink when clicked",
+      "files": [
+        {
+          "path": "glow-cloud.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Cm8kSHcX.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "glow-keyboard",
+      "type": "registry:ui",
+      "title": "Glow Keyboard",
+      "description": "AI chat input that types itself over a glass keyboard – every key press sends a wave up the gradient floor",
+      "files": [
+        {
+          "path": "glow-keyboard.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CfD9afHB.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "gradient-floor",
+      "type": "registry:ui",
+      "title": "Gradient Floor",
+      "description": "A blurred colour gradient that glows up from the bottom edge – two layers that drift and morph",
+      "files": [
+        {
+          "path": "gradient-floor.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-B-TgH1P-.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "gradient-text",
+      "type": "registry:ui",
+      "title": "Gradient Text",
+      "description": "Letters cut from a liquid, ever-flowing gradient – the color sweeps across the word the first time it's seen",
+      "files": [
+        {
+          "path": "gradient-text.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Dcdtba_V.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "grid-background",
+      "type": "registry:ui",
+      "title": "Grid Background",
+      "description": "A fine line grid that drifts slowly behind your content and fades out towards the edges",
+      "files": [
+        {
+          "path": "grid-background.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-S1hMjDCH.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "inline-diff",
+      "type": "registry:ui",
+      "title": "Inline Diff",
+      "description": "AI edits to prose shown inline – struck and added words you accept or reject one by one, with keys, a popover and undo",
+      "files": [
+        {
+          "path": "inline-diff.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-LiY5Y6pa.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integration-beam",
+      "type": "registry:ui",
+      "title": "Integration Beam",
+      "description": "Your product between the tools it connects – light pulses flow along curved beams, hover to focus a tool, click to pause it",
+      "files": [
+        {
+          "path": "integration-beam.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-B_Bc7Zla.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integration-flow",
+      "type": "registry:ui",
+      "title": "Integration Flow",
+      "description": "Integration pills rotating along a dashed arc, each beaming its data into a central analysis hub",
+      "files": [
+        {
+          "path": "integration-flow.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CL_ySX-H.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integration-grid",
+      "type": "registry:ui",
+      "title": "Integration Grid",
+      "description": "affectUI integration-grid",
+      "files": [
+        {
+          "path": "integration-grid.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-WEwHkvy1.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integration-picker",
+      "type": "registry:ui",
+      "title": "Integration Picker",
+      "description": "Integrations page of a command menu – search, a list of services and the picked one with its connection on two tiles",
+      "files": [
+        {
+          "path": "integration-picker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BbtxcaBE.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integration-settings",
+      "type": "registry:ui",
+      "title": "Integration Settings",
+      "description": "Settings card for a connected service – on/off switch, API key, validated site address, time zone and a save bar",
+      "files": [
+        {
+          "path": "integration-settings.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BSW5akXq.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "integrations",
+      "type": "registry:ui",
+      "title": "Integration Picker",
+      "description": "Integrations page of a command menu – search, a list of services and the picked one with its connection on two tiles",
+      "files": [
+        {
+          "path": "integrations.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "invoice-credit",
+      "type": "registry:ui",
+      "title": "Invoice & Credit Note",
+      "description": "An invoice and its credit note stacked like paper – switch between them, pick lines to credit, adjust amounts and issue",
+      "files": [
+        {
+          "path": "invoice-credit.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-C-iCHBJN.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "kpi-board",
+      "type": "registry:ui",
+      "title": "KPI Board",
+      "description": "The top of a dashboard – three trend cards, an overview chart that compares this period with the last, and a focus card; hover shows any day's value and every number rolls when the range changes",
+      "files": [
+        {
+          "path": "kpi-board.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DVOt8T4-.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "kpi-chart",
+      "type": "registry:ui",
+      "title": "KPI Chart",
+      "description": "Metric card with a multi-line chart and a tooltip that follows the pointer",
+      "files": [
+        {
+          "path": "kpi-chart.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-x03t8EYo.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "layer-stack",
+      "type": "registry:ui",
+      "title": "Layer Stack",
+      "description": "Isometric stack of five layers with a list beside it – the chosen entry lifts its layer out in color",
+      "files": [
+        {
+          "path": "layer-stack.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-KQRMxKWn.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "lead-sourcing",
+      "type": "registry:ui",
+      "title": "Lead Sourcing",
+      "description": "ChatGPT tile linked to Gmail and Grok, with a shine running along the connection",
+      "files": [
+        {
+          "path": "lead-sourcing.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BTBcqeeL.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "logo-cluster",
+      "type": "registry:ui",
+      "title": "Logo Cluster",
+      "description": "Your mark on a white disc in the middle – company logos bounce out of it and settle around it",
+      "files": [
+        {
+          "path": "logo-cluster.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-CkkSZhS9.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "logo-marquee",
+      "type": "registry:ui",
+      "title": "Logo Marquee",
+      "description": "The endless “Trusted by” strip – a seamless loop that eases to a stop on hover, scrubs with inertia and lifts the hovered logo to colour",
+      "files": [
+        {
+          "path": "logo-marquee.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-dPDkooNn.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "memory-panel",
+      "type": "registry:ui",
+      "title": "Memory Panel",
+      "description": "What the assistant remembers about you, grouped and editable – a master switch, category filters, and on every memory edit in place, pause or forget with Undo on the tray",
+      "files": [
+        {
+          "path": "memory-panel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Dzop4bhP.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "message-actions-clean",
+      "type": "registry:ui",
+      "title": "message-actions-clean",
+      "description": "affectUI message-actions-clean",
+      "files": [
+        {
+          "path": "message-actions-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "message-actions",
+      "type": "registry:ui",
+      "title": "Message Actions",
+      "description": "The quiet bar under an AI message – copy turns into a check, regenerate spins and unfolds a version switcher, thumbs pop and ask why, read aloud becomes a tiny equalizer",
+      "files": [
+        {
+          "path": "message-actions.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-DrVDkZ74.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "metrics-dashboard",
+      "type": "registry:ui",
+      "title": "Metrics Dashboard",
+      "description": "Sales overview – KPI cards pick the metric, one chart switches between dotted line and bars, with top products and channels",
+      "files": [
+        {
+          "path": "metrics-dashboard.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Coprs2Jd.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "model-picker",
+      "type": "registry:ui",
+      "title": "Model Picker",
+      "description": "The model menu of an AI chat – point at a model and its speed, quality and cost bars fill, switch on extended thinking and its effort unfolds, while the tray rolls the first-token time and price",
+      "files": [
+        {
+          "path": "model-picker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-ousVLbdn.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "model-wheel",
+      "type": "registry:ui",
+      "title": "Model Wheel",
+      "description": "AI model names on a turning drum – the rows bend away at the edges and each model lands on a soft gray fill",
+      "files": [
+        {
+          "path": "model-wheel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-OZULToi6.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "notification-stack-clean",
+      "type": "registry:ui",
+      "title": "notification-stack-clean",
+      "description": "affectUI notification-stack-clean",
+      "files": [
+        {
+          "path": "notification-stack-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "notification-stack",
+      "type": "registry:ui",
+      "title": "Notification Stack",
+      "description": "Notice cards stacked behind each other – dismiss the front one to reveal the next",
+      "files": [
+        {
+          "path": "notification-stack.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-B6G7VOmY.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "number-ticker",
+      "type": "registry:ui",
+      "title": "Number Ticker",
+      "description": "affectUI number-ticker",
+      "files": [
+        {
+          "path": "number-ticker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-0IZOAjVo.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "onboarding",
+      "type": "registry:ui",
+      "title": "Project Card",
+      "description": "affectUI onboarding",
+      "files": [
+        {
+          "path": "onboarding.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "otp-input-clean",
+      "type": "registry:ui",
+      "title": "otp-input-clean",
+      "description": "affectUI otp-input-clean",
+      "files": [
+        {
+          "path": "otp-input-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "otp-input",
+      "type": "registry:ui",
+      "title": "OTP Input",
+      "description": "The verification code field done right – a gliding focus ring, paste and SMS autofill, a calm shake on errors and a morph into Verified",
+      "files": [
+        {
+          "path": "otp-input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-DNDBlImO.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "outreach-branches",
+      "type": "registry:ui",
+      "title": "Outreach Branches",
+      "description": "Lines branching out to Gmail, Slack and Notion with colored pulses flowing down",
+      "files": [
+        {
+          "path": "outreach-branches.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-D-FldunI.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "parallel-attempts",
+      "type": "registry:ui",
+      "title": "Parallel Attempts",
+      "description": "An agent tries the same task several ways at once and the best one wins – every attempt races as a row with its model, approach and live bar, then gets a score; the best is marked and picked, and you can switch to another",
+      "files": [
+        {
+          "path": "parallel-attempts.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DNq6dj3m.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "permission-request",
+      "type": "registry:ui",
+      "title": "Permission Request",
+      "description": "An agent asks for one specific right – who, why and exactly what will happen – and you allow it once, for an hour or always; then it folds into one line with the time left and Revoke",
+      "files": [
+        {
+          "path": "permission-request.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-277u-kzk.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "plan-vs-actual",
+      "type": "registry:ui",
+      "title": "plan-vs-actual",
+      "description": "affectUI plan-vs-actual",
+      "files": [
+        {
+          "path": "plan-vs-actual.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "pricing-plans",
+      "type": "registry:ui",
+      "title": "Pricing Plans",
+      "description": "Pricing section with a monthly / yearly switch, three plan cards and collapsible details",
+      "files": [
+        {
+          "path": "pricing-plans.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-CGLaBJBw.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "profile-menu-clean",
+      "type": "registry:ui",
+      "title": "profile-menu-clean",
+      "description": "affectUI profile-menu-clean",
+      "files": [
+        {
+          "path": "profile-menu-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "profile-menu",
+      "type": "registry:ui",
+      "title": "Profile Menu",
+      "description": "Account card with the signed-in user, menu actions and profile setup progress",
+      "files": [
+        {
+          "path": "profile-menu.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Dk3NEbkP.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "progress-tracker-clean",
+      "type": "registry:ui",
+      "title": "progress-tracker-clean",
+      "description": "affectUI progress-tracker-clean",
+      "files": [
+        {
+          "path": "progress-tracker-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "progress-tracker",
+      "type": "registry:ui",
+      "title": "Progress Tracker",
+      "description": "Onboarding checklist with an animated progress bar, ticks that draw themselves and auto play",
+      "files": [
+        {
+          "path": "progress-tracker.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-CRM2yhps.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "project-card",
+      "type": "registry:ui",
+      "title": "Project Card",
+      "description": "affectUI project-card",
+      "files": [
+        {
+          "path": "project-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-mVJMtnH2.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "project-flow",
+      "type": "registry:ui",
+      "title": "Project Flow",
+      "description": "Animated scene of a client task branching into subtasks, notes and assigned roles",
+      "files": [
+        {
+          "path": "project-flow.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Cwdm4ytX.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "prompt-library",
+      "type": "registry:ui",
+      "title": "Prompt Library",
+      "description": "Saved prompt templates with variables – type straight into the sentence, watch the finished prompt assemble below, and use it once every variable is filled",
+      "files": [
+        {
+          "path": "prompt-library.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Dag7eJtM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "reaction-bar-clean",
+      "type": "registry:ui",
+      "title": "reaction-bar-clean",
+      "description": "affectUI reaction-bar-clean",
+      "files": [
+        {
+          "path": "reaction-bar-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "reaction-bar",
+      "type": "registry:ui",
+      "title": "Reaction Bar",
+      "description": "Like, comment, repost and share in one pill – icons pop and fill, counts roll in digit by digit",
+      "files": [
+        {
+          "path": "reaction-bar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-x4AxvLaI.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "region-dach",
+      "type": "registry:ui",
+      "title": "DACH Region",
+      "description": "DACH map with fading neighbours and a pastel band along the border, switchable to the US, China, India, Brazil or Japan",
+      "files": [
+        {
+          "path": "region-dach.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Ci6RIQmr.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "review-center",
+      "type": "registry:ui",
+      "title": "Review Center",
+      "description": "A focused workspace for what your agents want to do – the queue sorted by risk, one item at a time with the shaky spans marked, Approve, Edit, Reject and Skip on single keys, a stamp as each one leaves and the next one rising in",
+      "files": [
+        {
+          "path": "review-center.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-ocpQ0Pxs.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "scheduled-runs",
+      "type": "registry:ui",
+      "title": "scheduled-runs",
+      "description": "affectUI scheduled-runs",
+      "files": [
+        {
+          "path": "scheduled-runs.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "segmented-control-clean",
+      "type": "registry:ui",
+      "title": "segmented-control-clean",
+      "description": "affectUI segmented-control-clean",
+      "files": [
+        {
+          "path": "segmented-control-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "segmented-control",
+      "type": "registry:ui",
+      "title": "Segmented Control",
+      "description": "Switch between two to six options – a raised pill or underline that glides, stretches a little and can be dragged across, with icons, counts and badges",
+      "files": [
+        {
+          "path": "segmented-control.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-uGOWYpxY.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "settings-billing",
+      "type": "registry:ui",
+      "title": "Settings & Billing",
+      "description": "Settings page with tabs: workspace, members, API keys and billing with plan, usage, payment method, plan comparison and invoices",
+      "files": [
+        {
+          "path": "settings-billing.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-fbzjv3kM.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "setup-guide",
+      "type": "registry:ui",
+      "title": "Setup Guide",
+      "description": "Onboarding panel with a progress bar and collapsible task groups that strike through when done",
+      "files": [
+        {
+          "path": "setup-guide.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-B3wch4yo.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "shimmer-loader",
+      "type": "registry:ui",
+      "title": "Shimmer Loader",
+      "description": "Skeleton blocks that share one soft light sweep, plus shimmering text for “Thinking…” states",
+      "files": [
+        {
+          "path": "shimmer-loader.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Cc3_N5Az.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "side-folder",
+      "type": "registry:ui",
+      "title": "Side Folder",
+      "description": "Glassy blue folder on its side, documents sliding out to the right as the pocket swings open on hover",
+      "files": [
+        {
+          "path": "side-folder.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-ClUxDNiT.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "smart-recommendation-clean",
+      "type": "registry:ui",
+      "title": "smart-recommendation-clean",
+      "description": "affectUI smart-recommendation-clean",
+      "files": [
+        {
+          "path": "smart-recommendation-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "smart-recommendation",
+      "type": "registry:ui",
+      "title": "Smart Recommendation",
+      "description": "Suggestion card with a confidence signal, alternatives to switch to and accept with undo",
+      "files": [
+        {
+          "path": "smart-recommendation.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-Bmw88bzb.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "stepper-form",
+      "type": "registry:ui",
+      "title": "Stepper Form",
+      "description": "affectUI stepper-form",
+      "files": [
+        {
+          "path": "stepper-form.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DnMvqnaQ.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tab-overload",
+      "type": "registry:ui",
+      "title": "Tab Overload",
+      "description": "Overlapping browser windows where the highlight follows the hovered tab",
+      "files": [
+        {
+          "path": "tab-overload.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-CVKU8Uzh.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "task-board",
+      "type": "registry:ui",
+      "title": "Task Board",
+      "description": "Kanban board with drag and drop, quick add, a detail panel, search, label filters and a compact view",
+      "files": [
+        {
+          "path": "task-board.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-oa1F6huF.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "team-invite",
+      "type": "registry:ui",
+      "title": "Team Invite",
+      "description": "Connected teammates – a cursor drags a new one into the empty slot, the line turns solid and they go online",
+      "files": [
+        {
+          "path": "team-invite.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-cWsVSmbI.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "testimonial-wall",
+      "type": "registry:ui",
+      "title": "Testimonial Wall",
+      "description": "affectUI testimonial-wall",
+      "files": [
+        {
+          "path": "testimonial-wall.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BOeM0CYP.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "text-reveal",
+      "type": "registry:ui",
+      "title": "Text Reveal",
+      "description": "Text that arrives word by word or letter by letter – each piece rises out of a soft blur as it scrolls into view",
+      "files": [
+        {
+          "path": "text-reveal.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-BEzbCisV.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "thinking-loader-clean",
+      "type": "registry:ui",
+      "title": "thinking-loader-clean",
+      "description": "affectUI thinking-loader-clean",
+      "files": [
+        {
+          "path": "thinking-loader-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "thinking-loader",
+      "type": "registry:ui",
+      "title": "Thinking Loader",
+      "description": "A small working pill for AI replies – an eight-ray spinner and a shimmering label that rolls through phases and settles on a check",
+      "files": [
+        {
+          "path": "thinking-loader.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-Ek9d4icg.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "thinking-state",
+      "type": "registry:ui",
+      "title": "Thinking State",
+      "description": "AI working panel with a live timer, searched sources and thinking steps that appear one by one",
+      "files": [
+        {
+          "path": "thinking-state.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-DXKdUXEH.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tilt-card",
+      "type": "registry:ui",
+      "title": "Tilt Card",
+      "description": "A card that tilts in 3D towards the pointer, with a soft glare that follows it and a smooth spring back",
+      "files": [
+        {
+          "path": "tilt-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BijqyLh8.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tips-panel-clean",
+      "type": "registry:ui",
+      "title": "tips-panel-clean",
+      "description": "affectUI tips-panel-clean",
+      "files": [
+        {
+          "path": "tips-panel-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tips-panel",
+      "type": "registry:ui",
+      "title": "Tips Panel",
+      "description": "Grid of short tips with one action each – taken tips turn into a done state",
+      "files": [
+        {
+          "path": "tips-panel.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "demo-CeNLDeWD.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "toaster",
+      "type": "registry:ui",
+      "title": "Toaster",
+      "description": "Calm toasts from anywhere – a stack that fans out on hover, promise toasts that morph from spinner to check, swipe to dismiss",
+      "files": [
+        {
+          "path": "toaster.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-BMvVHXrh.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tool-call-card-clean",
+      "type": "registry:ui",
+      "title": "tool-call-card-clean",
+      "description": "affectUI tool-call-card-clean",
+      "files": [
+        {
+          "path": "tool-call-card-clean.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "site bundle",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "tool-call-card",
+      "type": "registry:ui",
+      "title": "Tool Call Card",
+      "description": "An agent's tool call in one line – live timer, status and summary, folds open to highlighted arguments and result with copy, retry on errors and a group that sums them up",
+      "files": [
+        {
+          "path": "tool-call-card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": false,
+          "recoveredFrom": "component-DR7LKODg.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "trace-waterfall",
+      "type": "registry:ui",
+      "title": "Trace Waterfall",
+      "description": "Where the time and money of an agent run go – every LLM call, tool call and sub-agent as a bar on a live timeline, with tokens and cost per step, the slowest call marked and branches that fold into their parent",
+      "files": [
+        {
+          "path": "trace-waterfall.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-OLdSLdLw.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "usage-meter",
+      "type": "registry:ui",
+      "title": "Usage Meter",
+      "description": "Plan usage and AI credits – a stacked credits meter by category, daily sparkline, limits and a button that speaks up near the limit",
+      "files": [
+        {
+          "path": "usage-meter.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "component-D_GYVBcE.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "voice-orb",
+      "type": "registry:ui",
+      "title": "Voice Orb",
+      "description": "The face of a voice assistant – a sphere of dots that breathes, catches sound, collapses into a spinning ring while thinking and ripples when it speaks",
+      "files": [
+        {
+          "path": "voice-orb.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-B3RzKcXL.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "world-map",
+      "type": "registry:ui",
+      "title": "World Map Continental",
+      "description": "World map with one highlighted continent and a pastel band along its coastline, switchable between all six",
+      "files": [
+        {
+          "path": "world-map.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-Q0wmIwEm.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    },
+    {
+      "name": "writing-assistant",
+      "type": "registry:ui",
+      "title": "Writing Assistant",
+      "description": "AI chat card with a soft gradient glow, suggestions, streaming replies and live voice dictation",
+      "files": [
+        {
+          "path": "writing-assistant.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "affectui": {
+          "pro": true,
+          "recoveredFrom": "demo-DeFFCGcX.js",
+          "license": "affectUI commercial / MIT for free items"
+        }
+      }
+    }
+  ]
+}

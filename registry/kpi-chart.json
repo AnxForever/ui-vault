@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "kpi-chart",
+  "type": "registry:ui",
+  "title": "KPI Chart",
+  "description": "Metric card with a multi-line chart and a tooltip that follows the pointer",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "kpi-chart.tsx",
+      "type": "registry:ui",
+      "content": "/* Usage example (recovered from demo-Dgc6vygI.js) */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\n/* empty css             */ import { t } from \"./component-x03t8EYo.js\";\nvar n = e(),\n  r = [`Mar 3`, `Mar 4`, `Mar 5`, `Mar 6`, `Mar 7`, `Mar 8`, `Mar 9`],\n  i = [`Mon, Mar 3`, `Tue, Mar 4`, `Wed, Mar 5`, `Thu, Mar 6`, `Fri, Mar 7`, `Sat, Mar 8`, `Sun, Mar 9`],\n  a = [`#2f6bff`, `#ec4899`, `#8b5cf6`, `#14b8a6`, `#a3a3a3`],\n  o = [`Organic`, `Paid ads`, `Referral`, `Email`, `Direct`],\n  s = ((e) => e.map((e, t) => ({ label: o[t], color: a[t], values: e })))([\n    [4200, 4700, 3900, 4600, 5400, 5100, 5900],\n    [3600, 3300, 4400, 4800, 4e3, 4500, 4200],\n    [1800, 2300, 2e3, 1500, 2400, 2200, 2700],\n    [1200, 1100, 1700, 2100, 1600, 1300, 1500],\n    [600, 900, 700, 800, 1e3, 1400, 1100],\n  ]),\n  c = (e) => (e >= 1e3 ? `$${+(e / 1e3).toFixed(1)}k` : `$${Math.round(e)}`);\nfunction l() {\n  return (0, n.jsx)(`div`, {\n    className: `kpi-demo`,\n    children: (0, n.jsx)(t, {\n      title: `Revenue`,\n      value: `$96.4k`,\n      delta: 7900,\n      format: c,\n      labels: r,\n      tooltipLabels: i,\n      series: s,\n      footer: `Top 5 channels`,\n    }),\n  });\n}\n"
+    }
+  ],
+  "meta": {
+    "affectui": {
+      "pro": true,
+      "recoveredFrom": "component-x03t8EYo.js",
+      "license": "affectUI commercial / MIT for free items"
+    }
+  }
+}

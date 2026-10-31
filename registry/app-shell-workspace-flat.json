@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "app-shell-workspace-flat",
+  "type": "registry:ui",
+  "title": "App Shell Workspace Flat",
+  "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "app-shell-workspace-flat.tsx",
+      "type": "registry:ui",
+      "content": "/* Usage example (recovered from demo-DAuHP3Xc.js) */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { d as t, f as n } from \"./index-CFGVEsd9.js\";\nimport { i as r } from \"./component-90nTR1WK.js\";\nimport { n as i } from \"./component-By-qHuWo.js\";\nimport { t as a } from \"./component-BxbkRf5G.js\";\nvar o = e();\nfunction s({ panel: e, panelTitle: t = `Workspace`, tools: n, sources: r, onOpen: s, ...c }) {\n  return (0, o.jsx)(a, {\n    ...c,\n    panelTitle: t,\n    panel: e ?? (0, o.jsx)(i, { tools: n, sources: r, onOpen: s }),\n  });\n}\nfunction c() {\n  return (0, o.jsx)(t, {\n    children: (0, o.jsx)(s, {\n      active: `New chat`,\n      onNavigate: n,\n      children: (0, o.jsx)(`div`, {\n        className: `ui-as-center`,\n        children: (0, o.jsx)(r, {\n          bare: !0,\n          title: `Your page goes here`,\n          text: `The flat shell brings both sidebars and the scroll container – put any screen inside.`,\n        }),\n      }),\n    }),\n  });\n}\n"
+    }
+  ],
+  "meta": {
+    "affectui": {
+      "pro": true,
+      "recoveredFrom": "component-90nTR1WK.js",
+      "license": "affectUI commercial / MIT for free items"
+    }
+  }
+}

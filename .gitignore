@@ -1,0 +1,4 @@
+﻿assets/
+tools/node_modules/
+*.zip
+.probe/

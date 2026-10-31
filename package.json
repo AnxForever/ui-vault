@@ -1,0 +1,15 @@
+﻿{
+  "name": "affectui-mirror",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local mirror + shadcn registry for affectUI components (free and Pro)",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "check": "node watch.mjs --check",
+    "update": "node watch.mjs"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}
