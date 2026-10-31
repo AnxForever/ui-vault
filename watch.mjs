@@ -28,12 +28,12 @@ const CHECK_ONLY = argv.has("--check");
 
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; affectui-mirror/1.0)" };
 
+// prettier is optional: local dev resolves it from node_modules, CI installs it.
 let prettier = null;
-try {
-  prettier = (await import("../tools/node_modules/prettier/index.mjs")).default;
-} catch {
+for (const spec of ["prettier", "prettier/index.mjs"]) {
   try {
-    prettier = (await import(path.join(ROOT, "tools", "node_modules", "prettier", "index.mjs"))).default;
+    prettier = (await import(spec)).default;
+    break;
   } catch {
     /* formatting is optional */
   }
@@ -249,13 +249,25 @@ const main = async () => {
       report.restored.push(r);
       state.items = { ...(state.items || {}), [slug]: key };
     }
-    const n = rebuildIndex();
-    report.registryItems = n;
-    state.bundle = bundle;
-    state.slugs = slugs;
-    state.checkedAt = report.at;
-    fs.writeFileSync(STATE, JSON.stringify(state, null, 1), "utf8");
-    fs.appendFileSync(path.join(ROOT, "CHANGELOG.md"), `\n## ${report.at}\n\n- bundle: ${bundle}\n- new slugs: ${report.newSlugs.join(", ") || "none"}\n- refreshed: ${report.restored.map((r) => r.slug).join(", ") || "none"}\n`);
+
+    const dirty =
+      !state.bundle ||
+      report.bundleChanged ||
+      report.newSlugs.length > 0 ||
+      report.changedItems.length > 0;
+
+    if (dirty) {
+      report.registryItems = rebuildIndex();
+      state.bundle = bundle;
+      state.slugs = slugs;
+      state.checkedAt = report.at;
+      fs.writeFileSync(STATE, JSON.stringify(state, null, 1), "utf8");
+      fs.appendFileSync(
+        path.join(ROOT, "CHANGELOG.md"),
+        `\n## ${report.at}\n\n- bundle: ${bundle}\n- new slugs: ${report.newSlugs.join(", ") || "none"}\n- refreshed: ${report.restored.map((r) => r.slug).join(", ") || "none"}\n`
+      );
+    }
+    report.wrote = dirty;
   } else {
     report.changedItems = slugs
       .map((s) => ({ slug: s, before: state.items?.[s] || null }))
