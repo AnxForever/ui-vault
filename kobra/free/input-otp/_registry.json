@@ -1,0 +1,121 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "input-otp",
+  "type": "registry:ui",
+  "title": "Input OTP",
+  "description": "A segmented one-time-code input, built on input-otp.",
+  "dependencies": [
+    "@tabler/icons-react",
+    "input-otp",
+    "motion"
+  ],
+  "docs": "Sound: the data-slot attributes on this component are read by the Sound layer, installed separately with `npx shadcn@latest add @kobra/sound`.\nKeep the data-slot and data-sound attributes as written â they are the wiring, not decoration.\nWrap your app once in <SoundEffects> from components/ui/sound.tsx and every Kobra component answers a press.",
+  "files": [
+    {
+      "path": "components/ui/input-otp.tsx",
+      "content": "'use client'\n\nimport { IconMinus } from '@tabler/icons-react'\nimport * as React from 'react'\nimport { flushSync } from 'react-dom'\nimport { OTPInput, OTPInputContext } from 'input-otp'\nimport { AnimatePresence, motion, useReducedMotion } from 'motion/react'\n\nimport { cn } from '@/lib/utils'\n\ntype Sweep = { id: number; from: number; to: number; tone: 'paste' | 'success' }\n\ntype InputOTPStatus = {\n  invalid: boolean\n  success: boolean\n  sweep: Sweep | null\n  landing: boolean\n}\n\nconst InputOTPStatusContext = React.createContext<InputOTPStatus>({\n  invalid: false,\n  success: false,\n  sweep: null,\n  landing: false,\n})\n\nconst SWEEP_TIMING = {\n  paste: { duration: 0.4, stagger: 0.045 },\n  success: { duration: 0.42, stagger: 0.048 },\n} as const\n\nconst RING_TRAVEL = 0.42\n\nconst DIGIT_SPRING = { type: 'spring', duration: 0.3, bounce: 0.2 } as const\n\nconst DIGITS = '^[0-9\\\\u0660-\\\\u0669\\\\u06f0-\\\\u06f9]+$'\n\ntype RingBox = { x: number; y: number; width: number; height: number }\n\nfunction codeIn(pasted: string, maxLength: number) {\n  const runs = (\n    westernDigits(pasted.normalize('NFKC')).match(/\\d(?:[\\s\\u2010\\u2011\\u2013-]?\\d)*/g) ?? []\n  ).map((run) => run.replace(/\\D/g, ''))\n  return runs.find((run) => run.length === maxLength) ?? runs.join('')\n}\n\nfunction westernDigits(text: string) {\n  return text.replace(/[\\u0660-\\u0669\\u06f0-\\u06f9]/g, (digit) => String(digit.charCodeAt(0) % 16))\n}\n\nfunction pasteInto(value: string, pasted: string, maxLength: number, start: number, end: number) {\n  const digits = codeIn(pasted, maxLength)\n  if (!digits) return null\n  const whole = digits.length >= maxLength\n  const from = whole ? 0 : start\n  const next = (value.slice(0, from) + digits + value.slice(whole ? value.length : end)).slice(\n    0,\n    maxLength,\n  )\n  return { next, from, to: Math.min(from + digits.length, maxLength) }\n}\n\nfunction InputOTP({\n  className,\n  containerClassName,\n  'aria-invalid': ariaInvalid,\n  value,\n  defaultValue,\n  onChange,\n  onPaste,\n  onPasteCapture,\n  success = false,\n  maxLength,\n  children,\n  ...props\n}: Omit<React.ComponentProps<typeof OTPInput>, 'render' | 'children'> & {\n  children?: React.ReactNode\n  containerClassName?: string\n  success?: boolean\n}) {\n  const invalid = ariaInvalid === true || ariaInvalid === 'true'\n  const reduceMotion = useReducedMotion()\n  const [sweep, setSweep] = React.useState<Sweep | null>(null)\n  const sweepId = React.useRef(0)\n  const [written, setWritten] = React.useState(0)\n  const [held, setHeld] = React.useState(typeof defaultValue === 'string' ? defaultValue : '')\n  const current = value ?? held\n\n  const startSweep = (from: number, to: number, tone: Sweep['tone']) => {\n    sweepId.current += 1\n    setSweep({ id: sweepId.current, from, to, tone })\n  }\n\n  const commit = (next: string) => {\n    if (value === undefined) setHeld(next)\n    onChange?.(next)\n  }\n\n  const handleChange = (typed: string) => {\n    const next = westernDigits(typed)\n    if (!reduceMotion && next.length - current.length > 1) {\n      startSweep(current.length, next.length, 'paste')\n    }\n    commit(next)\n  }\n\n  const handlePaste = (event: React.ClipboardEvent<HTMLInputElement>) => {\n    onPasteCapture?.(event)\n    onPaste?.(event)\n    event.stopPropagation()\n    if (event.defaultPrevented) return\n    event.preventDefault()\n\n    const input = event.currentTarget\n    if (input.readOnly) return\n    const pasted = pasteInto(\n      current,\n      event.clipboardData.getData('text/plain'),\n      maxLength,\n      input.selectionStart ?? current.length,\n      input.selectionEnd ?? current.length,\n    )\n    if (!pasted || pasted.next === current) return\n\n    flushSync(() => {\n      if (!reduceMotion) startSweep(pasted.from, pasted.to, 'paste')\n      commit(pasted.next)\n    })\n    const { length } = input.value\n    input.setSelectionRange(Math.min(length, maxLength - 1), length)\n  }\n\n  React.useEffect(() => {\n    if (!success || reduceMotion) return\n\n    sweepId.current += 1\n    setSweep({ id: sweepId.current, from: 0, to: maxLength, tone: 'success' })\n  }, [success, maxLength, reduceMotion])\n\n  React.useEffect(() => {\n    if (!sweep) return\n\n    const { duration, stagger } = SWEEP_TIMING[sweep.tone]\n    const span = duration + stagger * (sweep.to - sweep.from)\n    const timers = [\n      window.setTimeout(() => setSweep(null), span * 1000),\n      window.setTimeout(() => setWritten(sweep.id), stagger * (sweep.to - sweep.from - 1) * 1000),\n    ]\n\n    return () => {\n      for (const timer of timers) window.clearTimeout(timer)\n    }\n  }, [sweep])\n\n  const landing = sweep?.tone === 'paste' && written !== sweep.id\n\n  return (\n    <InputOTPStatusContext.Provider value={{ invalid, success, sweep, landing }}>\n      <OTPInput\n        data-slot=\"input-otp\"\n\n        data-success={success || undefined}\n        aria-invalid={ariaInvalid}\n        value={current}\n        onChange={handleChange}\n        onPasteCapture={handlePaste}\n        maxLength={maxLength}\n        containerClassName={cn(\n\n          'flex max-w-full items-center gap-3 [--otp-radius:var(--radius-xl)] has-disabled:opacity-50 max-sm:[--otp-radius:var(--radius-lg)]',\n\n          '[direction:ltr]',\n          containerClassName,\n        )}\n        spellCheck={false}\n        className={cn('disabled:cursor-not-allowed', className)}\n        {...props}\n\n        dir=\"ltr\"\n        inputMode=\"numeric\"\n        pattern={DIGITS}\n      >\n        {children}\n\n        <InputOTPRing />\n      </OTPInput>\n    </InputOTPStatusContext.Provider>\n  )\n}\n\nfunction InputOTPRing() {\n  const context = React.useContext(OTPInputContext)\n  const { invalid, sweep, landing } = React.useContext(InputOTPStatusContext)\n  const reduceMotion = useReducedMotion()\n  const ref = React.useRef<HTMLSpanElement>(null)\n  const [box, setBox] = React.useState<RingBox | null>(null)\n  const wasShown = React.useRef(false)\n\n  const slots = context?.slots ?? []\n  let first = -1\n  let last = -1\n  for (const [index, slot] of slots.entries()) {\n    if (!slot.isActive) continue\n    if (first === -1) first = index\n    last = index\n  }\n  const complete = slots.length > 0 && slots.every((slot) => Boolean(slot.char))\n  const shown = first !== -1 && (!complete || last > first || landing)\n\n  const measure = React.useCallback(() => {\n    const container = ref.current?.closest('[data-input-otp-container]')\n    const from = container?.querySelector(\n      `[data-slot=\"input-otp-slot\"][data-index=\"${String(first)}\"]`,\n    )\n    const to = container?.querySelector(\n      `[data-slot=\"input-otp-slot\"][data-index=\"${String(last)}\"]`,\n    )\n    if (!container || !from || !to) return\n    const row = container.getBoundingClientRect()\n    const head = from.getBoundingClientRect()\n    const tail = to.getBoundingClientRect()\n    setBox({\n      x: head.left - row.left,\n      y: head.top - row.top,\n      width: tail.right - head.left,\n      height: head.height,\n    })\n  }, [first, last])\n\n  React.useLayoutEffect(() => {\n    if (!shown) return\n    measure()\n    const container = ref.current?.closest('[data-input-otp-container]')\n    if (!container || typeof ResizeObserver === 'undefined') return\n    const observer = new ResizeObserver(measure)\n    observer.observe(container)\n    return () => observer.disconnect()\n  }, [shown, measure])\n\n  const jump = !wasShown.current\n  React.useEffect(() => {\n    wasShown.current = shown && box !== null\n  })\n\n  const spring = reduceMotion\n    ? { duration: 0 }\n    : { type: 'spring' as const, duration: sweep ? RING_TRAVEL : 0.3, bounce: 0.18 }\n  const move = jump ? { duration: 0 } : spring\n\n  return (\n    <motion.span\n      ref={ref}\n      data-slot=\"input-otp-ring\"\n      aria-hidden\n      initial={false}\n      animate={{\n        x: box?.x ?? 0,\n        y: box?.y ?? 0,\n        width: box?.width ?? 0,\n        height: box?.height ?? 0,\n        opacity: shown && box ? 1 : 0,\n      }}\n      transition={{\n        x: move,\n        y: move,\n        width: move,\n        height: move,\n        opacity: reduceMotion ? { duration: 0 } : { duration: 0.2, ease: [0.22, 1, 0.36, 1] },\n      }}\n      className={cn(\n        'pointer-events-none absolute top-0 left-0 z-20 rounded-(--otp-radius) ring-[3px]',\n        invalid ? 'ring-destructive' : 'ring-foreground/75',\n      )}\n    />\n  )\n}\n\nfunction InputOTPGroup({ className, ...props }: React.ComponentProps<'div'>) {\n  return (\n    <div\n      data-slot=\"input-otp-group\"\n\n      className={cn('flex min-w-0 items-center gap-3', className)}\n      {...props}\n    />\n  )\n}\n\nfunction InputOTPSlot({\n  index,\n  className,\n  style,\n  ...props\n}: React.ComponentProps<'div'> & {\n  index: number\n}) {\n  const inputOTPContext = React.useContext(OTPInputContext)\n  const { invalid, success, sweep, landing } = React.useContext(InputOTPStatusContext)\n  const { char, isActive } = inputOTPContext?.slots[index] ?? {}\n  const swept = sweep !== null && index >= sweep.from && index < sweep.to\n  const isComplete = inputOTPContext?.slots.every((slot) => Boolean(slot.char)) ?? false\n  const reduceMotion = useReducedMotion()\n  const delay =\n    swept && sweep?.tone === 'paste' ? (index - sweep.from) * SWEEP_TIMING.paste.stagger : 0\n\n  return (\n    <div\n      data-slot=\"input-otp-slot\"\n      data-active={isActive}\n\n      data-index={index}\n      className={cn(\n        '[container-type:inline-size] relative flex aspect-square min-h-12 w-14 min-w-0 items-center justify-center rounded-(--otp-radius) bg-foreground/[0.06] text-2xl font-semibold tabular-nums ring-1 ring-foreground/8 transition-[background-color,color] duration-150 ease-out outline-none *:text-[min(1.5rem,43cqi)] data-[active=true]:z-10 data-[active=true]:bg-foreground/10 motion-reduce:transition-none',\n        swept && sweep?.tone === 'success' && 'otp-bounce',\n        className,\n      )}\n\n      style={\n        {\n          ...style,\n          '--otp-trail-index': sweep ? index - sweep.from : 0,\n          '--otp-land': `${String(delay)}s`,\n        } as React.CSSProperties\n      }\n      {...props}\n    >\n      {swept && sweep ? (\n        <span\n\n          key={`${sweep.id}-${index}`}\n          aria-hidden\n          className={cn(\n            'pointer-events-none absolute inset-0 rounded-(--otp-radius)',\n            sweep.tone === 'success' ? 'otp-trail-success' : 'otp-trail',\n          )}\n        />\n      ) : null}\n      <span\n        className={cn(\n          'relative grid place-items-center [perspective:240px]',\n          isComplete && !success && !landing && 'otp-processing',\n        )}\n        style={{ '--otp-wave-index': index } as React.CSSProperties}\n      >\n        <span\n          aria-hidden\n          className={cn(\n            'col-start-1 row-start-1 text-foreground/20 transition-opacity delay-(--otp-land) duration-150 ease-out motion-reduce:transition-none',\n            char ? 'opacity-0' : 'opacity-100',\n          )}\n        >\n          0\n        </span>\n        <AnimatePresence initial={false} custom={delay}>\n          {char ? (\n            <motion.span\n              key={`${index}-${char}`}\n              custom={delay}\n              initial={\n                reduceMotion\n                  ? false\n                  : {\n                      opacity: 0,\n                      transform: 'translateY(6px) rotateX(-35deg)',\n                      filter: 'blur(2px)',\n                    }\n              }\n              animate={{\n                opacity: 1,\n                transform: 'translateY(0px) rotateX(0deg)',\n                filter: 'blur(0px)',\n              }}\n              exit=\"leave\"\n              variants={{\n                leave: (after: number) =>\n                  reduceMotion\n                    ? { opacity: 0, transition: { duration: 0 } }\n                    : {\n                        opacity: 0,\n                        transform: 'translateY(-2px) rotateX(15deg)',\n                        filter: 'blur(2px)',\n                        transition: { ...DIGIT_SPRING, delay: after },\n                      },\n              }}\n              transition={reduceMotion ? { duration: 0 } : { ...DIGIT_SPRING, delay }}\n              style={{ transformOrigin: 'center bottom', transformStyle: 'preserve-3d' }}\n              className=\"col-start-1 row-start-1 text-foreground\"\n            >\n              {char}\n            </motion.span>\n          ) : null}\n        </AnimatePresence>\n      </span>\n    </div>\n  )\n}\n\nfunction InputOTPSeparator({ ...props }: React.ComponentProps<'div'>) {\n  return (\n    <div\n      data-slot=\"input-otp-separator\"\n      className=\"flex shrink-0 items-center text-muted-foreground [&_svg:not([class*='size-'])]:size-5\"\n      role=\"separator\"\n      {...props}\n    >\n      <IconMinus />\n    </div>\n  )\n}\n\nexport { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator }\n",
+      "type": "registry:ui",
+      "target": "components/ui/input-otp.tsx"
+    }
+  ],
+  "cssVars": {
+    "theme": {
+      "--otp-wave-duration": "1150ms",
+      "--otp-wave-stagger": "70ms",
+      "--otp-wave-dim": "0.28",
+      "--otp-wave-ease": "ease-in-out",
+      "--otp-trail-duration": "400ms",
+      "--otp-trail-stagger": "45ms",
+      "--otp-trail-width": "3px",
+      "--otp-trail-ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "--otp-success-duration": "340ms",
+      "--otp-success-stagger": "48ms",
+      "--otp-success-width": "3px",
+      "--otp-success-ease": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "--otp-bounce-duration": "420ms",
+      "--otp-bounce-lift": "8px"
+    },
+    "light": {
+      "--otp-trail-color": "rgb(0 0 0 / 45%)",
+      "--otp-success-color": "oklch(0.68 0.16 240)"
+    },
+    "dark": {
+      "--otp-trail-color": "rgb(255 255 255 / 55%)",
+      "--otp-success-color": "oklch(0.75 0.15 240)"
+    }
+  },
+  "css": {
+    ".otp-processing": {
+      "animation": "otp-processing var(--otp-wave-duration) var(--otp-wave-ease) calc(var(--otp-wave-index) * var(--otp-wave-stagger)) infinite both",
+      "will-change": "opacity"
+    },
+    ".otp-trail": {
+      "animation": "otp-trail var(--otp-trail-duration) var(--otp-trail-ease) calc(var(--otp-trail-index) * var(--otp-trail-stagger)) forwards"
+    },
+    "@keyframes otp-trail": {
+      "from": {
+        "box-shadow": "0 0 0 var(--otp-trail-width) var(--otp-trail-color)"
+      },
+      "to": {
+        "box-shadow": "0 0 0 0 transparent"
+      }
+    },
+    ".otp-trail-success": {
+      "animation": "otp-trail-success var(--otp-success-duration) cubic-bezier(0.33, 0, 0.67, 1) calc(var(--otp-trail-index) * var(--otp-success-stagger)) forwards"
+    },
+    "@keyframes otp-trail-success": {
+      "0%, 24%": {
+        "box-shadow": "0 0 0 var(--otp-success-width) var(--otp-success-color)"
+      },
+      "100%": {
+        "box-shadow": "0 0 0 0 transparent"
+      }
+    },
+    ".otp-bounce": {
+      "animation": "otp-bounce var(--otp-bounce-duration) linear calc(var(--otp-trail-index) * var(--otp-success-stagger)) forwards",
+      "will-change": "transform"
+    },
+    "@keyframes otp-bounce": {
+      "0%": {
+        "transform": "translateY(0)",
+        "animation-timing-function": "var(--otp-trail-ease)"
+      },
+      "22%": {
+        "transform": "translateY(calc(var(--otp-bounce-lift) * -1))",
+        "animation-timing-function": "linear"
+      },
+      "38%": {
+        "transform": "translateY(calc(var(--otp-bounce-lift) * -1))",
+        "animation-timing-function": "cubic-bezier(0.4, 0, 0.5, 1)"
+      },
+      "60%": {
+        "transform": "translateY(calc(var(--otp-bounce-lift) * 0.3))",
+        "animation-timing-function": "cubic-bezier(0.33, 0, 0.67, 1)"
+      },
+      "78%": {
+        "transform": "translateY(calc(var(--otp-bounce-lift) * -0.15))",
+        "animation-timing-function": "cubic-bezier(0.33, 0, 0.67, 1)"
+      },
+      "92%": {
+        "transform": "translateY(calc(var(--otp-bounce-lift) * 0.06))",
+        "animation-timing-function": "cubic-bezier(0.33, 0, 0.67, 1)"
+      },
+      "100%": {
+        "transform": "translateY(0)"
+      }
+    },
+    "@keyframes otp-processing": {
+      "0%, 40%, 100%": {
+        "opacity": "1"
+      },
+      "16%": {
+        "opacity": "var(--otp-wave-dim)"
+      }
+    },
+    "@media (prefers-reduced-motion: reduce)": {
+      ".otp-processing, .otp-trail, .otp-trail-success, .otp-bounce": {
+        "animation": "none"
+      }
+    }
+  }
+}

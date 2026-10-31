@@ -1,0 +1,1 @@
+import{a as e}from"./rolldown-runtime-B0Z9INg1.js";import{n as t,t as n}from"./jsx-runtime-Ciaf_P-h.js";var r=e(t(),1),i=e(n(),1);function a({children:e,fallback:t=null}){return(0,i.jsx)(r.Fragment,{children:o()?e:t})}function o(){return r.useSyncExternalStore(s,()=>!0,()=>!1)}function s(){return()=>{}}export{o as n,a as t};

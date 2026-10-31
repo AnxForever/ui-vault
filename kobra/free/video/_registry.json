@@ -1,0 +1,55 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "video",
+  "type": "registry:ui",
+  "title": "Video",
+  "description": "A video player built on Loomix, with liquid glass or blurred controls.",
+  "dependencies": [
+    "loomix"
+  ],
+  "docs": "Sound: the data-slot attributes on this component are read by the Sound layer, installed separately with `npx shadcn@latest add @kobra/sound`.\nKeep the data-slot and data-sound attributes as written â they are the wiring, not decoration.\nWrap your app once in <SoundEffects> from components/ui/sound.tsx and every Kobra component answers a press.",
+  "files": [
+    {
+      "path": "components/ui/video.tsx",
+      "content": "import { LoomixPlayer, type LoomixPlayerProps } from 'loomix'\nimport { useEffect, useRef } from 'react'\n\nimport { attachGlassControls } from '@/lib/glass-controls'\nimport { cn } from '@/lib/utils'\n\nexport type VideoGlass = 'liquid' | 'blur'\n\nexport function Video({ glass = 'liquid', ...props }: LoomixPlayerProps & { glass?: VideoGlass }) {\n  const host = useRef<HTMLDivElement>(null)\n\n  useEffect(() => {\n    const video = host.current?.querySelector('video')\n\n    if (!video || video.readyState < 1) return\n    video.dispatchEvent(new Event('loadedmetadata'))\n  }, [props.src])\n\n  useEffect(() => {\n    const hostEl = host.current\n    if (!hostEl) return\n\n    const controller = new AbortController()\n    let detach: (() => void) | null = null\n\n    void attachGlassControls(hostEl, controller.signal, glass === 'blur').then((teardown) => {\n\n      if (controller.signal.aborted) teardown()\n      else detach = teardown\n    })\n\n    return () => {\n      controller.abort()\n      detach?.()\n    }\n  }, [props.src, props.disableSkip, props.loading, glass])\n\n  return (\n\n    <div ref={host} dir=\"ltr\" className=\"contents\">\n      <LoomixPlayer\n        {...props}\n\n        className={cn(\n          'video-player aspect-video w-full overflow-hidden rounded-xl border [&>div>button[aria-label=Pause]>svg]:size-8 md:[&>div>button[aria-label=Pause]>svg]:size-10 [&>div>button[aria-label=Play]>svg]:size-8 md:[&>div>button[aria-label=Play]>svg]:size-10',\n          glass === 'blur' ? 'video-blur' : '[&:not([data-glass=live])>div>button]:invisible',\n          props.className,\n        )}\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:ui",
+      "target": "components/ui/video.tsx"
+    },
+    {
+      "path": "lib/glass-controls.ts",
+      "content": "type Controls = {\n  root: HTMLElement\n  layer: HTMLElement\n  buttons: HTMLElement[]\n}\n\nconst noop = () => {}\n\nlet players = 0\nfunction sitOut(root: HTMLElement) {\n  players += 1\n  root.style.viewTransitionName = `kobra-video-${String(players)}`\n  root.style.setProperty('view-transition-class', 'kobra-video')\n  return () => {\n    root.style.viewTransitionName = ''\n    root.style.removeProperty('view-transition-class')\n  }\n}\n\nfunction attachFrostedControls({ layer, buttons }: Controls) {\n  const hidden = layer.getAttribute('aria-hidden')\n  const tabIndexes = buttons.map((button) => button.getAttribute('tabindex'))\n\n  const syncAccess = () => {\n    const visible = buttons.map((button) => button.classList.contains('pointer-events-auto'))\n    const nextHidden = String(!visible.some(Boolean))\n    if (layer.getAttribute('aria-hidden') !== nextHidden) {\n      layer.setAttribute('aria-hidden', nextHidden)\n    }\n    for (const [index, button] of buttons.entries()) {\n      const tabIndex = visible[index] ? 0 : -1\n      if (button.tabIndex !== tabIndex) button.tabIndex = tabIndex\n    }\n  }\n  const observer = new MutationObserver(syncAccess)\n  observer.observe(layer, {\n    attributes: true,\n    subtree: true,\n    attributeFilter: ['class', 'aria-hidden', 'tabindex'],\n  })\n  syncAccess()\n\n  return () => {\n    observer.disconnect()\n    if (hidden === null) layer.removeAttribute('aria-hidden')\n    else layer.setAttribute('aria-hidden', hidden)\n    for (const [index, button] of buttons.entries()) {\n      const tabIndex = tabIndexes[index]\n      if (tabIndex == null) button.removeAttribute('tabindex')\n      else button.setAttribute('tabindex', tabIndex)\n    }\n  }\n}\n\nfunction findControls(host: HTMLElement): Controls | null {\n  const video = host.querySelector('video')\n  const root = video?.parentElement\n  if (!video || !root) return null\n\n  const frame = root.clientHeight\n  if (frame === 0) return null\n\n  const layer = Array.from(root.children).find(\n    (child): child is HTMLElement =>\n      child instanceof HTMLElement &&\n      child !== video &&\n      child.querySelector('button') !== null &&\n      child.getBoundingClientRect().height > frame * 0.8,\n  )\n  const buttons = layer ? Array.from(layer.querySelectorAll('button')) : []\n  return layer && buttons.length > 0 ? { root, layer, buttons } : null\n}\n\nfunction waitForControls(host: HTMLElement, signal: AbortSignal): Promise<Controls | null> {\n  const now = findControls(host)\n  if (now) return Promise.resolve(now)\n\n  return new Promise((resolve) => {\n    let watched: Element | null = null\n    const stop = (value: Controls | null) => {\n      mutations.disconnect()\n      resizes.disconnect()\n      clearTimeout(timer)\n      signal.removeEventListener('abort', onAbort)\n      resolve(value)\n    }\n    const onAbort = () => stop(null)\n    const retry = () => {\n      const found = findControls(host)\n      if (found) {\n        stop(found)\n        return\n      }\n      const root = host.querySelector('video')?.parentElement\n      if (root && root !== watched) {\n        watched = root\n        resizes.observe(root)\n      }\n    }\n    const mutations = new MutationObserver(retry)\n\n    const resizes = new ResizeObserver(retry)\n    const timer = setTimeout(() => stop(null), 10_000)\n\n    mutations.observe(host, { childList: true, subtree: true })\n    signal.addEventListener('abort', onAbort, { once: true })\n    retry()\n  })\n}\n\nexport async function attachGlassControls(\n  host: HTMLElement,\n  signal: AbortSignal,\n  blur = false,\n): Promise<() => void> {\n  const controls = await waitForControls(host, signal)\n  if (!controls || signal.aborted) return noop\n\n  const rejoin = sitOut(controls.root)\n\n  if (!blur && !CSS.supports('-moz-appearance', 'none')) return rejoin\n\n  const detach = attachFrostedControls(controls)\n  return () => {\n    detach()\n    rejoin()\n  }\n}\n",
+      "type": "registry:lib",
+      "target": "lib/glass-controls.ts"
+    }
+  ],
+  "css": {
+    ".video-player.video-blur > [data-slot='loomix-glass'], .video-player.video-blur > [data-slot='loomix-glass-scrim']": {
+      "display": "none"
+    },
+    ".video-player.video-blur > div > button": {
+      "visibility": "visible",
+      "background-color": "rgb(0 0 0 / 0.24)",
+      "border-color": "rgb(255 255 255 / 0.2)",
+      "backdrop-filter": "blur(16px) saturate(1.2)",
+      "box-shadow": "inset 0 1px 0 rgb(255 255 255 / 0.08), 0 4px 16px rgb(0 0 0 / 0.12)"
+    },
+    "@supports (-moz-appearance: none)": {
+      ".video-player > [data-slot='loomix-glass'], .video-player > [data-slot='loomix-glass-scrim']": {
+        "display": "none"
+      },
+      ".video-player > div > button": {
+        "visibility": "visible",
+        "background-color": "rgb(0 0 0 / 0.24)",
+        "border-color": "rgb(255 255 255 / 0.2)",
+        "backdrop-filter": "blur(16px) saturate(1.2)",
+        "box-shadow": "inset 0 1px 0 rgb(255 255 255 / 0.08), 0 4px 16px rgb(0 0 0 / 0.12)"
+      }
+    },
+    "@media (prefers-reduced-transparency: reduce)": {
+      ".video-player.video-blur > div > button": {
+        "background": "rgb(38 38 38 / 0.92)",
+        "backdrop-filter": "none"
+      }
+    }
+  }
+}

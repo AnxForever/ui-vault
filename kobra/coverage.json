@@ -1,0 +1,440 @@
+{
+  "total": 96,
+  "covered": [
+    {
+      "slug": "accordion",
+      "via": "streaming-text-Dxk_F3bc.js",
+      "detail": "accordion, accordion-item, accordion-trigger, accordion-content"
+    },
+    {
+      "slug": "advertisement",
+      "via": "bundle (749KB)",
+      "detail": "advertisement-card, advertisement, advertisement-progress"
+    },
+    {
+      "slug": "agent-map",
+      "via": "bundle (749KB)",
+      "detail": "agent-map, agent-map-canvas, agent-map-location, agent-map-pin"
+    },
+    {
+      "slug": "ai-editor",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "alert",
+      "via": "dialog-Ckb8mHCp.js",
+      "detail": "alert-dialog-content, alert-dialog-cancel, alert-dialog-action"
+    },
+    {
+      "slug": "aspect-ratio",
+      "via": "bundle (749KB)",
+      "detail": "aspect-ratio"
+    },
+    {
+      "slug": "attachment",
+      "via": "bundle (749KB)",
+      "detail": "attachment, attachment-media, attachment-content, attachment-title"
+    },
+    {
+      "slug": "avatar",
+      "via": "bundle (749KB)",
+      "detail": "message-avatar"
+    },
+    {
+      "slug": "badge",
+      "via": "bundle (749KB)",
+      "detail": "sidebar-menu-badge"
+    },
+    {
+      "slug": "breadcrumb",
+      "via": "bundle (749KB)",
+      "detail": "breadcrumb, breadcrumb-list, breadcrumb-item, breadcrumb-page"
+    },
+    {
+      "slug": "button",
+      "via": "bundle (749KB)",
+      "detail": "select-scroll-up-button, select-scroll-down-button, input-group-button, message-scroller-button"
+    },
+    {
+      "slug": "calendar",
+      "via": "persian-CNslrowO.js",
+      "detail": "calendar"
+    },
+    {
+      "slug": "card",
+      "via": "bundle (749KB)",
+      "detail": "advertisement-card, agent-map-card, card, card-header"
+    },
+    {
+      "slug": "carousel",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "chart",
+      "via": "chart-preview-B-x_gUYn.js",
+      "detail": "chart, chart-tooltip-content"
+    },
+    {
+      "slug": "chat-history",
+      "via": "bundle (749KB)",
+      "detail": "chat-history, chat-history-transcript, chat-history-reply, chat-history-backdrop"
+    },
+    {
+      "slug": "chat-input",
+      "via": "bundle (749KB)",
+      "detail": "chat-input"
+    },
+    {
+      "slug": "checkbox",
+      "via": "bundle (749KB)",
+      "detail": "checkbox, checkbox-indicator, context-menu-checkbox-item, menubar-checkbox-item"
+    },
+    {
+      "slug": "collapsible",
+      "via": "bundle (749KB)",
+      "detail": "collapsible, collapsible-trigger, collapsible-content"
+    },
+    {
+      "slug": "color-palette",
+      "via": "bundle (749KB)",
+      "detail": "color-palette, color-palette-swatch"
+    },
+    {
+      "slug": "color-picker",
+      "via": "bundle (749KB)",
+      "detail": "color-picker-solid, color-picker-field, color-picker-hue, color-picker-alpha"
+    },
+    {
+      "slug": "combobox",
+      "via": "bundle (749KB)",
+      "detail": "combobox-value, combobox-trigger, combobox-clear, combobox-search"
+    },
+    {
+      "slug": "command-menu",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "composer",
+      "via": "bundle (749KB)",
+      "detail": "chat-history-composer, composer"
+    },
+    {
+      "slug": "context-menu",
+      "via": "bundle (749KB)",
+      "detail": "context-menu, context-menu-portal, context-menu-trigger, context-menu-content"
+    },
+    {
+      "slug": "conversation",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "conversion",
+      "via": "bundle (749KB)",
+      "detail": "conversion, conversion-card, conversion-formula, conversion-money-row"
+    },
+    {
+      "slug": "crm-table",
+      "via": "bundle (749KB)",
+      "detail": "crm-table-tag, crm-table, crm-table-scroll-area, crm-table-scroller"
+    },
+    {
+      "slug": "dialog",
+      "via": "dialog-Ckb8mHCp.js",
+      "detail": "dialog, dialog-trigger, dialog-portal, dialog-close"
+    },
+    {
+      "slug": "document-agent",
+      "via": "bundle (749KB)",
+      "detail": "document-agent, document-agent-split, document-agent-panel, document-agent-panel-body"
+    },
+    {
+      "slug": "drawer",
+      "via": "drawer-BhrHYSlC.js",
+      "detail": "drawer-trigger, drawer-close, drawer-overlay, drawer-handle"
+    },
+    {
+      "slug": "dropdown-menu",
+      "via": "dropdown-menu-CjfioGSW.js",
+      "detail": "dropdown-menu, dropdown-menu-portal, dropdown-menu-trigger, dropdown-menu-content"
+    },
+    {
+      "slug": "empty",
+      "via": "bundle (749KB)",
+      "detail": "combobox-empty, empty, empty-header, empty-icon"
+    },
+    {
+      "slug": "filter-chips",
+      "via": "bundle (749KB)",
+      "detail": "filter-chips, filter-chips-item"
+    },
+    {
+      "slug": "grouped-table",
+      "via": "bundle (749KB)",
+      "detail": "grouped-table-row, grouped-table, grouped-table-toolbar"
+    },
+    {
+      "slug": "halftone-dots",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "hover-card",
+      "via": "bundle (749KB)",
+      "detail": "hover-card, hover-card-trigger, hover-card-portal, hover-card-content"
+    },
+    {
+      "slug": "image-gallery",
+      "via": "bundle (749KB)",
+      "detail": "image-gallery"
+    },
+    {
+      "slug": "image-generation",
+      "via": "bundle (749KB)",
+      "detail": "image-generation"
+    },
+    {
+      "slug": "input",
+      "via": "bundle (749KB)",
+      "detail": "chat-input, input-group-button, combobox-chip-input, input-otp"
+    },
+    {
+      "slug": "input-otp",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "item",
+      "via": "bundle (749KB)",
+      "detail": "select-item, breadcrumb-item, lightbox-item, combobox-item"
+    },
+    {
+      "slug": "kbd",
+      "via": "bundle (749KB)",
+      "detail": "kbd, kbd-group"
+    },
+    {
+      "slug": "lightbox",
+      "via": "bundle (749KB)",
+      "detail": "lightbox-row, lightbox-photo, lightbox-stage, lightbox-strip"
+    },
+    {
+      "slug": "logo-carousel",
+      "via": "bundle (749KB)",
+      "detail": "logo-carousel, logo-carousel-mark"
+    },
+    {
+      "slug": "logo-picker",
+      "via": "bundle (749KB)",
+      "detail": "logo-picker, logo-picker-preview, logo-picker-drop, logo-picker-flood"
+    },
+    {
+      "slug": "marker",
+      "via": "bundle (749KB)",
+      "detail": "marker-icon, marker-content"
+    },
+    {
+      "slug": "menubar",
+      "via": "bundle (749KB)",
+      "detail": "menubar, menubar-menu, menubar-group, menubar-portal"
+    },
+    {
+      "slug": "message",
+      "via": "bundle (749KB)",
+      "detail": "message-scroller, message-scroller-viewport, message-scroller-content, message-scroller-item"
+    },
+    {
+      "slug": "message-scroller",
+      "via": "bundle (749KB)",
+      "detail": "message-scroller, message-scroller-viewport, message-scroller-content, message-scroller-item"
+    },
+    {
+      "slug": "morphing-icons",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "navigation-menu",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "pagination",
+      "via": "bundle (749KB)",
+      "detail": "pagination, pagination-content, pagination-highlight, pagination-item"
+    },
+    {
+      "slug": "popover",
+      "via": "bundle (749KB)",
+      "detail": "popover, popover-trigger, popover-content, popover-arrow"
+    },
+    {
+      "slug": "product-cards",
+      "via": "bundle (749KB)",
+      "detail": "product-cards"
+    },
+    {
+      "slug": "progress",
+      "via": "bundle (749KB)",
+      "detail": "advertisement-progress, progress, progress-track, progress-indicator"
+    },
+    {
+      "slug": "qr-code",
+      "via": "bundle (749KB)",
+      "detail": "qr-code, qr-code-logo"
+    },
+    {
+      "slug": "radio-group",
+      "via": "bundle (749KB)",
+      "detail": "context-menu-radio-group, menubar-radio-group, radio-group, radio-group-item"
+    },
+    {
+      "slug": "reasoning-steps",
+      "via": "bundle (749KB)",
+      "detail": "reasoning-steps"
+    },
+    {
+      "slug": "resizable",
+      "via": "snap-stops-B65Rw2-k.js",
+      "detail": "resizable-panel-group, resizable-panel, resizable-handle"
+    },
+    {
+      "slug": "scroll-area",
+      "via": "bundle (749KB)",
+      "detail": "scroll-area, scroll-area-viewport, scroll-area-scrollbar, scroll-area-thumb"
+    },
+    {
+      "slug": "select",
+      "via": "bundle (749KB)",
+      "detail": "select-group, select-value, select-trigger, select-content"
+    },
+    {
+      "slug": "separator",
+      "via": "bundle (749KB)",
+      "detail": "select-separator, breadcrumb-separator, combobox-separator, context-menu-separator"
+    },
+    {
+      "slug": "sheet",
+      "via": "bundle (749KB)",
+      "detail": "sheet, sheet-trigger, sheet-close, sheet-portal"
+    },
+    {
+      "slug": "sidebar",
+      "via": "bundle (749KB)",
+      "detail": "sidebar-wrapper, sidebar, sidebar-gap, sidebar-container"
+    },
+    {
+      "slug": "skeleton",
+      "via": "bundle (749KB)",
+      "detail": "sidebar-menu-skeleton"
+    },
+    {
+      "slug": "slider",
+      "via": "slider-C3jlw4B9.js",
+      "detail": "slider, slider-track, slider-range, slider-thumb"
+    },
+    {
+      "slug": "sound",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "spinner",
+      "via": "dialog-Ckb8mHCp.js",
+      "detail": "spinner"
+    },
+    {
+      "slug": "switch",
+      "via": "bundle (749KB)",
+      "detail": "switch, switch-thumb"
+    },
+    {
+      "slug": "table",
+      "via": "bundle (749KB)",
+      "detail": "crm-table-tag, crm-table, crm-table-scroll-area, crm-table-scroller"
+    },
+    {
+      "slug": "tabs",
+      "via": "bundle (749KB)",
+      "detail": "sliding-tabs-icon, sliding-tabs-item"
+    },
+    {
+      "slug": "task-list",
+      "via": "bundle (749KB)",
+      "detail": "task-list"
+    },
+    {
+      "slug": "textarea",
+      "via": "input-group-RVn51vGA.js",
+      "detail": "textarea"
+    },
+    {
+      "slug": "toast",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "toggle-group",
+      "via": "bundle (749KB)",
+      "detail": "toggle-group, toggle-group-item"
+    },
+    {
+      "slug": "tooltip",
+      "via": "chart-preview-B-x_gUYn.js",
+      "detail": "chart-tooltip-content"
+    },
+    {
+      "slug": "trace-waterfall",
+      "via": "bundle (749KB)",
+      "detail": "trace-waterfall, trace-waterfall-label, trace-waterfall-scroll-area, trace-waterfall-scrollbar"
+    },
+    {
+      "slug": "video",
+      "via": "free/ (original .tsx)",
+      "detail": "full source"
+    },
+    {
+      "slug": "weather",
+      "via": "bundle (749KB)",
+      "detail": "weather, weather-separator"
+    }
+  ],
+  "stillMissing": [
+    "multi-select",
+    "form",
+    "input-dissolve",
+    "direction",
+    "magnetic-dropzone",
+    "streaming-text",
+    "inline-citations",
+    "code-block",
+    "plan-card",
+    "question-card",
+    "hijri",
+    "hijri-civil",
+    "persian",
+    "buddhist",
+    "minguo",
+    "japanese"
+  ],
+  "chunks": [
+    "bundle (749KB)",
+    "button-C00blxQd.js",
+    "chart-preview-B-x_gUYn.js",
+    "dialog-Ckb8mHCp.js",
+    "drawer-BhrHYSlC.js",
+    "dropdown-menu-CjfioGSW.js",
+    "input-group-RVn51vGA.js",
+    "persian-CNslrowO.js",
+    "resolution-C19ZFU1I.js",
+    "slider-C3jlw4B9.js",
+    "snap-stops-B65Rw2-k.js",
+    "streaming-text-Dxk_F3bc.js",
+    "table-B2gZYvbu.js",
+    "toast-BcVVQA_S.js",
+    "tooltip-CTAV9dPt.js"
+  ]
+}

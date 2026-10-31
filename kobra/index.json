@@ -1,0 +1,924 @@
+{
+  "rows": [
+    {
+      "slug": "advertisement",
+      "slots": [
+        "advertisement-card",
+        "advertisement",
+        "advertisement-progress"
+      ],
+      "occurrences": 3,
+      "firstLine": 1387,
+      "lastLine": 1472
+    },
+    {
+      "slug": "scroll-area",
+      "slots": [
+        "scroll-area",
+        "scroll-area-viewport",
+        "scroll-area-scrollbar",
+        "scroll-area-thumb"
+      ],
+      "occurrences": 4,
+      "firstLine": 2100,
+      "lastLine": 2125
+    },
+    {
+      "slug": "select",
+      "slots": [
+        "select-group",
+        "select-value",
+        "select-trigger",
+        "select-content",
+        "select-label",
+        "select-item"
+      ],
+      "occurrences": 6,
+      "firstLine": 3468,
+      "lastLine": 3536
+    },
+    {
+      "slug": "separator",
+      "slots": [
+        "select-separator",
+        "breadcrumb-separator",
+        "combobox-separator",
+        "context-menu-separator",
+        "field-separator",
+        "field-separator-content"
+      ],
+      "occurrences": 6,
+      "firstLine": 3555,
+      "lastLine": 20764
+    },
+    {
+      "slug": "button",
+      "slots": [
+        "select-scroll-up-button",
+        "select-scroll-down-button",
+        "input-group-button",
+        "message-scroller-button"
+      ],
+      "occurrences": 4,
+      "firstLine": 3562,
+      "lastLine": 27407
+    },
+    {
+      "slug": "agent-map",
+      "slots": [
+        "agent-map",
+        "agent-map-canvas",
+        "agent-map-location",
+        "agent-map-pin",
+        "agent-map-controls",
+        "agent-map-panel"
+      ],
+      "occurrences": 8,
+      "firstLine": 4334,
+      "lastLine": 4562
+    },
+    {
+      "slug": "aspect-ratio",
+      "slots": [
+        "aspect-ratio"
+      ],
+      "occurrences": 1,
+      "firstLine": 6330,
+      "lastLine": 6330
+    },
+    {
+      "slug": "attachment",
+      "slots": [
+        "attachment",
+        "attachment-media",
+        "attachment-content",
+        "attachment-title",
+        "attachment-description",
+        "attachment-actions"
+      ],
+      "occurrences": 6,
+      "firstLine": 6371,
+      "lastLine": 6432
+    },
+    {
+      "slug": "breadcrumb",
+      "slots": [
+        "breadcrumb",
+        "breadcrumb-list",
+        "breadcrumb-item",
+        "breadcrumb-page",
+        "breadcrumb-separator",
+        "breadcrumb-ellipsis"
+      ],
+      "occurrences": 6,
+      "firstLine": 6489,
+      "lastLine": 6541
+    },
+    {
+      "slug": "card",
+      "slots": [
+        "card",
+        "card-header",
+        "card-title",
+        "card-description",
+        "card-action",
+        "card-content"
+      ],
+      "occurrences": 6,
+      "firstLine": 6560,
+      "lastLine": 6602
+    },
+    {
+      "slug": "conversation",
+      "slots": [
+        "conversation",
+        "conversation-bubble",
+        "conversation-time",
+        "conversation-reactions"
+      ],
+      "occurrences": 4,
+      "firstLine": 6622,
+      "lastLine": 6714
+    },
+    {
+      "slug": "chat-history",
+      "slots": [
+        "chat-history",
+        "chat-history-transcript",
+        "chat-history-reply",
+        "chat-history-backdrop",
+        "chat-history-column",
+        "chat-history-composer"
+      ],
+      "occurrences": 6,
+      "firstLine": 6906,
+      "lastLine": 7003
+    },
+    {
+      "slug": "image-gallery",
+      "slots": [
+        "image-gallery"
+      ],
+      "occurrences": 1,
+      "firstLine": 9399,
+      "lastLine": 9399
+    },
+    {
+      "slug": "lightbox",
+      "slots": [
+        "lightbox-row",
+        "lightbox-photo",
+        "lightbox-stage",
+        "lightbox-strip",
+        "lightbox-layer",
+        "lightbox-chrome"
+      ],
+      "occurrences": 6,
+      "firstLine": 9410,
+      "lastLine": 10353
+    },
+    {
+      "slug": "input-dissolve",
+      "slots": [
+        "chat-input",
+        "input-group-button",
+        "combobox-chip-input",
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group"
+      ],
+      "occurrences": 6,
+      "firstLine": 11745,
+      "lastLine": 24039
+    },
+    {
+      "slug": "chat-input",
+      "slots": [
+        "chat-input"
+      ],
+      "occurrences": 1,
+      "firstLine": 11745,
+      "lastLine": 11745
+    },
+    {
+      "slug": "checkbox",
+      "slots": [
+        "checkbox",
+        "checkbox-indicator"
+      ],
+      "occurrences": 2,
+      "firstLine": 12481,
+      "lastLine": 12492
+    },
+    {
+      "slug": "collapsible",
+      "slots": [
+        "collapsible",
+        "collapsible-trigger",
+        "collapsible-content"
+      ],
+      "occurrences": 3,
+      "firstLine": 12626,
+      "lastLine": 12632
+    },
+    {
+      "slug": "color-palette",
+      "slots": [
+        "color-palette",
+        "color-palette-swatch"
+      ],
+      "occurrences": 2,
+      "firstLine": 12786,
+      "lastLine": 12854
+    },
+    {
+      "slug": "popover",
+      "slots": [
+        "popover",
+        "popover-trigger",
+        "popover-content",
+        "popover-arrow",
+        "popover-header",
+        "popover-title"
+      ],
+      "occurrences": 6,
+      "firstLine": 13460,
+      "lastLine": 13510
+    },
+    {
+      "slug": "color-picker",
+      "slots": [
+        "color-picker-solid",
+        "color-picker-field",
+        "color-picker-hue",
+        "color-picker-alpha",
+        "color-picker-field-shell",
+        "color-picker-divider"
+      ],
+      "occurrences": 6,
+      "firstLine": 13659,
+      "lastLine": 13783
+    },
+    {
+      "slug": "combobox",
+      "slots": [
+        "combobox-value",
+        "combobox-trigger",
+        "combobox-clear",
+        "combobox-search",
+        "combobox-content",
+        "combobox-scroll-area"
+      ],
+      "occurrences": 6,
+      "firstLine": 16444,
+      "lastLine": 16609
+    },
+    {
+      "slug": "input",
+      "slots": [
+        "input-group-button",
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group",
+        "input-otp-slot",
+        "input-otp-separator"
+      ],
+      "occurrences": 6,
+      "firstLine": 16533,
+      "lastLine": 24138
+    },
+    {
+      "slug": "tabs",
+      "slots": [
+        "sliding-tabs-icon",
+        "sliding-tabs-item"
+      ],
+      "occurrences": 2,
+      "firstLine": 16843,
+      "lastLine": 16886
+    },
+    {
+      "slug": "composer",
+      "slots": [
+        "composer"
+      ],
+      "occurrences": 1,
+      "firstLine": 17050,
+      "lastLine": 17050
+    },
+    {
+      "slug": "kbd",
+      "slots": [
+        "kbd",
+        "kbd-group"
+      ],
+      "occurrences": 2,
+      "firstLine": 17404,
+      "lastLine": 17415
+    },
+    {
+      "slug": "context-menu",
+      "slots": [
+        "context-menu",
+        "context-menu-portal",
+        "context-menu-trigger",
+        "context-menu-content",
+        "context-menu-group",
+        "context-menu-label"
+      ],
+      "occurrences": 6,
+      "firstLine": 17438,
+      "lastLine": 17482
+    },
+    {
+      "slug": "conversion",
+      "slots": [
+        "conversion",
+        "conversion-card",
+        "conversion-formula",
+        "conversion-money-row",
+        "conversion-picker"
+      ],
+      "occurrences": 7,
+      "firstLine": 17972,
+      "lastLine": 19084
+    },
+    {
+      "slug": "form",
+      "slots": [
+        "conversion-formula"
+      ],
+      "occurrences": 1,
+      "firstLine": 17993,
+      "lastLine": 17993
+    },
+    {
+      "slug": "table",
+      "slots": [
+        "crm-table-tag",
+        "crm-table",
+        "crm-table-scroll-area",
+        "crm-table-scroller",
+        "crm-table-row",
+        "grouped-table-row"
+      ],
+      "occurrences": 6,
+      "firstLine": 19293,
+      "lastLine": 21170
+    },
+    {
+      "slug": "crm-table",
+      "slots": [
+        "crm-table-tag",
+        "crm-table",
+        "crm-table-scroll-area",
+        "crm-table-scroller",
+        "crm-table-row"
+      ],
+      "occurrences": 5,
+      "firstLine": 19293,
+      "lastLine": 19718
+    },
+    {
+      "slug": "document-agent",
+      "slots": [
+        "document-agent",
+        "document-agent-split",
+        "document-agent-panel",
+        "document-agent-panel-body",
+        "document-agent-messages",
+        "document-agent-question"
+      ],
+      "occurrences": 6,
+      "firstLine": 20132,
+      "lastLine": 20287
+    },
+    {
+      "slug": "question-card",
+      "slots": [
+        "document-agent-question"
+      ],
+      "occurrences": 1,
+      "firstLine": 20287,
+      "lastLine": 20287
+    },
+    {
+      "slug": "empty",
+      "slots": [
+        "empty",
+        "empty-header",
+        "empty-icon",
+        "empty-title",
+        "empty-description",
+        "empty-content"
+      ],
+      "occurrences": 6,
+      "firstLine": 20589,
+      "lastLine": 20643
+    },
+    {
+      "slug": "filter-chips",
+      "slots": [
+        "filter-chips",
+        "filter-chips-item"
+      ],
+      "occurrences": 2,
+      "firstLine": 20847,
+      "lastLine": 20908
+    },
+    {
+      "slug": "grouped-table",
+      "slots": [
+        "grouped-table-row",
+        "grouped-table",
+        "grouped-table-toolbar"
+      ],
+      "occurrences": 3,
+      "firstLine": 21170,
+      "lastLine": 21554
+    },
+    {
+      "slug": "halftone-dots",
+      "slots": [
+        "halftone-dots"
+      ],
+      "occurrences": 1,
+      "firstLine": 22309,
+      "lastLine": 22309
+    },
+    {
+      "slug": "hover-card",
+      "slots": [
+        "hover-card",
+        "hover-card-trigger",
+        "hover-card-portal",
+        "hover-card-content",
+        "hover-card-arrow"
+      ],
+      "occurrences": 5,
+      "firstLine": 22602,
+      "lastLine": 22633
+    },
+    {
+      "slug": "image-generation",
+      "slots": [
+        "image-generation"
+      ],
+      "occurrences": 1,
+      "firstLine": 22730,
+      "lastLine": 22730
+    },
+    {
+      "slug": "input-otp",
+      "slots": [
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group",
+        "input-otp-slot",
+        "input-otp-separator"
+      ],
+      "occurrences": 5,
+      "firstLine": 23954,
+      "lastLine": 24138
+    },
+    {
+      "slug": "item",
+      "slots": [
+        "item-group",
+        "item-separator",
+        "item-media",
+        "item-content",
+        "item-title",
+        "item-description"
+      ],
+      "occurrences": 6,
+      "firstLine": 24160,
+      "lastLine": 24245
+    },
+    {
+      "slug": "logo-carousel",
+      "slots": [
+        "logo-carousel",
+        "logo-carousel-mark"
+      ],
+      "occurrences": 2,
+      "firstLine": 24334,
+      "lastLine": 24352
+    },
+    {
+      "slug": "carousel",
+      "slots": [
+        "logo-carousel",
+        "logo-carousel-mark"
+      ],
+      "occurrences": 2,
+      "firstLine": 24334,
+      "lastLine": 24352
+    },
+    {
+      "slug": "logo-picker",
+      "slots": [
+        "logo-picker",
+        "logo-picker-preview",
+        "logo-picker-drop",
+        "logo-picker-flood",
+        "logo-picker-mark",
+        "logo-picker-swatches"
+      ],
+      "occurrences": 6,
+      "firstLine": 24608,
+      "lastLine": 24711
+    },
+    {
+      "slug": "marker",
+      "slots": [
+        "marker-icon",
+        "marker-content"
+      ],
+      "occurrences": 2,
+      "firstLine": 26041,
+      "lastLine": 26049
+    },
+    {
+      "slug": "menubar",
+      "slots": [
+        "menubar",
+        "menubar-menu",
+        "menubar-group",
+        "menubar-portal",
+        "menubar-trigger",
+        "menubar-content"
+      ],
+      "occurrences": 6,
+      "firstLine": 26168,
+      "lastLine": 26208
+    },
+    {
+      "slug": "message",
+      "slots": [
+        "message-scroller",
+        "message-scroller-viewport",
+        "message-scroller-content",
+        "message-scroller-item",
+        "message-scroller-button",
+        "message-group"
+      ],
+      "occurrences": 6,
+      "firstLine": 27361,
+      "lastLine": 27443
+    },
+    {
+      "slug": "message-scroller",
+      "slots": [
+        "message-scroller",
+        "message-scroller-viewport",
+        "message-scroller-content",
+        "message-scroller-item",
+        "message-scroller-button"
+      ],
+      "occurrences": 5,
+      "firstLine": 27361,
+      "lastLine": 27407
+    },
+    {
+      "slug": "avatar",
+      "slots": [
+        "message-avatar"
+      ],
+      "occurrences": 1,
+      "firstLine": 27461,
+      "lastLine": 27461
+    },
+    {
+      "slug": "pagination",
+      "slots": [
+        "pagination",
+        "pagination-content",
+        "pagination-highlight",
+        "pagination-item",
+        "pagination-link",
+        "pagination-ellipsis"
+      ],
+      "occurrences": 6,
+      "firstLine": 27553,
+      "lastLine": 27685
+    },
+    {
+      "slug": "product-cards",
+      "slots": [
+        "product-cards"
+      ],
+      "occurrences": 1,
+      "firstLine": 28154,
+      "lastLine": 28154
+    },
+    {
+      "slug": "progress",
+      "slots": [
+        "progress",
+        "progress-track",
+        "progress-indicator",
+        "progress-label",
+        "progress-value"
+      ],
+      "occurrences": 5,
+      "firstLine": 28526,
+      "lastLine": 28559
+    },
+    {
+      "slug": "qr-code",
+      "slots": [
+        "qr-code",
+        "qr-code-logo"
+      ],
+      "occurrences": 2,
+      "firstLine": 29595,
+      "lastLine": 29661
+    },
+    {
+      "slug": "code-block",
+      "slots": [
+        "qr-code",
+        "qr-code-logo"
+      ],
+      "occurrences": 2,
+      "firstLine": 29595,
+      "lastLine": 29661
+    },
+    {
+      "slug": "radio-group",
+      "slots": [
+        "radio-group",
+        "radio-group-item",
+        "radio-group-indicator"
+      ],
+      "occurrences": 3,
+      "firstLine": 30452,
+      "lastLine": 30470
+    },
+    {
+      "slug": "reasoning-steps",
+      "slots": [
+        "reasoning-steps"
+      ],
+      "occurrences": 1,
+      "firstLine": 30566,
+      "lastLine": 30566
+    },
+    {
+      "slug": "sheet",
+      "slots": [
+        "sheet",
+        "sheet-trigger",
+        "sheet-close",
+        "sheet-portal",
+        "sheet-overlay",
+        "sheet-content"
+      ],
+      "occurrences": 7,
+      "firstLine": 30743,
+      "lastLine": 30786
+    },
+    {
+      "slug": "sidebar",
+      "slots": [
+        "sidebar-wrapper",
+        "sidebar",
+        "sidebar-gap",
+        "sidebar-container",
+        "sidebar-inner",
+        "sidebar-trigger"
+      ],
+      "occurrences": 8,
+      "firstLine": 30921,
+      "lastLine": 31034
+    },
+    {
+      "slug": "badge",
+      "slots": [
+        "sidebar-menu-badge"
+      ],
+      "occurrences": 1,
+      "firstLine": 31255,
+      "lastLine": 31255
+    },
+    {
+      "slug": "skeleton",
+      "slots": [
+        "sidebar-menu-skeleton"
+      ],
+      "occurrences": 1,
+      "firstLine": 31267,
+      "lastLine": 31267
+    },
+    {
+      "slug": "switch",
+      "slots": [
+        "switch",
+        "switch-thumb"
+      ],
+      "occurrences": 2,
+      "firstLine": 31331,
+      "lastLine": 31344
+    },
+    {
+      "slug": "task-list",
+      "slots": [
+        "task-list"
+      ],
+      "occurrences": 1,
+      "firstLine": 31564,
+      "lastLine": 31564
+    },
+    {
+      "slug": "toggle-group",
+      "slots": [
+        "toggle-group",
+        "toggle-group-item"
+      ],
+      "occurrences": 2,
+      "firstLine": 31846,
+      "lastLine": 31866
+    },
+    {
+      "slug": "trace-waterfall",
+      "slots": [
+        "trace-waterfall",
+        "trace-waterfall-label",
+        "trace-waterfall-scroll-area",
+        "trace-waterfall-scrollbar",
+        "trace-waterfall-thumb"
+      ],
+      "occurrences": 5,
+      "firstLine": 32713,
+      "lastLine": 32956
+    },
+    {
+      "slug": "weather",
+      "slots": [
+        "weather",
+        "weather-separator"
+      ],
+      "occurrences": 2,
+      "firstLine": 33936,
+      "lastLine": 34138
+    }
+  ],
+  "missing": [
+    {
+      "slug": "accordion",
+      "description": "Vertically stacked disclosure sections.",
+      "free": false
+    },
+    {
+      "slug": "ai-editor",
+      "description": "A document an agent edits alongside you.",
+      "free": true
+    },
+    {
+      "slug": "alert",
+      "description": "A callout for important contextual information.",
+      "free": false
+    },
+    {
+      "slug": "calendar",
+      "description": "A date selection calendar.",
+      "free": false
+    },
+    {
+      "slug": "chart",
+      "description": "Composable data visualizations, from Evil Charts.",
+      "free": false
+    },
+    {
+      "slug": "multi-select",
+      "description": "Several values picked from one list, as chips.",
+      "free": false
+    },
+    {
+      "slug": "command-menu",
+      "description": "A fast, nested command menu powered by kmenu.",
+      "free": true
+    },
+    {
+      "slug": "dialog",
+      "description": "A modal window over the page, and the alert dialog.",
+      "free": false
+    },
+    {
+      "slug": "drawer",
+      "description": "A panel that slides from an edge, built on Vaul.",
+      "free": false
+    },
+    {
+      "slug": "dropdown-menu",
+      "description": "A menu opened from a trigger.",
+      "free": false
+    },
+    {
+      "slug": "morphing-icons",
+      "description": "Icons that morph into their next state.",
+      "free": true
+    },
+    {
+      "slug": "navigation-menu",
+      "description": "A collection of navigation links.",
+      "free": true
+    },
+    {
+      "slug": "resizable",
+      "description": "Panels separated by a draggable handle.",
+      "free": false
+    },
+    {
+      "slug": "slider",
+      "description": "A value selected along a range, with a liquid handle from Gooey.",
+      "free": false
+    },
+    {
+      "slug": "sound",
+      "description": "The cue every control answers a press with, built on Web Kits Audio.",
+      "free": true
+    },
+    {
+      "slug": "toast",
+      "description": "Stacked notifications with progress and actions.",
+      "free": true
+    },
+    {
+      "slug": "spinner",
+      "description": "An indeterminate loading indicator.",
+      "free": false
+    },
+    {
+      "slug": "textarea",
+      "description": "A multiline text input.",
+      "free": false
+    },
+    {
+      "slug": "tooltip",
+      "description": "A concise label shown on hover or focus.",
+      "free": false
+    },
+    {
+      "slug": "direction",
+      "description": "Turns every component right to left, for Arabic and other RTL scripts.",
+      "free": false
+    },
+    {
+      "slug": "magnetic-dropzone",
+      "description": "A drop target that leans toward the file you are carrying.",
+      "free": false
+    },
+    {
+      "slug": "video",
+      "description": "A video player built on Loomix, with liquid glass or blurred controls.",
+      "free": true
+    },
+    {
+      "slug": "streaming-text",
+      "description": "A reply arriving a token at a time.",
+      "free": false
+    },
+    {
+      "slug": "inline-citations",
+      "description": "Sources cited inside a reply.",
+      "free": false
+    },
+    {
+      "slug": "plan-card",
+      "description": "A plan an agent is asking to run.",
+      "free": false
+    },
+    {
+      "slug": "hijri",
+      "description": "The Umm al-Qura months for the calendar, from the browser’s own tables.",
+      "free": false
+    },
+    {
+      "slug": "hijri-civil",
+      "description": "The arithmetic Hijri months for the calendar, a fixed 30-year cycle rather than a published table.",
+      "free": false
+    },
+    {
+      "slug": "persian",
+      "description": "The solar Hijri months Iran and Afghanistan keep, from the browser’s own tables.",
+      "free": false
+    },
+    {
+      "slug": "buddhist",
+      "description": "Thailand’s Buddhist era for the calendar: the Gregorian months, the years counted 543 ahead.",
+      "free": false
+    },
+    {
+      "slug": "minguo",
+      "description": "Taiwan’s Minguo years for the calendar: the Gregorian months, the years counted from 1912.",
+      "free": false
+    },
+    {
+      "slug": "japanese",
+      "description": "Japan’s imperial eras for the calendar: the Gregorian months, the years counted by era.",
+      "free": false
+    }
+  ]
+}

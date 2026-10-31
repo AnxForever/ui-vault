@@ -1,0 +1,166 @@
+{
+  "source": "https://kobra.systems",
+  "capturedAt": "2026-10-31T11:31:14.915Z",
+  "free": {
+    "count": 11,
+    "note": "Full original .tsx from the public registry endpoint, no credentials used.",
+    "items": [
+      {
+        "slug": "ai-editor",
+        "title": "AI Editor",
+        "deps": [
+          "@base-ui/react",
+          "@tabler/icons-react",
+          "motion"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "carousel",
+        "title": "Carousel",
+        "deps": [
+          "@base-ui/react",
+          "@tabler/icons-react",
+          "embla-carousel-react"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "command-menu",
+        "title": "Command Menu",
+        "deps": [
+          "@base-ui/react",
+          "@kmenu/react",
+          "@tabler/icons-react",
+          "kmenu",
+          "motion"
+        ],
+        "files": 2
+      },
+      {
+        "slug": "conversation",
+        "title": "Conversation",
+        "deps": [
+          "@base-ui/react",
+          "class-variance-authority"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "halftone-dots",
+        "title": "Halftone Dots",
+        "deps": [],
+        "files": 1
+      },
+      {
+        "slug": "input-otp",
+        "title": "Input OTP",
+        "deps": [
+          "@tabler/icons-react",
+          "input-otp",
+          "motion"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "morphing-icons",
+        "title": "Morphing Icons",
+        "deps": [
+          "motion"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "navigation-menu",
+        "title": "Navigation Menu",
+        "deps": [
+          "@base-ui/react",
+          "@tabler/icons-react",
+          "class-variance-authority"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "sound",
+        "title": "Sound",
+        "deps": [
+          "@web-kits/audio"
+        ],
+        "files": 1
+      },
+      {
+        "slug": "toast",
+        "title": "Toast",
+        "deps": [
+          "@base-ui/react",
+          "motion"
+        ],
+        "files": 3
+      },
+      {
+        "slug": "video",
+        "title": "Video",
+        "deps": [
+          "loomix"
+        ],
+        "files": 2
+      }
+    ]
+  },
+  "paid": {
+    "count": 10,
+    "note": "Recovered from the live React tree via CDP: every component function rendered on the page was stringified off its fiber. Minified identifiers, no import graph, no original comments. Needs cleanup before use.",
+    "items": [
+      {
+        "slug": "trace-waterfall",
+        "files": 73,
+        "kb": 119
+      },
+      {
+        "slug": "question-card",
+        "files": 64,
+        "kb": 114
+      },
+      {
+        "slug": "streaming-text",
+        "files": 70,
+        "kb": 113
+      },
+      {
+        "slug": "conversation",
+        "files": 68,
+        "kb": 112
+      },
+      {
+        "slug": "plan-card",
+        "files": 65,
+        "kb": 112
+      },
+      {
+        "slug": "reasoning-steps",
+        "files": 62,
+        "kb": 111
+      },
+      {
+        "slug": "inline-citations",
+        "files": 62,
+        "kb": 108
+      },
+      {
+        "slug": "message",
+        "files": 64,
+        "kb": 106
+      },
+      {
+        "slug": "message-scroller",
+        "files": 65,
+        "kb": 104
+      },
+      {
+        "slug": "task-list",
+        "files": 21,
+        "kb": 16
+      }
+    ]
+  }
+}

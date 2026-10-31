@@ -1,0 +1,327 @@
+[
+  {
+    "slug": "trace-waterfall",
+    "decls": 1,
+    "bytes": 9317
+  },
+  {
+    "slug": "lightbox",
+    "decls": 1,
+    "bytes": 4651
+  },
+  {
+    "slug": "filter-chips",
+    "decls": 1,
+    "bytes": 2562
+  },
+  {
+    "slug": "input",
+    "decls": 2,
+    "bytes": 2015
+  },
+  {
+    "slug": "input-otp",
+    "decls": 2,
+    "bytes": 2015
+  },
+  {
+    "slug": "input-dissolve",
+    "decls": 2,
+    "bytes": 2015
+  },
+  {
+    "slug": "document-agent",
+    "decls": 1,
+    "bytes": 1563
+  },
+  {
+    "slug": "agent-map",
+    "decls": 1,
+    "bytes": 1039
+  },
+  {
+    "slug": "advertisement",
+    "decls": 1,
+    "bytes": 762
+  },
+  {
+    "slug": "color-palette",
+    "decls": 1,
+    "bytes": 654
+  },
+  {
+    "slug": "color-picker",
+    "decls": 1,
+    "bytes": 125
+  },
+  {
+    "slug": "aspect-ratio",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "avatar",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "badge",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "breadcrumb",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "button",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "card",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "halftone-dots",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "logo-carousel",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "carousel",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "checkbox",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "collapsible",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "logo-picker",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "combobox",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "context-menu",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "empty",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "form",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "hover-card",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "image-gallery",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "item",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "menubar",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "pagination",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "popover",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "progress",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "qr-code",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "radio-group",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "scroll-area",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "select",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "separator",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "sheet",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "sidebar",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "skeleton",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "switch",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "table",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "crm-table",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "grouped-table",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "tabs",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "toggle-group",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "kbd",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "attachment",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "conversation",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "marker",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "message",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "message-scroller",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "reasoning-steps",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "chat-history",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "weather",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "conversion",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "product-cards",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "composer",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "image-generation",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "code-block",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "task-list",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "chat-input",
+    "decls": 0,
+    "bytes": 0
+  },
+  {
+    "slug": "question-card",
+    "decls": 0,
+    "bytes": 0
+  }
+]

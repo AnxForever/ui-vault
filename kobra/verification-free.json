@@ -1,0 +1,112 @@
+[
+  {
+    "slug": "ai-editor",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 26675,
+    "jsxCalls": 45,
+    "hasFunction": 49,
+    "slots": 0
+  },
+  {
+    "slug": "carousel",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 6506,
+    "jsxCalls": 19,
+    "hasFunction": 13,
+    "slots": 5
+  },
+  {
+    "slug": "command-menu",
+    "declared": 2,
+    "present": 2,
+    "missing": [],
+    "bytes": 13391,
+    "jsxCalls": 53,
+    "hasFunction": 32,
+    "slots": 0
+  },
+  {
+    "slug": "conversation",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 6547,
+    "jsxCalls": 7,
+    "hasFunction": 5,
+    "slots": 4
+  },
+  {
+    "slug": "halftone-dots",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 30518,
+    "jsxCalls": 8,
+    "hasFunction": 29,
+    "slots": 2
+  },
+  {
+    "slug": "input-otp",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 12716,
+    "jsxCalls": 19,
+    "hasFunction": 19,
+    "slots": 5
+  },
+  {
+    "slug": "morphing-icons",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 20974,
+    "jsxCalls": 84,
+    "hasFunction": 37,
+    "slots": 1
+  },
+  {
+    "slug": "navigation-menu",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 9965,
+    "jsxCalls": 23,
+    "hasFunction": 17,
+    "slots": 8
+  },
+  {
+    "slug": "sound",
+    "declared": 1,
+    "present": 1,
+    "missing": [],
+    "bytes": 20375,
+    "jsxCalls": 15,
+    "hasFunction": 39,
+    "slots": 1
+  },
+  {
+    "slug": "toast",
+    "declared": 3,
+    "present": 3,
+    "missing": [],
+    "bytes": 43505,
+    "jsxCalls": 56,
+    "hasFunction": 70,
+    "slots": 0
+  },
+  {
+    "slug": "video",
+    "declared": 2,
+    "present": 2,
+    "missing": [],
+    "bytes": 5450,
+    "jsxCalls": 4,
+    "hasFunction": 18,
+    "slots": 0
+  }
+]

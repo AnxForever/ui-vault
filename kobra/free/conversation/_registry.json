@@ -1,0 +1,51 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "conversation",
+  "type": "registry:ui",
+  "title": "Conversation",
+  "description": "Messages from both sides of a chat.",
+  "dependencies": [
+    "@base-ui/react",
+    "class-variance-authority"
+  ],
+  "docs": "Sound: the data-slot attributes on this component are read by the Sound layer, installed separately with `npx shadcn@latest add @kobra/sound`.\nKeep the data-slot and data-sound attributes as written â they are the wiring, not decoration.\nWrap your app once in <SoundEffects> from components/ui/sound.tsx and every Kobra component answers a press.",
+  "files": [
+    {
+      "path": "components/ui/conversation.tsx",
+      "content": "import * as React from 'react'\nimport { mergeProps } from '@base-ui/react/merge-props'\nimport { useRender } from '@base-ui/react/use-render'\nimport { cva, type VariantProps } from 'class-variance-authority'\n\nimport { cn } from '@/lib/utils'\n\nfunction Conversation({ className, ...props }: React.ComponentProps<'div'>) {\n  return (\n    <div\n      data-slot=\"conversation\"\n      className={cn('flex min-w-0 flex-col gap-2', className)}\n      {...props}\n    />\n  )\n}\n\nconst bubbleVariants = cva(\n  'group/bubble relative flex w-fit max-w-[80%] min-w-0 flex-col gap-1 group-data-[align=end]/message:self-end data-[align=end]:self-end data-[variant=ghost]:max-w-full',\n  {\n    variants: {\n      variant: {\n        default:\n          '*:data-[slot=conversation-content]:bg-bubble-sent *:data-[slot=conversation-content]:text-bubble-sent-foreground [&>[data-slot=conversation-content]:is(button,a):hover]:bg-bubble-sent/80',\n        secondary:\n          '*:data-[slot=conversation-content]:bg-secondary *:data-[slot=conversation-content]:text-secondary-foreground [&>[data-slot=conversation-content]:is(button,a):hover]:bg-[color-mix(in_oklch,var(--secondary),var(--foreground)_5%)]',\n        muted:\n          '*:data-[slot=conversation-content]:bg-bubble-received *:data-[slot=conversation-content]:text-bubble-received-foreground [&>[data-slot=conversation-content]:is(button,a):hover]:bg-[color-mix(in_oklch,var(--bubble-received),var(--foreground)_5%)]',\n        tinted:\n          '*:data-[slot=conversation-content]:bg-[oklch(from_var(--primary)_0.93_calc(c*0.4)_h)] *:data-[slot=conversation-content]:text-foreground dark:*:data-[slot=conversation-content]:bg-[oklch(from_var(--primary)_0.3_calc(c*0.4)_h)] [&>[data-slot=conversation-content]:is(button,a):hover]:bg-[oklch(from_var(--primary)_0.88_calc(c*0.5)_h)] dark:[&>[data-slot=conversation-content]:is(button,a):hover]:bg-[oklch(from_var(--primary)_0.35_calc(c*0.5)_h)]',\n        outline:\n          '*:data-[slot=conversation-content]:border-border *:data-[slot=conversation-content]:bg-background [&>[data-slot=conversation-content]:is(button,a):hover]:bg-muted [&>[data-slot=conversation-content]:is(button,a):hover]:text-foreground dark:[&>[data-slot=conversation-content]:is(button,a):hover]:bg-input/30',\n        ghost:\n          'border-none *:data-[slot=conversation-content]:rounded-none *:data-[slot=conversation-content]:bg-transparent *:data-[slot=conversation-content]:p-0 [&>[data-slot=conversation-content]:is(button,a):hover]:bg-muted [&>[data-slot=conversation-content]:is(button,a):hover]:text-foreground dark:[&>[data-slot=conversation-content]:is(button,a):hover]:bg-muted/50',\n        destructive:\n          '*:data-[slot=conversation-content]:bg-destructive/10 *:data-[slot=conversation-content]:text-destructive dark:*:data-[slot=conversation-content]:bg-destructive/20 [&>[data-slot=conversation-content]:is(button,a):hover]:bg-destructive/20 dark:[&>[data-slot=conversation-content]:is(button,a):hover]:bg-destructive/30',\n      },\n    },\n    defaultVariants: {\n      variant: 'default',\n    },\n  },\n)\n\nfunction ConversationBubble({\n  variant = 'default',\n  align = 'start',\n  sentAt,\n  className,\n  children,\n  onClick,\n  ...props\n}: React.ComponentProps<'div'> &\n  VariantProps<typeof bubbleVariants> & {\n    align?: 'start' | 'end'\n    sentAt?: React.ReactNode\n  }) {\n  const [revealed, setRevealed] = React.useState(false)\n\n  return (\n    <div\n      data-slot=\"conversation-bubble\"\n      data-variant={variant}\n      data-align={align}\n      data-revealed={sentAt && revealed ? '' : undefined}\n      className={cn(bubbleVariants({ variant }), sentAt ? 'cursor-pointer' : undefined, className)}\n      onClick={(event) => {\n        onClick?.(event)\n        if (!sentAt) return\n\n        if ((event.target as Element).closest('a,button,[role=\"button\"]')) return\n        setRevealed((open) => !open)\n      }}\n      {...props}\n    >\n      {children}\n      {sentAt ? (\n\n        <div\n          data-slot=\"conversation-time\"\n          className=\"-mt-1 grid grid-rows-[0fr] transition-[grid-template-rows] duration-200 ease-out group-data-revealed/bubble:grid-rows-[1fr] motion-reduce:transition-none\"\n        >\n          <div className=\"min-h-0 overflow-hidden\">\n            <time className=\"block px-3.5 pt-1 text-xs font-medium text-muted-foreground group-data-[align=end]/bubble:text-end\">\n              {sentAt}\n            </time>\n          </div>\n        </div>\n      ) : null}\n    </div>\n  )\n}\n\nfunction ConversationContent({ className, render, ...props }: useRender.ComponentProps<'div'>) {\n  return useRender({\n    defaultTagName: 'div',\n    props: mergeProps<'div'>(\n      {\n        className: cn(\n          'relative w-fit max-w-full min-w-0 rounded-[18px] border border-transparent px-3.5 py-2 text-sm leading-snug wrap-break-word group-data-[align=end]/bubble:self-end [button]:text-start [button,a]:transition-ring [button,a]:outline-none [button,a]:focus-visible:border-ring [button,a]:focus-visible:ring-3 [button,a]:focus-visible:ring-ring/50',\n\n          '[unicode-bidi:plaintext]',\n\n          'group-data-[align=end]/bubble:rounded-ee-[8px] group-data-[align=start]/bubble:rounded-es-[8px]',\n\n          '[[data-slot=conversation-bubble][data-align=start]+[data-slot=conversation-bubble][data-align=start]>&]:rounded-ss-[8px]',\n          '[[data-slot=conversation-bubble][data-align=end]+[data-slot=conversation-bubble][data-align=end]>&]:rounded-se-[8px]',\n          className,\n        ),\n      },\n      props,\n    ),\n    render,\n    state: {\n      slot: 'conversation-content',\n    },\n  })\n}\n\nconst bubbleReactionsVariants = cva(\n  'absolute z-10 flex w-fit shrink-0 items-center justify-center gap-1 rounded-full bg-muted px-1.5 py-0.5 text-sm ring-3 ring-card has-[button]:p-0',\n  {\n    variants: {\n      side: {\n        top: 'top-0 -translate-y-3/4',\n        bottom: 'bottom-0 translate-y-3/4',\n      },\n      align: {\n        start: 'start-3',\n        end: 'end-3',\n      },\n    },\n    defaultVariants: {\n      side: 'bottom',\n      align: 'end',\n    },\n  },\n)\n\nfunction ConversationReactions({\n  side = 'bottom',\n  align = 'end',\n  className,\n  ...props\n}: React.ComponentProps<'div'> & {\n  align?: 'start' | 'end'\n  side?: 'top' | 'bottom'\n}) {\n  return (\n    <div\n      data-slot=\"conversation-reactions\"\n      data-align={align}\n      data-side={side}\n      className={cn(bubbleReactionsVariants({ side, align }), className)}\n      {...props}\n    />\n  )\n}\n\nexport { Conversation, ConversationBubble, ConversationContent, ConversationReactions }\n",
+      "type": "registry:ui",
+      "target": "components/ui/conversation.tsx"
+    }
+  ],
+  "cssVars": {
+    "theme": {
+      "--ring-duration": "150ms",
+      "--blue": "#0a7cff",
+      "--blue-foreground": "#ffffff",
+      "--bubble-sent": "var(--blue)",
+      "--bubble-sent-foreground": "var(--blue-foreground)",
+      "--color-bubble-sent": "var(--bubble-sent)",
+      "--color-bubble-sent-foreground": "var(--bubble-sent-foreground)",
+      "--color-bubble-received": "var(--bubble-received)",
+      "--color-bubble-received-foreground": "var(--bubble-received-foreground)"
+    },
+    "light": {
+      "--bubble-received": "#e9e9eb",
+      "--bubble-received-foreground": "#000000"
+    },
+    "dark": {
+      "--bubble-received": "#3b3b3d",
+      "--bubble-received-foreground": "#ffffff"
+    }
+  },
+  "css": {
+    "@utility transition-ring": {
+      "transition-property": "color, background-color, border-color, box-shadow, outline-color, outline-offset",
+      "transition-duration": "var(--ring-duration)",
+      "transition-timing-function": "var(--ease-out)",
+      "@media (prefers-reduced-motion: reduce)": {
+        "transition-duration": "0ms"
+      }
+    }
+  }
+}

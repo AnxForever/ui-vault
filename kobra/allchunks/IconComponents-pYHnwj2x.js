@@ -1,0 +1,1 @@
+import{t as e}from"./createReactComponent-DqK5J7gw.js";var t=e(`outline`,`components`,`Components`,[[`path`,{d:`M3 12l3 3l3 -3l-3 -3l-3 3`,key:`svg-0`}],[`path`,{d:`M15 12l3 3l3 -3l-3 -3l-3 3`,key:`svg-1`}],[`path`,{d:`M9 6l3 3l3 -3l-3 -3l-3 3`,key:`svg-2`}],[`path`,{d:`M9 18l3 3l3 -3l-3 -3l-3 3`,key:`svg-3`}]]);export{t};

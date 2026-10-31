@@ -1,0 +1,933 @@
+{
+  "bundleBytes": 766537,
+  "slots": [
+    "advertisement-card",
+    "advertisement",
+    "advertisement-progress",
+    "scroll-area",
+    "scroll-area-viewport",
+    "scroll-area-scrollbar",
+    "scroll-area-thumb",
+    "select-group",
+    "select-value",
+    "select-trigger",
+    "select-content",
+    "select-label",
+    "select-item",
+    "select-separator",
+    "select-scroll-up-button",
+    "select-scroll-down-button",
+    "agent-map",
+    "agent-map-canvas",
+    "agent-map-location",
+    "agent-map-pin",
+    "agent-map-controls",
+    "agent-map-panel",
+    "agent-map-add-stop",
+    "agent-map-expand",
+    "agent-map-places",
+    "agent-map-cards",
+    "agent-map-card",
+    "agent-map-place",
+    "agent-map-list",
+    "orb",
+    "aspect-ratio",
+    "attachment",
+    "attachment-media",
+    "attachment-content",
+    "attachment-title",
+    "attachment-description",
+    "attachment-actions",
+    "attachment-action",
+    "attachment-group",
+    "breadcrumb",
+    "breadcrumb-list",
+    "breadcrumb-item",
+    "breadcrumb-page",
+    "breadcrumb-separator",
+    "breadcrumb-ellipsis",
+    "card",
+    "card-header",
+    "card-title",
+    "card-description",
+    "card-action",
+    "card-content",
+    "card-footer",
+    "conversation",
+    "conversation-bubble",
+    "conversation-time",
+    "conversation-reactions",
+    "chat-history",
+    "chat-history-transcript",
+    "chat-history-reply",
+    "chat-history-backdrop",
+    "chat-history-column",
+    "chat-history-composer",
+    "chat-history-trigger",
+    "image-gallery",
+    "lightbox-row",
+    "lightbox-photo",
+    "lightbox-stage",
+    "lightbox-strip",
+    "lightbox-layer",
+    "lightbox-chrome",
+    "lightbox-item",
+    "lightbox-frame",
+    "chat-input",
+    "checkbox",
+    "checkbox-indicator",
+    "collapsible",
+    "collapsible-trigger",
+    "collapsible-content",
+    "color-palette",
+    "color-palette-swatch",
+    "native-select-wrapper",
+    "native-select",
+    "native-select-icon",
+    "native-select-option",
+    "native-select-optgroup",
+    "popover",
+    "popover-trigger",
+    "popover-content",
+    "popover-arrow",
+    "popover-header",
+    "popover-title",
+    "popover-description",
+    "color-picker-solid",
+    "color-picker-field",
+    "color-picker-hue",
+    "color-picker-alpha",
+    "color-picker-field-shell",
+    "color-picker-divider",
+    "color-picker-resize",
+    "color-picker-gradient",
+    "color-picker-canvas",
+    "color-picker-end",
+    "color-picker-rail",
+    "color-picker-row",
+    "color-picker-grip",
+    "color-picker-stop",
+    "color-picker-stop-handle",
+    "color-picker",
+    "combobox-value",
+    "combobox-trigger",
+    "combobox-clear",
+    "input-group-button",
+    "combobox-search",
+    "combobox-content",
+    "combobox-scroll-area",
+    "combobox-viewport",
+    "combobox-list",
+    "combobox-item",
+    "combobox-group",
+    "combobox-label",
+    "combobox-collection",
+    "combobox-empty",
+    "combobox-separator",
+    "combobox-chips",
+    "combobox-chip",
+    "combobox-chip-remove",
+    "combobox-chip-input",
+    "sliding-tabs-icon",
+    "sliding-tabs-item",
+    "composer",
+    "kbd",
+    "kbd-group",
+    "context-menu",
+    "context-menu-portal",
+    "context-menu-trigger",
+    "context-menu-content",
+    "context-menu-group",
+    "context-menu-label",
+    "context-menu-item",
+    "context-menu-sub",
+    "context-menu-sub-trigger",
+    "context-menu-sub-content",
+    "context-menu-checkbox-item",
+    "context-menu-radio-group",
+    "context-menu-radio-item",
+    "context-menu-separator",
+    "context-menu-shortcut",
+    "conversion",
+    "conversion-card",
+    "conversion-formula",
+    "conversion-money-row",
+    "conversion-picker",
+    "crm-table-tag",
+    "crm-table",
+    "crm-table-scroll-area",
+    "crm-table-scroller",
+    "crm-table-row",
+    "document-agent",
+    "document-agent-split",
+    "document-agent-panel",
+    "document-agent-panel-body",
+    "document-agent-messages",
+    "document-agent-question",
+    "document-agent-answer",
+    "document-agent-document",
+    "document-agent-header",
+    "document-agent-content",
+    "document-agent-page",
+    "document-agent-passage",
+    "document-agent-source",
+    "empty",
+    "empty-header",
+    "empty-icon",
+    "empty-title",
+    "empty-description",
+    "empty-content",
+    "field-set",
+    "field-legend",
+    "field-group",
+    "field",
+    "field-content",
+    "field-label",
+    "field-description",
+    "field-separator",
+    "field-separator-content",
+    "field-error",
+    "filter-chips",
+    "filter-chips-item",
+    "grouped-table-row",
+    "grouped-table",
+    "grouped-table-toolbar",
+    "halftone-burst",
+    "halftone-dots",
+    "hover-card",
+    "hover-card-trigger",
+    "hover-card-portal",
+    "hover-card-content",
+    "hover-card-arrow",
+    "image-generation",
+    "download-icon",
+    "input-otp",
+    "input-otp-ring",
+    "input-otp-group",
+    "input-otp-slot",
+    "input-otp-separator",
+    "item-group",
+    "item-separator",
+    "item-media",
+    "item-content",
+    "item-title",
+    "item-description",
+    "item-actions",
+    "item-header",
+    "item-footer",
+    "lightbox",
+    "logo-carousel",
+    "logo-carousel-mark",
+    "logo-picker",
+    "logo-picker-preview",
+    "logo-picker-drop",
+    "logo-picker-flood",
+    "logo-picker-mark",
+    "logo-picker-swatches",
+    "logo-picker-swatch",
+    "logo-picker-ring",
+    "logo-picker-disc",
+    "logo-picker-more",
+    "logo-picker-tray",
+    "logo-picker-trigger",
+    "logo-picker-option",
+    "marker-icon",
+    "marker-content",
+    "menubar",
+    "menubar-menu",
+    "menubar-group",
+    "menubar-portal",
+    "menubar-trigger",
+    "menubar-content",
+    "menubar-item",
+    "menubar-checkbox-item",
+    "menubar-radio-group",
+    "menubar-radio-item",
+    "menubar-label",
+    "menubar-separator",
+    "menubar-shortcut",
+    "menubar-sub",
+    "menubar-sub-trigger",
+    "menubar-sub-content",
+    "message-scroller",
+    "message-scroller-viewport",
+    "message-scroller-content",
+    "message-scroller-item",
+    "message-scroller-button",
+    "message-group",
+    "message",
+    "message-avatar",
+    "message-content",
+    "message-header",
+    "message-footer",
+    "pagination",
+    "pagination-content",
+    "pagination-highlight",
+    "pagination-item",
+    "pagination-link",
+    "pagination-ellipsis",
+    "product-cards",
+    "product-card",
+    "progress",
+    "progress-track",
+    "progress-indicator",
+    "progress-label",
+    "progress-value",
+    "qr-code",
+    "qr-code-logo",
+    "radio-group",
+    "radio-group-item",
+    "radio-group-indicator",
+    "reasoning-steps",
+    "sheet",
+    "sheet-trigger",
+    "sheet-close",
+    "sheet-portal",
+    "sheet-overlay",
+    "sheet-content",
+    "sheet-header",
+    "sheet-footer",
+    "sheet-title",
+    "sheet-description",
+    "sidebar-wrapper",
+    "sidebar",
+    "sidebar-gap",
+    "sidebar-container",
+    "sidebar-inner",
+    "sidebar-trigger",
+    "sidebar-rail",
+    "sidebar-inset",
+    "sidebar-input",
+    "sidebar-header",
+    "sidebar-footer",
+    "sidebar-separator",
+    "sidebar-content",
+    "sidebar-group",
+    "sidebar-group-content",
+    "sidebar-menu",
+    "sidebar-menu-item",
+    "sidebar-menu-badge",
+    "sidebar-menu-skeleton",
+    "sidebar-menu-sub",
+    "sidebar-menu-sub-item",
+    "switch",
+    "switch-thumb",
+    "task-list",
+    "toggle",
+    "toggle-group",
+    "toggle-group-item",
+    "trace-waterfall",
+    "trace-waterfall-label",
+    "trace-waterfall-scroll-area",
+    "trace-waterfall-scrollbar",
+    "trace-waterfall-thumb",
+    "trace-replay-icon",
+    "trace-row",
+    "trace-timeline",
+    "weather",
+    "weather-separator"
+  ],
+  "found": [
+    {
+      "slug": "advertisement",
+      "slots": [
+        "advertisement-card",
+        "advertisement",
+        "advertisement-progress"
+      ]
+    },
+    {
+      "slug": "aspect-ratio",
+      "slots": [
+        "aspect-ratio"
+      ]
+    },
+    {
+      "slug": "avatar",
+      "slots": [
+        "message-avatar"
+      ]
+    },
+    {
+      "slug": "badge",
+      "slots": [
+        "sidebar-menu-badge"
+      ]
+    },
+    {
+      "slug": "breadcrumb",
+      "slots": [
+        "breadcrumb",
+        "breadcrumb-list",
+        "breadcrumb-item",
+        "breadcrumb-page",
+        "breadcrumb-separator",
+        "breadcrumb-ellipsis"
+      ]
+    },
+    {
+      "slug": "button",
+      "slots": [
+        "select-scroll-up-button",
+        "select-scroll-down-button",
+        "input-group-button",
+        "message-scroller-button"
+      ]
+    },
+    {
+      "slug": "card",
+      "slots": [
+        "card",
+        "card-header",
+        "card-title",
+        "card-description",
+        "card-action",
+        "card-content"
+      ]
+    },
+    {
+      "slug": "halftone-dots",
+      "slots": [
+        "halftone-dots"
+      ]
+    },
+    {
+      "slug": "logo-carousel",
+      "slots": [
+        "logo-carousel",
+        "logo-carousel-mark"
+      ]
+    },
+    {
+      "slug": "carousel",
+      "slots": [
+        "logo-carousel",
+        "logo-carousel-mark"
+      ]
+    },
+    {
+      "slug": "checkbox",
+      "slots": [
+        "checkbox",
+        "checkbox-indicator"
+      ]
+    },
+    {
+      "slug": "collapsible",
+      "slots": [
+        "collapsible",
+        "collapsible-trigger",
+        "collapsible-content"
+      ]
+    },
+    {
+      "slug": "color-palette",
+      "slots": [
+        "color-palette",
+        "color-palette-swatch"
+      ]
+    },
+    {
+      "slug": "color-picker",
+      "slots": [
+        "color-picker-solid",
+        "color-picker-field",
+        "color-picker-hue",
+        "color-picker-alpha",
+        "color-picker-field-shell",
+        "color-picker-divider"
+      ]
+    },
+    {
+      "slug": "logo-picker",
+      "slots": [
+        "logo-picker",
+        "logo-picker-preview",
+        "logo-picker-drop",
+        "logo-picker-flood",
+        "logo-picker-mark",
+        "logo-picker-swatches"
+      ]
+    },
+    {
+      "slug": "combobox",
+      "slots": [
+        "combobox-value",
+        "combobox-trigger",
+        "combobox-clear",
+        "combobox-search",
+        "combobox-content",
+        "combobox-scroll-area"
+      ]
+    },
+    {
+      "slug": "context-menu",
+      "slots": [
+        "context-menu",
+        "context-menu-portal",
+        "context-menu-trigger",
+        "context-menu-content",
+        "context-menu-group",
+        "context-menu-label"
+      ]
+    },
+    {
+      "slug": "empty",
+      "slots": [
+        "empty",
+        "empty-header",
+        "empty-icon",
+        "empty-title",
+        "empty-description",
+        "empty-content"
+      ]
+    },
+    {
+      "slug": "form",
+      "slots": [
+        "conversion-formula"
+      ]
+    },
+    {
+      "slug": "hover-card",
+      "slots": [
+        "hover-card",
+        "hover-card-trigger",
+        "hover-card-portal",
+        "hover-card-content",
+        "hover-card-arrow"
+      ]
+    },
+    {
+      "slug": "image-gallery",
+      "slots": [
+        "image-gallery"
+      ]
+    },
+    {
+      "slug": "lightbox",
+      "slots": [
+        "lightbox-row",
+        "lightbox-photo",
+        "lightbox-stage",
+        "lightbox-strip",
+        "lightbox-layer",
+        "lightbox-chrome"
+      ]
+    },
+    {
+      "slug": "input",
+      "slots": [
+        "input-group-button",
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group",
+        "input-otp-slot",
+        "input-otp-separator"
+      ]
+    },
+    {
+      "slug": "input-otp",
+      "slots": [
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group",
+        "input-otp-slot",
+        "input-otp-separator"
+      ]
+    },
+    {
+      "slug": "input-dissolve",
+      "slots": [
+        "chat-input",
+        "input-group-button",
+        "combobox-chip-input",
+        "input-otp",
+        "input-otp-ring",
+        "input-otp-group"
+      ]
+    },
+    {
+      "slug": "item",
+      "slots": [
+        "item-group",
+        "item-separator",
+        "item-media",
+        "item-content",
+        "item-title",
+        "item-description"
+      ]
+    },
+    {
+      "slug": "menubar",
+      "slots": [
+        "menubar",
+        "menubar-menu",
+        "menubar-group",
+        "menubar-portal",
+        "menubar-trigger",
+        "menubar-content"
+      ]
+    },
+    {
+      "slug": "pagination",
+      "slots": [
+        "pagination",
+        "pagination-content",
+        "pagination-highlight",
+        "pagination-item",
+        "pagination-link",
+        "pagination-ellipsis"
+      ]
+    },
+    {
+      "slug": "popover",
+      "slots": [
+        "popover",
+        "popover-trigger",
+        "popover-content",
+        "popover-arrow",
+        "popover-header",
+        "popover-title"
+      ]
+    },
+    {
+      "slug": "progress",
+      "slots": [
+        "progress",
+        "progress-track",
+        "progress-indicator",
+        "progress-label",
+        "progress-value"
+      ]
+    },
+    {
+      "slug": "qr-code",
+      "slots": [
+        "qr-code",
+        "qr-code-logo"
+      ]
+    },
+    {
+      "slug": "radio-group",
+      "slots": [
+        "radio-group",
+        "radio-group-item",
+        "radio-group-indicator"
+      ]
+    },
+    {
+      "slug": "scroll-area",
+      "slots": [
+        "scroll-area",
+        "scroll-area-viewport",
+        "scroll-area-scrollbar",
+        "scroll-area-thumb"
+      ]
+    },
+    {
+      "slug": "select",
+      "slots": [
+        "select-group",
+        "select-value",
+        "select-trigger",
+        "select-content",
+        "select-label",
+        "select-item"
+      ]
+    },
+    {
+      "slug": "separator",
+      "slots": [
+        "select-separator",
+        "breadcrumb-separator",
+        "combobox-separator",
+        "context-menu-separator",
+        "field-separator",
+        "field-separator-content"
+      ]
+    },
+    {
+      "slug": "sheet",
+      "slots": [
+        "sheet",
+        "sheet-trigger",
+        "sheet-close",
+        "sheet-portal",
+        "sheet-overlay",
+        "sheet-content"
+      ]
+    },
+    {
+      "slug": "sidebar",
+      "slots": [
+        "sidebar-wrapper",
+        "sidebar",
+        "sidebar-gap",
+        "sidebar-container",
+        "sidebar-inner",
+        "sidebar-trigger"
+      ]
+    },
+    {
+      "slug": "skeleton",
+      "slots": [
+        "sidebar-menu-skeleton"
+      ]
+    },
+    {
+      "slug": "switch",
+      "slots": [
+        "switch",
+        "switch-thumb"
+      ]
+    },
+    {
+      "slug": "table",
+      "slots": [
+        "crm-table-tag",
+        "crm-table",
+        "crm-table-scroll-area",
+        "crm-table-scroller",
+        "crm-table-row",
+        "grouped-table-row"
+      ]
+    },
+    {
+      "slug": "crm-table",
+      "slots": [
+        "crm-table-tag",
+        "crm-table",
+        "crm-table-scroll-area",
+        "crm-table-scroller",
+        "crm-table-row"
+      ]
+    },
+    {
+      "slug": "grouped-table",
+      "slots": [
+        "grouped-table-row",
+        "grouped-table",
+        "grouped-table-toolbar"
+      ]
+    },
+    {
+      "slug": "tabs",
+      "slots": [
+        "sliding-tabs-icon",
+        "sliding-tabs-item"
+      ]
+    },
+    {
+      "slug": "toggle-group",
+      "slots": [
+        "toggle-group",
+        "toggle-group-item"
+      ]
+    },
+    {
+      "slug": "filter-chips",
+      "slots": [
+        "filter-chips",
+        "filter-chips-item"
+      ]
+    },
+    {
+      "slug": "kbd",
+      "slots": [
+        "kbd",
+        "kbd-group"
+      ]
+    },
+    {
+      "slug": "attachment",
+      "slots": [
+        "attachment",
+        "attachment-media",
+        "attachment-content",
+        "attachment-title",
+        "attachment-description",
+        "attachment-actions"
+      ]
+    },
+    {
+      "slug": "conversation",
+      "slots": [
+        "conversation",
+        "conversation-bubble",
+        "conversation-time",
+        "conversation-reactions"
+      ]
+    },
+    {
+      "slug": "marker",
+      "slots": [
+        "marker-icon",
+        "marker-content"
+      ]
+    },
+    {
+      "slug": "message",
+      "slots": [
+        "message-scroller",
+        "message-scroller-viewport",
+        "message-scroller-content",
+        "message-scroller-item",
+        "message-scroller-button",
+        "message-group"
+      ]
+    },
+    {
+      "slug": "message-scroller",
+      "slots": [
+        "message-scroller",
+        "message-scroller-viewport",
+        "message-scroller-content",
+        "message-scroller-item",
+        "message-scroller-button"
+      ]
+    },
+    {
+      "slug": "reasoning-steps",
+      "slots": [
+        "reasoning-steps"
+      ]
+    },
+    {
+      "slug": "chat-history",
+      "slots": [
+        "chat-history",
+        "chat-history-transcript",
+        "chat-history-reply",
+        "chat-history-backdrop",
+        "chat-history-column",
+        "chat-history-composer"
+      ]
+    },
+    {
+      "slug": "document-agent",
+      "slots": [
+        "document-agent",
+        "document-agent-split",
+        "document-agent-panel",
+        "document-agent-panel-body",
+        "document-agent-messages",
+        "document-agent-question"
+      ]
+    },
+    {
+      "slug": "trace-waterfall",
+      "slots": [
+        "trace-waterfall",
+        "trace-waterfall-label",
+        "trace-waterfall-scroll-area",
+        "trace-waterfall-scrollbar",
+        "trace-waterfall-thumb"
+      ]
+    },
+    {
+      "slug": "weather",
+      "slots": [
+        "weather",
+        "weather-separator"
+      ]
+    },
+    {
+      "slug": "conversion",
+      "slots": [
+        "conversion",
+        "conversion-card",
+        "conversion-formula",
+        "conversion-money-row",
+        "conversion-picker"
+      ]
+    },
+    {
+      "slug": "agent-map",
+      "slots": [
+        "agent-map",
+        "agent-map-canvas",
+        "agent-map-location",
+        "agent-map-pin",
+        "agent-map-controls",
+        "agent-map-panel"
+      ]
+    },
+    {
+      "slug": "product-cards",
+      "slots": [
+        "product-cards"
+      ]
+    },
+    {
+      "slug": "composer",
+      "slots": [
+        "composer"
+      ]
+    },
+    {
+      "slug": "image-generation",
+      "slots": [
+        "image-generation"
+      ]
+    },
+    {
+      "slug": "code-block",
+      "slots": [
+        "qr-code",
+        "qr-code-logo"
+      ]
+    },
+    {
+      "slug": "task-list",
+      "slots": [
+        "task-list"
+      ]
+    },
+    {
+      "slug": "chat-input",
+      "slots": [
+        "chat-input"
+      ]
+    },
+    {
+      "slug": "question-card",
+      "slots": [
+        "document-agent-question"
+      ]
+    }
+  ],
+  "missing": [
+    "accordion",
+    "ai-editor",
+    "alert",
+    "calendar",
+    "chart",
+    "multi-select",
+    "command-menu",
+    "dialog",
+    "drawer",
+    "dropdown-menu",
+    "morphing-icons",
+    "navigation-menu",
+    "resizable",
+    "slider",
+    "sound",
+    "toast",
+    "spinner",
+    "textarea",
+    "tooltip",
+    "direction",
+    "magnetic-dropzone",
+    "video",
+    "streaming-text",
+    "inline-citations",
+    "plan-card",
+    "hijri",
+    "hijri-civil",
+    "persian",
+    "buddhist",
+    "minguo",
+    "japanese"
+  ]
+}
