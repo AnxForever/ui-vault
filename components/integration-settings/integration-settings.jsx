@@ -1,11 +1,3 @@
-/*
- * affectUI · integration-settings (Pro)
- * Implementation recovered from public bundle asset: demo-BSW5akXq.js
- * Styles inlined in the module -> integration-settings.css (1 block(s))
- * Demo usage: integration-settings.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · empty-calendar
- * Implementation recovered from public bundle asset: demo-MXjIQshC.js
- * Styles inlined in the module -> empty-calendar.css (0 block(s))
- * Demo usage: empty-calendar.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · gradient-text (Pro)
- * Implementation recovered from public bundle asset: demo-Dcdtba_V.js
- * Styles inlined in the module -> gradient-text.css (1 block(s))
- * Demo usage: gradient-text.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · app-shell (Pro)
- * Implementation recovered from public bundle asset: component-90nTR1WK.js
- * Styles inlined in the module -> app-shell.css (1 block(s))
- * Demo usage: app-shell.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 import { t as n } from "./HugeiconsIcon-C2cDExRS.js";

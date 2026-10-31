@@ -10,14 +10,10 @@
     {
       "path": "glass-folder.tsx",
       "type": "registry:ui",
-      "content": "/*\n * affectUI · glass-folder (Pro)\n * Implementation recovered from public bundle asset: demo-DO6U7ZR7.js\n * Styles inlined in the module -> glass-folder.css (0 block(s))\n * Demo usage: glass-folder.demo.jsx\n * Minified identifiers kept; formatting by prettier.\n */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { r as t } from \"./index-CFGVEsd9.js\";\nvar n = e();\nfunction r() {\n  return (0, n.jsx)(`div`, { className: `glass-folder-demo`, children: (0, n.jsx)(t, {}) });\n}\n"
+      "content": "import { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { r as t } from \"./index-CFGVEsd9.js\";\nvar n = e();\nfunction r() {\n  return (0, n.jsx)(`div`, { className: `glass-folder-demo`, children: (0, n.jsx)(t, {}) });\n}\n"
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": true,
-      "recoveredFrom": "demo-DO6U7ZR7.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": true
   }
 }

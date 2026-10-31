@@ -3,7 +3,7 @@
   "name": "segmented-control-clean",
   "type": "registry:ui",
   "title": "segmented-control-clean",
-  "description": "affectUI segmented-control-clean",
+  "description": "Segmented Control (Clean) – switch between two to six options, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

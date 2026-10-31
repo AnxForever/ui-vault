@@ -1,11 +1,3 @@
-/*
- * affectUI · text-reveal
- * Implementation recovered from public bundle asset: demo-BEzbCisV.js
- * Styles inlined in the module -> text-reveal.css (0 block(s))
- * Demo usage: text-reveal.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

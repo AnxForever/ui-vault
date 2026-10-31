@@ -1,11 +1,3 @@
-/*
- * affectUI · decision-inbox
- * Implementation recovered from public bundle asset: demo-BTRtmfz4.js
- * Styles inlined in the module -> decision-inbox.css (0 block(s))
- * Demo usage: decision-inbox.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

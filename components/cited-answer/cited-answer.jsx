@@ -1,11 +1,3 @@
-/*
- * affectUI · cited-answer (Pro)
- * Implementation recovered from public bundle asset: demo-Dvsf4FXI.js
- * Styles inlined in the module -> cited-answer.css (1 block(s))
- * Demo usage: cited-answer.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

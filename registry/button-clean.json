@@ -3,7 +3,7 @@
   "name": "button-clean",
   "type": "registry:ui",
   "title": "button-clean",
-  "description": "affectUI button-clean",
+  "description": "Button – a single self-contained file, clean style.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

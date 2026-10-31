@@ -1,11 +1,3 @@
-/*
- * affectUI · metrics-dashboard (Pro)
- * Implementation recovered from public bundle asset: demo-Coprs2Jd.js
- * Styles inlined in the module -> metrics-dashboard.css (1 block(s))
- * Demo usage: metrics-dashboard.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

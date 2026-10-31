@@ -1,11 +1,3 @@
-/*
- * affectUI · tips-panel
- * Implementation recovered from public bundle asset: demo-CeNLDeWD.js
- * Styles inlined in the module -> tips-panel.css (0 block(s))
- * Demo usage: tips-panel.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

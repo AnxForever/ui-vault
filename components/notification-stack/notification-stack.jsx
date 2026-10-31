@@ -1,11 +1,3 @@
-/*
- * affectUI · notification-stack
- * Implementation recovered from public bundle asset: demo-B6G7VOmY.js
- * Styles inlined in the module -> notification-stack.css (0 block(s))
- * Demo usage: notification-stack.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · command-menu (Pro)
- * Implementation recovered from public bundle asset: demo-BloxR6eN.js
- * Styles inlined in the module -> command-menu.css (1 block(s))
- * Demo usage: command-menu.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

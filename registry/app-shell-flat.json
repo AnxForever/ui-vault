@@ -10,14 +10,10 @@
     {
       "path": "app-shell-flat.tsx",
       "type": "registry:ui",
-      "content": "/* Usage example (recovered from demo-UQFQEdt4.js) */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { d as t, f as n } from \"./index-CFGVEsd9.js\";\nimport { i as r } from \"./component-90nTR1WK.js\";\nimport { t as i } from \"./component-BxbkRf5G.js\";\nvar a = e();\nfunction o() {\n  return (0, a.jsx)(t, {\n    children: (0, a.jsx)(i, {\n      active: `New chat`,\n      onNavigate: n,\n      children: (0, a.jsx)(`div`, {\n        className: `ui-as-center`,\n        children: (0, a.jsx)(r, {\n          bare: !0,\n          title: `Your page goes here`,\n          text: `The flat shell brings the sidebar and the scroll container – put any screen inside.`,\n        }),\n      }),\n    }),\n  });\n}\n"
+      "content": "import { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { d as t, f as n } from \"./index-CFGVEsd9.js\";\nimport { i as r } from \"./component-90nTR1WK.js\";\nimport { t as i } from \"./component-BxbkRf5G.js\";\nvar a = e();\nfunction o() {\n  return (0, a.jsx)(t, {\n    children: (0, a.jsx)(i, {\n      active: `New chat`,\n      onNavigate: n,\n      children: (0, a.jsx)(`div`, {\n        className: `ui-as-center`,\n        children: (0, a.jsx)(r, {\n          bare: !0,\n          title: `Your page goes here`,\n          text: `The flat shell brings the sidebar and the scroll container – put any screen inside.`,\n        }),\n      }),\n    }),\n  });\n}\n"
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": true,
-      "recoveredFrom": "component-90nTR1WK.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": true
   }
 }

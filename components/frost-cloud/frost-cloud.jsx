@@ -1,11 +1,3 @@
-/*
- * affectUI · frost-cloud
- * Implementation recovered from public bundle asset: demo-DrDu-VuE.js
- * Styles inlined in the module -> frost-cloud.css (0 block(s))
- * Demo usage: frost-cloud.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

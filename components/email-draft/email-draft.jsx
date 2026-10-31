@@ -1,11 +1,3 @@
-/*
- * affectUI · email-draft
- * Implementation recovered from public bundle asset: demo-BqE2nm6j.js
- * Styles inlined in the module -> email-draft.css (0 block(s))
- * Demo usage: email-draft.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

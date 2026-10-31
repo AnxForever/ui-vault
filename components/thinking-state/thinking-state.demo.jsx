@@ -1,5 +1,3 @@
-/* Usage example (recovered from demo-DqeX2dbe.js) */
-
 import { t as e } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ import { t } from "./component-DXKdUXEH.js";
 var n = e(),

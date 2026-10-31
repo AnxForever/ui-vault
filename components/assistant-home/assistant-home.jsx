@@ -1,11 +1,3 @@
-/*
- * affectUI · assistant-home (Pro)
- * Implementation recovered from public bundle asset: component-CX7lsfhr.js
- * Styles inlined in the module -> assistant-home.css (0 block(s))
- * Demo usage: assistant-home.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 import { r as n } from "./index-CFGVEsd9.js";

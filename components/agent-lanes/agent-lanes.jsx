@@ -1,11 +1,3 @@
-/*
- * affectUI · agent-lanes (Pro)
- * Implementation recovered from public bundle asset: demo-D2be2q7n.js
- * Styles inlined in the module -> agent-lanes.css (1 block(s))
- * Demo usage: agent-lanes.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

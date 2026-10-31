@@ -2,8 +2,6 @@
  {
   "slug": "agent-cursors",
   "pro": 1,
-  "impl": "demo-T2vp62ci.js",
-  "demo": "demo-T2vp62ci.js",
   "cssBlocks": 1,
   "files": [
    "agent-cursors.css",
@@ -14,8 +12,6 @@
  {
   "slug": "agent-findings",
   "pro": 1,
-  "impl": "demo-oWyfFMeM.js",
-  "demo": "demo-oWyfFMeM.js",
   "cssBlocks": 1,
   "files": [
    "agent-findings.css",
@@ -26,8 +22,6 @@
  {
   "slug": "agent-graph",
   "pro": 1,
-  "impl": "demo-BbHNVcxq.js",
-  "demo": "demo-BbHNVcxq.js",
   "cssBlocks": 1,
   "files": [
    "agent-graph.css",
@@ -38,8 +32,6 @@
  {
   "slug": "agent-handoff",
   "pro": 1,
-  "impl": "demo-CW_0t88D.js",
-  "demo": "demo-CW_0t88D.js",
   "cssBlocks": 1,
   "files": [
    "agent-handoff.css",
@@ -50,8 +42,6 @@
  {
   "slug": "agent-inbox",
   "pro": 1,
-  "impl": "demo-Ck6EJPHF.js",
-  "demo": "demo-Ck6EJPHF.js",
   "cssBlocks": 1,
   "files": [
    "agent-inbox.css",
@@ -62,8 +52,6 @@
  {
   "slug": "agent-lanes",
   "pro": 1,
-  "impl": "demo-D2be2q7n.js",
-  "demo": "demo-D2be2q7n.js",
   "cssBlocks": 1,
   "files": [
    "agent-lanes.css",
@@ -74,8 +62,6 @@
  {
   "slug": "agent-ledger",
   "pro": 1,
-  "impl": "demo-CGzh0xx5.js",
-  "demo": "demo-CGzh0xx5.js",
   "cssBlocks": 1,
   "files": [
    "agent-ledger.css",
@@ -86,8 +72,6 @@
  {
   "slug": "agent-monitor",
   "pro": 1,
-  "impl": "demo-BbTawgt2.js",
-  "demo": "demo-BbTawgt2.js",
   "cssBlocks": 1,
   "files": [
    "agent-monitor.css",
@@ -98,8 +82,6 @@
  {
   "slug": "agent-plan",
   "pro": 1,
-  "impl": "component-CZU1So1R.js",
-  "demo": "demo-DVDy6cGV.js",
   "cssBlocks": 1,
   "files": [
    "agent-plan.css",
@@ -111,8 +93,6 @@
  {
   "slug": "agent-queue",
   "pro": 1,
-  "impl": "demo-CRKNaMKk.js",
-  "demo": "demo-CRKNaMKk.js",
   "cssBlocks": 0,
   "files": [
    "agent-queue.css",
@@ -123,8 +103,6 @@
  {
   "slug": "agent-steering",
   "pro": 1,
-  "impl": "demo-BlCEXjmy.js",
-  "demo": "demo-BlCEXjmy.js",
   "cssBlocks": 1,
   "files": [
    "agent-steering.css",
@@ -135,8 +113,6 @@
  {
   "slug": "agent-tree",
   "pro": 1,
-  "impl": "demo-B_JQedQ8.js",
-  "demo": "demo-B_JQedQ8.js",
   "cssBlocks": 1,
   "files": [
    "agent-tree.css",
@@ -147,8 +123,6 @@
  {
   "slug": "ai-answer",
   "pro": 1,
-  "impl": "demo-DBAxVX0U.js",
-  "demo": "demo-DBAxVX0U.js",
   "cssBlocks": 1,
   "files": [
    "ai-answer.css",
@@ -159,8 +133,6 @@
  {
   "slug": "approval-card",
   "pro": 1,
-  "impl": "component-LmNOI4Lq.js",
-  "demo": "demo-CE77ZcMp.js",
   "cssBlocks": 1,
   "files": [
    "approval-card.css",
@@ -172,8 +144,6 @@
  {
   "slug": "autonomy-dial",
   "pro": 1,
-  "impl": "demo-D1Cm2Y4U.js",
-  "demo": "demo-D1Cm2Y4U.js",
   "cssBlocks": 1,
   "files": [
    "autonomy-dial.css",
@@ -184,8 +154,6 @@
  {
   "slug": "billing-schedule",
   "pro": 1,
-  "impl": "demo-COJAGeNk.js",
-  "demo": "demo-COJAGeNk.js",
   "cssBlocks": 1,
   "files": [
    "billing-schedule.css",
@@ -196,8 +164,6 @@
  {
   "slug": "breakdown-chart",
   "pro": 1,
-  "impl": "component-oa1F6huF.js",
-  "demo": "demo-_DBbejj2.js",
   "cssBlocks": 1,
   "files": [
    "breakdown-chart.css",
@@ -209,8 +175,6 @@
  {
   "slug": "button",
   "pro": 0,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-BqYQhEry.js",
   "cssBlocks": 0,
   "files": [
    "button.css",
@@ -222,8 +186,6 @@
  {
   "slug": "change-summary",
   "pro": 0,
-  "impl": "demo-IBGa6B_0.js",
-  "demo": "demo-IBGa6B_0.js",
   "cssBlocks": 0,
   "files": [
    "change-summary.css",
@@ -234,8 +196,6 @@
  {
   "slug": "chat-composer",
   "pro": 1,
-  "impl": "component-CDhV0WHL.js",
-  "demo": "demo-ap1FpgjI.js",
   "cssBlocks": 0,
   "files": [
    "chat-composer.css",
@@ -247,8 +207,6 @@
  {
   "slug": "cited-answer",
   "pro": 1,
-  "impl": "demo-Dvsf4FXI.js",
-  "demo": "demo-Dvsf4FXI.js",
   "cssBlocks": 1,
   "files": [
    "cited-answer.css",
@@ -259,8 +217,6 @@
  {
   "slug": "combobox",
   "pro": 1,
-  "impl": "demo-DqZv_kIm.js",
-  "demo": "demo-DqZv_kIm.js",
   "cssBlocks": 1,
   "files": [
    "combobox.css",
@@ -271,8 +227,6 @@
  {
   "slug": "command-menu",
   "pro": 1,
-  "impl": "demo-BloxR6eN.js",
-  "demo": "demo-BloxR6eN.js",
   "cssBlocks": 1,
   "files": [
    "command-menu.css",
@@ -283,8 +237,6 @@
  {
   "slug": "comment-thread",
   "pro": 0,
-  "impl": "demo-ElZs8qP_.js",
-  "demo": "demo-ElZs8qP_.js",
   "cssBlocks": 0,
   "files": [
    "comment-thread.css",
@@ -295,8 +247,6 @@
  {
   "slug": "comments-panel",
   "pro": 1,
-  "impl": "demo-Ioffv_GL.js",
-  "demo": "demo-Ioffv_GL.js",
   "cssBlocks": 1,
   "files": [
    "comments-panel.css",
@@ -307,8 +257,6 @@
  {
   "slug": "compact-breakdown",
   "pro": 1,
-  "impl": "demo-v8zKTRWM.js",
-  "demo": "demo-v8zKTRWM.js",
   "cssBlocks": 1,
   "files": [
    "compact-breakdown.css",
@@ -319,8 +267,6 @@
  {
   "slug": "conflict-radar",
   "pro": 1,
-  "impl": "demo-C8n-KhXq.js",
-  "demo": "demo-C8n-KhXq.js",
   "cssBlocks": 1,
   "files": [
    "conflict-radar.css",
@@ -331,8 +277,6 @@
  {
   "slug": "context-map",
   "pro": 1,
-  "impl": "demo-B9Q3KRp_.js",
-  "demo": "demo-B9Q3KRp_.js",
   "cssBlocks": 1,
   "files": [
    "context-map.css",
@@ -343,8 +287,6 @@
  {
   "slug": "context-window",
   "pro": 1,
-  "impl": "demo-C8rgC34B.js",
-  "demo": "demo-C8rgC34B.js",
   "cssBlocks": 1,
   "files": [
    "context-window.css",
@@ -355,8 +297,6 @@
  {
   "slug": "data-table",
   "pro": 1,
-  "impl": "component-DD7VCqiB.js",
-  "demo": "demo-Cg8rRWCE.js",
   "cssBlocks": 1,
   "files": [
    "data-table.css",
@@ -368,8 +308,6 @@
  {
   "slug": "date-range-picker",
   "pro": 1,
-  "impl": "demo-BFXVVPt-.js",
-  "demo": "demo-BFXVVPt-.js",
   "cssBlocks": 1,
   "files": [
    "date-range-picker.css",
@@ -380,8 +318,6 @@
  {
   "slug": "decision-inbox",
   "pro": 0,
-  "impl": "demo-BTRtmfz4.js",
-  "demo": "demo-BTRtmfz4.js",
   "cssBlocks": 0,
   "files": [
    "decision-inbox.css",
@@ -392,8 +328,6 @@
  {
   "slug": "decision-tree",
   "pro": 1,
-  "impl": "demo-BCVR2Hhf.js",
-  "demo": "demo-BCVR2Hhf.js",
   "cssBlocks": 1,
   "files": [
    "decision-tree.css",
@@ -404,8 +338,6 @@
  {
   "slug": "delegate-board",
   "pro": 1,
-  "impl": "demo-DHNjSsE4.js",
-  "demo": "demo-DHNjSsE4.js",
   "cssBlocks": 1,
   "files": [
    "delegate-board.css",
@@ -416,8 +348,6 @@
  {
   "slug": "dropzone",
   "pro": 1,
-  "impl": "demo-BaVYNLv-.js",
-  "demo": "demo-BaVYNLv-.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -428,8 +358,6 @@
  {
   "slug": "email-draft",
   "pro": 0,
-  "impl": "demo-BqE2nm6j.js",
-  "demo": "demo-BqE2nm6j.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -440,8 +368,6 @@
  {
   "slug": "experiment-card",
   "pro": 1,
-  "impl": "demo-DBtQYhoC.js",
-  "demo": "demo-DBtQYhoC.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -452,8 +378,6 @@
  {
   "slug": "fallback-chain",
   "pro": 1,
-  "impl": "demo-Cr3cCxya.js",
-  "demo": "demo-Cr3cCxya.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -464,8 +388,6 @@
  {
   "slug": "fan-out-grid",
   "pro": 1,
-  "impl": "demo-BFd3gKrI.js",
-  "demo": "demo-BFd3gKrI.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -476,8 +398,6 @@
  {
   "slug": "filter-menu",
   "pro": 0,
-  "impl": "component-CuOxVraS.js",
-  "demo": "demo-B3ezdTWL.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -489,8 +409,6 @@
  {
   "slug": "inline-diff",
   "pro": 1,
-  "impl": "component-LiY5Y6pa.js",
-  "demo": "demo-tzLI_I9e.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -502,8 +420,6 @@
  {
   "slug": "integration-picker",
   "pro": 1,
-  "impl": "demo-BbtxcaBE.js",
-  "demo": "demo-BbtxcaBE.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -514,8 +430,6 @@
  {
   "slug": "integration-settings",
   "pro": 1,
-  "impl": "demo-BSW5akXq.js",
-  "demo": "demo-BSW5akXq.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -526,8 +440,6 @@
  {
   "slug": "kpi-chart",
   "pro": 1,
-  "impl": "component-x03t8EYo.js",
-  "demo": "demo-Dgc6vygI.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -539,8 +451,6 @@
  {
   "slug": "memory-panel",
   "pro": 1,
-  "impl": "demo-Dzop4bhP.js",
-  "demo": "demo-Dzop4bhP.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -551,8 +461,6 @@
  {
   "slug": "message-actions",
   "pro": 0,
-  "impl": "demo-DrVDkZ74.js",
-  "demo": "demo-DrVDkZ74.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -563,8 +471,6 @@
  {
   "slug": "model-picker",
   "pro": 1,
-  "impl": "demo-ousVLbdn.js",
-  "demo": "demo-ousVLbdn.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -575,8 +481,6 @@
  {
   "slug": "notification-stack",
   "pro": 0,
-  "impl": "demo-B6G7VOmY.js",
-  "demo": "demo-B6G7VOmY.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -587,8 +491,6 @@
  {
   "slug": "otp-input",
   "pro": 0,
-  "impl": "demo-DNDBlImO.js",
-  "demo": "demo-DNDBlImO.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -599,8 +501,6 @@
  {
   "slug": "parallel-attempts",
   "pro": 1,
-  "impl": "demo-DNq6dj3m.js",
-  "demo": "demo-DNq6dj3m.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -611,8 +511,6 @@
  {
   "slug": "permission-request",
   "pro": 1,
-  "impl": "demo-277u-kzk.js",
-  "demo": "demo-277u-kzk.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -623,8 +521,6 @@
  {
   "slug": "profile-menu",
   "pro": 0,
-  "impl": "demo-Dk3NEbkP.js",
-  "demo": "demo-Dk3NEbkP.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -635,8 +531,6 @@
  {
   "slug": "progress-tracker",
   "pro": 0,
-  "impl": "demo-CRM2yhps.js",
-  "demo": "demo-CRM2yhps.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -647,8 +541,6 @@
  {
   "slug": "project-card",
   "pro": 1,
-  "impl": "demo-mVJMtnH2.js",
-  "demo": "demo-mVJMtnH2.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -659,8 +551,6 @@
  {
   "slug": "prompt-library",
   "pro": 1,
-  "impl": "demo-Dag7eJtM.js",
-  "demo": "demo-Dag7eJtM.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -671,8 +561,6 @@
  {
   "slug": "reaction-bar",
   "pro": 0,
-  "impl": "demo-x4AxvLaI.js",
-  "demo": "demo-x4AxvLaI.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -683,8 +571,6 @@
  {
   "slug": "review-center",
   "pro": 1,
-  "impl": "demo-ocpQ0Pxs.js",
-  "demo": "demo-ocpQ0Pxs.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -695,8 +581,6 @@
  {
   "slug": "segmented-control",
   "pro": 0,
-  "impl": "component-uGOWYpxY.js",
-  "demo": "demo-CROZOyTv.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -708,8 +592,6 @@
  {
   "slug": "setup-guide",
   "pro": 1,
-  "impl": "component-B3wch4yo.js",
-  "demo": "demo-CfJSX8BJ.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -721,8 +603,6 @@
  {
   "slug": "smart-recommendation",
   "pro": 0,
-  "impl": "demo-Bmw88bzb.js",
-  "demo": "demo-Bmw88bzb.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -733,8 +613,6 @@
  {
   "slug": "stepper-form",
   "pro": 1,
-  "impl": "demo-DnMvqnaQ.js",
-  "demo": "demo-DnMvqnaQ.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -745,8 +623,6 @@
  {
   "slug": "thinking-loader",
   "pro": 0,
-  "impl": "component-Ek9d4icg.js",
-  "demo": "demo-B6bsjamV.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -758,8 +634,6 @@
  {
   "slug": "thinking-state",
   "pro": 1,
-  "impl": "component-DXKdUXEH.js",
-  "demo": "demo-DqeX2dbe.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -771,8 +645,6 @@
  {
   "slug": "tips-panel",
   "pro": 0,
-  "impl": "demo-CeNLDeWD.js",
-  "demo": "demo-CeNLDeWD.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -783,8 +655,6 @@
  {
   "slug": "toaster",
   "pro": 1,
-  "impl": "demo-BMvVHXrh.js",
-  "demo": "demo-BMvVHXrh.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -795,8 +665,6 @@
  {
   "slug": "tool-call-card",
   "pro": 0,
-  "impl": "component-DR7LKODg.js",
-  "demo": "demo-DO3cCmfF.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -808,8 +676,6 @@
  {
   "slug": "trace-waterfall",
   "pro": 1,
-  "impl": "demo-OLdSLdLw.js",
-  "demo": "demo-OLdSLdLw.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -820,8 +686,6 @@
  {
   "slug": "usage-meter",
   "pro": 1,
-  "impl": "component-D_GYVBcE.js",
-  "demo": "demo-vF-bA4KP.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -833,8 +697,6 @@
  {
   "slug": "writing-assistant",
   "pro": 1,
-  "impl": "demo-DeFFCGcX.js",
-  "demo": "demo-DeFFCGcX.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -845,8 +707,6 @@
  {
   "slug": "agent-gallery",
   "pro": 1,
-  "impl": "demo-zt7AXopF.js",
-  "demo": "demo-zt7AXopF.js",
   "cssBlocks": 1,
   "files": [
    "agent-gallery.css",
@@ -857,8 +717,6 @@
  {
   "slug": "ai-workspace",
   "pro": 1,
-  "impl": "component-CDhV0WHL.js",
-  "demo": "demo-CX33j9ef.js",
   "cssBlocks": 0,
   "files": [
    "ai-workspace.css",
@@ -870,8 +728,6 @@
  {
   "slug": "app-directory",
   "pro": 1,
-  "impl": "demo-S9qKZHRx.js",
-  "demo": "demo-S9qKZHRx.js",
   "cssBlocks": 1,
   "files": [
    "app-directory.css",
@@ -882,8 +738,6 @@
  {
   "slug": "client-context",
   "pro": 1,
-  "impl": "demo-borEBI1Z.js",
-  "demo": "demo-borEBI1Z.js",
   "cssBlocks": 1,
   "files": [
    "client-context.css",
@@ -894,8 +748,6 @@
  {
   "slug": "invoice-credit",
   "pro": 1,
-  "impl": "demo-C-iCHBJN.js",
-  "demo": "demo-C-iCHBJN.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -906,8 +758,6 @@
  {
   "slug": "kpi-board",
   "pro": 1,
-  "impl": "demo-DVOt8T4-.js",
-  "demo": "demo-DVOt8T4-.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -918,8 +768,6 @@
  {
   "slug": "logo-marquee",
   "pro": 0,
-  "impl": "demo-dPDkooNn.js",
-  "demo": "demo-dPDkooNn.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -930,8 +778,6 @@
  {
   "slug": "metrics-dashboard",
   "pro": 1,
-  "impl": "demo-Coprs2Jd.js",
-  "demo": "demo-Coprs2Jd.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -942,8 +788,6 @@
  {
   "slug": "pricing-plans",
   "pro": 1,
-  "impl": "demo-CGLaBJBw.js",
-  "demo": "demo-CGLaBJBw.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -954,8 +798,6 @@
  {
   "slug": "task-board",
   "pro": 1,
-  "impl": "component-oa1F6huF.js",
-  "demo": "demo-CmolVFYq.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -967,8 +809,6 @@
  {
   "slug": "testimonial-wall",
   "pro": 0,
-  "impl": "demo-BOeM0CYP.js",
-  "demo": "demo-BOeM0CYP.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -979,8 +819,6 @@
  {
   "slug": "agent-team",
   "pro": 0,
-  "impl": "demo-BtlH6dH8.js",
-  "demo": "demo-BtlH6dH8.js",
   "cssBlocks": 0,
   "files": [
    "agent-team.css",
@@ -991,8 +829,6 @@
  {
   "slug": "cover-flow",
   "pro": 0,
-  "impl": "demo-C2jfF4UB.js",
-  "demo": "demo-C2jfF4UB.js",
   "cssBlocks": 0,
   "files": [
    "cover-flow.css",
@@ -1003,8 +839,6 @@
  {
   "slug": "empty-calendar",
   "pro": 0,
-  "impl": "demo-MXjIQshC.js",
-  "demo": "demo-MXjIQshC.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1015,8 +849,6 @@
  {
   "slug": "enrichment-orbit",
   "pro": 0,
-  "impl": "demo-CU49Fdlm.js",
-  "demo": "demo-CU49Fdlm.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1027,8 +859,6 @@
  {
   "slug": "frost-cloud",
   "pro": 0,
-  "impl": "demo-DrDu-VuE.js",
-  "demo": "demo-DrDu-VuE.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1039,8 +869,6 @@
  {
   "slug": "ghosted-chat",
   "pro": 0,
-  "impl": "demo-Cm2FVMWj.js",
-  "demo": "demo-Cm2FVMWj.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1051,8 +879,6 @@
  {
   "slug": "glass-folder",
   "pro": 1,
-  "impl": "demo-DO6U7ZR7.js",
-  "demo": "demo-DO6U7ZR7.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1063,8 +889,6 @@
  {
   "slug": "glow-cloud",
   "pro": 0,
-  "impl": "demo-Cm8kSHcX.js",
-  "demo": "demo-Cm8kSHcX.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1075,8 +899,6 @@
  {
   "slug": "glow-keyboard",
   "pro": 1,
-  "impl": "demo-CfD9afHB.js",
-  "demo": "demo-CfD9afHB.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1087,8 +909,6 @@
  {
   "slug": "integration-beam",
   "pro": 0,
-  "impl": "demo-B_Bc7Zla.js",
-  "demo": "demo-B_Bc7Zla.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1099,8 +919,6 @@
  {
   "slug": "integration-flow",
   "pro": 1,
-  "impl": "demo-CL_ySX-H.js",
-  "demo": "demo-CL_ySX-H.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1111,8 +929,6 @@
  {
   "slug": "integration-grid",
   "pro": 0,
-  "impl": "component-WEwHkvy1.js",
-  "demo": "demo-BABw5NIJ.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1124,8 +940,6 @@
  {
   "slug": "layer-stack",
   "pro": 0,
-  "impl": "demo-KQRMxKWn.js",
-  "demo": "demo-KQRMxKWn.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1136,8 +950,6 @@
  {
   "slug": "lead-sourcing",
   "pro": 0,
-  "impl": "demo-BTBcqeeL.js",
-  "demo": "demo-BTBcqeeL.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1148,8 +960,6 @@
  {
   "slug": "logo-cluster",
   "pro": 0,
-  "impl": "demo-CkkSZhS9.js",
-  "demo": "demo-CkkSZhS9.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1160,8 +970,6 @@
  {
   "slug": "model-wheel",
   "pro": 0,
-  "impl": "demo-OZULToi6.js",
-  "demo": "demo-OZULToi6.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1172,8 +980,6 @@
  {
   "slug": "outreach-branches",
   "pro": 1,
-  "impl": "demo-D-FldunI.js",
-  "demo": "demo-D-FldunI.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1184,8 +990,6 @@
  {
   "slug": "project-flow",
   "pro": 1,
-  "impl": "demo-Cwdm4ytX.js",
-  "demo": "demo-Cwdm4ytX.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1196,8 +1000,6 @@
  {
   "slug": "region-dach",
   "pro": 0,
-  "impl": "demo-Ci6RIQmr.js",
-  "demo": "demo-Ci6RIQmr.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1208,8 +1010,6 @@
  {
   "slug": "side-folder",
   "pro": 0,
-  "impl": "demo-ClUxDNiT.js",
-  "demo": "demo-ClUxDNiT.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1220,8 +1020,6 @@
  {
   "slug": "tab-overload",
   "pro": 0,
-  "impl": "demo-CVKU8Uzh.js",
-  "demo": "demo-CVKU8Uzh.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1232,8 +1030,6 @@
  {
   "slug": "team-invite",
   "pro": 0,
-  "impl": "demo-cWsVSmbI.js",
-  "demo": "demo-cWsVSmbI.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1244,8 +1040,6 @@
  {
   "slug": "voice-orb",
   "pro": 1,
-  "impl": "demo-B3RzKcXL.js",
-  "demo": "demo-B3RzKcXL.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1256,8 +1050,6 @@
  {
   "slug": "world-map",
   "pro": 1,
-  "impl": "demo-Q0wmIwEm.js",
-  "demo": "demo-Q0wmIwEm.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1268,8 +1060,6 @@
  {
   "slug": "agent-chat",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-DSzqo7t9.js",
   "cssBlocks": 0,
   "files": [
    "agent-chat.demo.jsx",
@@ -1280,8 +1070,6 @@
  {
   "slug": "agent-run",
   "pro": 1,
-  "impl": "component-CZU1So1R.js",
-  "demo": "demo-CssDLkoE.js",
   "cssBlocks": 1,
   "files": [
    "agent-run.css",
@@ -1293,8 +1081,6 @@
  {
   "slug": "analytics",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-BRUiiNn7.js",
   "cssBlocks": 0,
   "files": [
    "analytics.demo.jsx",
@@ -1305,8 +1091,6 @@
  {
   "slug": "app-shell",
   "pro": 1,
-  "impl": "component-90nTR1WK.js",
-  "demo": "demo-C8P16X-V.js",
   "cssBlocks": 1,
   "files": [
    "app-shell.css",
@@ -1318,8 +1102,6 @@
  {
   "slug": "app-shell-flat",
   "pro": 1,
-  "impl": "component-90nTR1WK.js",
-  "demo": "demo-UQFQEdt4.js",
   "cssBlocks": 1,
   "files": [
    "app-shell-flat.css",
@@ -1331,8 +1113,6 @@
  {
   "slug": "app-shell-workspace",
   "pro": 1,
-  "impl": "component-90nTR1WK.js",
-  "demo": "demo-Bl6p_RTQ.js",
   "cssBlocks": 1,
   "files": [
    "app-shell-workspace.css",
@@ -1344,8 +1124,6 @@
  {
   "slug": "app-shell-workspace-flat",
   "pro": 1,
-  "impl": "component-90nTR1WK.js",
-  "demo": "demo-DAuHP3Xc.js",
   "cssBlocks": 1,
   "files": [
    "app-shell-workspace-flat.css",
@@ -1357,8 +1135,6 @@
  {
   "slug": "assistant-home",
   "pro": 1,
-  "impl": "component-CX7lsfhr.js",
-  "demo": "demo-v8ywOoa-.js",
   "cssBlocks": 0,
   "files": [
    "assistant-home.demo.jsx",
@@ -1369,8 +1145,6 @@
  {
   "slug": "crm",
   "pro": 1,
-  "impl": "component-DD7VCqiB.js",
-  "demo": "demo-BqjunFuT.js",
   "cssBlocks": 1,
   "files": [
    "crm.css",
@@ -1382,8 +1156,6 @@
  {
   "slug": "evals",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-DnEWnlc6.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1395,8 +1167,6 @@
  {
   "slug": "files",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-f0Lk5UJV.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1407,8 +1177,6 @@
  {
   "slug": "folder",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-De1j75Z7.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1419,8 +1187,6 @@
  {
   "slug": "integrations",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-BrP--5S9.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1431,8 +1197,6 @@
  {
   "slug": "onboarding",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-CVRS_JOx.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1444,8 +1208,6 @@
  {
   "slug": "settings-billing",
   "pro": 1,
-  "impl": "component-fbzjv3kM.js",
-  "demo": "demo-f6DHnEWd.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1457,8 +1219,6 @@
  {
   "slug": "blur-crossfade",
   "pro": 1,
-  "impl": "demo-Ye53Zfy1.js",
-  "demo": "demo-Ye53Zfy1.js",
   "cssBlocks": 1,
   "files": [
    "blur-crossfade.css",
@@ -1469,8 +1229,6 @@
  {
   "slug": "gradient-floor",
   "pro": 1,
-  "impl": "demo-B-TgH1P-.js",
-  "demo": "demo-B-TgH1P-.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1481,8 +1239,6 @@
  {
   "slug": "gradient-text",
   "pro": 1,
-  "impl": "demo-Dcdtba_V.js",
-  "demo": "demo-Dcdtba_V.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1493,8 +1249,6 @@
  {
   "slug": "grid-background",
   "pro": 0,
-  "impl": "demo-S1hMjDCH.js",
-  "demo": "demo-S1hMjDCH.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1505,8 +1259,6 @@
  {
   "slug": "number-ticker",
   "pro": 0,
-  "impl": "demo-0IZOAjVo.js",
-  "demo": "demo-0IZOAjVo.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1517,8 +1269,6 @@
  {
   "slug": "shimmer-loader",
   "pro": 0,
-  "impl": "demo-Cc3_N5Az.js",
-  "demo": "demo-Cc3_N5Az.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1529,8 +1279,6 @@
  {
   "slug": "text-reveal",
   "pro": 0,
-  "impl": "demo-BEzbCisV.js",
-  "demo": "demo-BEzbCisV.js",
   "cssBlocks": 0,
   "files": [
    "docs.md",
@@ -1541,8 +1289,6 @@
  {
   "slug": "tilt-card",
   "pro": 1,
-  "impl": "demo-BijqyLh8.js",
-  "demo": "demo-BijqyLh8.js",
   "cssBlocks": 1,
   "files": [
    "docs.md",
@@ -1553,8 +1299,6 @@
  {
   "slug": "plan-vs-actual",
   "pro": true,
-  "impl": "(clean demo chunk)",
-  "demo": "",
   "cssBlocks": 1,
   "files": [
    "plan-vs-actual.jsx"
@@ -1563,8 +1307,6 @@
  {
   "slug": "scheduled-runs",
   "pro": true,
-  "impl": "(clean demo chunk)",
-  "demo": "",
   "cssBlocks": 1,
   "files": [
    "scheduled-runs.css",

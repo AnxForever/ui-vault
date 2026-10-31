@@ -1,11 +1,3 @@
-/*
- * affectUI · chat-composer (Pro)
- * Implementation recovered from public bundle asset: component-CDhV0WHL.js
- * Styles inlined in the module -> chat-composer.css (0 block(s))
- * Demo usage: chat-composer.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

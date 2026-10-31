@@ -1,11 +1,3 @@
-/*
- * affectUI · toaster (Pro)
- * Implementation recovered from public bundle asset: demo-BMvVHXrh.js
- * Styles inlined in the module -> toaster.css (0 block(s))
- * Demo usage: toaster.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 import { a as n, o as r } from "./index-CFGVEsd9.js";

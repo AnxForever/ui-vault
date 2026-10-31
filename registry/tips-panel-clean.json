@@ -3,7 +3,7 @@
   "name": "tips-panel-clean",
   "type": "registry:ui",
   "title": "tips-panel-clean",
-  "description": "affectUI tips-panel-clean",
+  "description": "Tips Panel (clean style) – a panel of short tips, each with one action, in one white card, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

@@ -3,7 +3,7 @@
   "name": "thinking-loader-clean",
   "type": "registry:ui",
   "title": "thinking-loader-clean",
-  "description": "affectUI thinking-loader-clean",
+  "description": "Thinking Loader (clean style) – a small \"the model is working\" chip, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

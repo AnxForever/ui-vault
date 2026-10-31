@@ -1,11 +1,3 @@
-/*
- * affectUI · cover-flow
- * Implementation recovered from public bundle asset: demo-C2jfF4UB.js
- * Styles inlined in the module -> cover-flow.css (0 block(s))
- * Demo usage: cover-flow.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

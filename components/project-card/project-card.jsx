@@ -1,11 +1,3 @@
-/*
- * affectUI · project-card (Pro)
- * Implementation recovered from public bundle asset: demo-mVJMtnH2.js
- * Styles inlined in the module -> project-card.css (1 block(s))
- * Demo usage: project-card.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

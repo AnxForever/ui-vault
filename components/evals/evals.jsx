@@ -1,11 +1,3 @@
-/*
- * affectUI · evals (Pro)
- * Implementation recovered from public bundle asset: component-fbzjv3kM.js
- * Styles inlined in the module -> evals.css (0 block(s))
- * Demo usage: evals.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

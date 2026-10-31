@@ -3,7 +3,7 @@
   "name": "testimonial-wall",
   "type": "registry:ui",
   "title": "Testimonial Wall",
-  "description": "affectUI testimonial-wall",
+  "description": "Testimonial Wall – the landing-page wall of quotes, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "demo-BOeM0CYP.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

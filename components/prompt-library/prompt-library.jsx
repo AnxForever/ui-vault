@@ -1,11 +1,3 @@
-/*
- * affectUI · prompt-library (Pro)
- * Implementation recovered from public bundle asset: demo-Dag7eJtM.js
- * Styles inlined in the module -> prompt-library.css (1 block(s))
- * Demo usage: prompt-library.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

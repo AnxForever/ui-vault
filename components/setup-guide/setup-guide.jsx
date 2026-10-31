@@ -1,11 +1,3 @@
-/*
- * affectUI · setup-guide (Pro)
- * Implementation recovered from public bundle asset: component-B3wch4yo.js
- * Styles inlined in the module -> setup-guide.css (1 block(s))
- * Demo usage: setup-guide.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

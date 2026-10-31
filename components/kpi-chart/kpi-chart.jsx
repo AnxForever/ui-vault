@@ -1,11 +1,3 @@
-/*
- * affectUI · kpi-chart (Pro)
- * Implementation recovered from public bundle asset: component-x03t8EYo.js
- * Styles inlined in the module -> kpi-chart.css (1 block(s))
- * Demo usage: kpi-chart.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

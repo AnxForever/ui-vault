@@ -1,11 +1,3 @@
-/*
- * affectUI · app-directory (Pro)
- * Implementation recovered from public bundle asset: demo-S9qKZHRx.js
- * Styles inlined in the module -> app-directory.css (1 block(s))
- * Demo usage: app-directory.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

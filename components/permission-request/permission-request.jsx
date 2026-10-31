@@ -1,11 +1,3 @@
-/*
- * affectUI · permission-request (Pro)
- * Implementation recovered from public bundle asset: demo-277u-kzk.js
- * Styles inlined in the module -> permission-request.css (1 block(s))
- * Demo usage: permission-request.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

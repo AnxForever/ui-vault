@@ -1,11 +1,3 @@
-/*
- * affectUI · logo-cluster
- * Implementation recovered from public bundle asset: demo-CkkSZhS9.js
- * Styles inlined in the module -> logo-cluster.css (0 block(s))
- * Demo usage: logo-cluster.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "component-Ek9d4icg.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

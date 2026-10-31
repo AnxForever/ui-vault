@@ -1,11 +1,3 @@
-/*
- * affectUI · grid-background
- * Implementation recovered from public bundle asset: demo-S1hMjDCH.js
- * Styles inlined in the module -> grid-background.css (0 block(s))
- * Demo usage: grid-background.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -1,5 +1,3 @@
-/* affectUI · plan-vs-actual (Pro) — recovered from demo.clean-wzchKI2C.js */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

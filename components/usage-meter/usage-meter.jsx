@@ -1,11 +1,3 @@
-/*
- * affectUI · usage-meter (Pro)
- * Implementation recovered from public bundle asset: component-D_GYVBcE.js
- * Styles inlined in the module -> usage-meter.css (1 block(s))
- * Demo usage: usage-meter.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -3,7 +3,7 @@
   "name": "integration-grid",
   "type": "registry:ui",
   "title": "Integration Grid",
-  "description": "affectUI integration-grid",
+  "description": "Integration Grid – a card illustration, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "component-WEwHkvy1.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

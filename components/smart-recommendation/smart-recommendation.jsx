@@ -1,11 +1,3 @@
-/*
- * affectUI · smart-recommendation
- * Implementation recovered from public bundle asset: demo-Bmw88bzb.js
- * Styles inlined in the module -> smart-recommendation.css (0 block(s))
- * Demo usage: smart-recommendation.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

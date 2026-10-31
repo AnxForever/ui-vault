@@ -1,11 +1,3 @@
-/*
- * affectUI · glow-keyboard (Pro)
- * Implementation recovered from public bundle asset: demo-CfD9afHB.js
- * Styles inlined in the module -> glow-keyboard.css (1 block(s))
- * Demo usage: glow-keyboard.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

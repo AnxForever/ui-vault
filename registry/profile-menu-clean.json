@@ -3,7 +3,7 @@
   "name": "profile-menu-clean",
   "type": "registry:ui",
   "title": "profile-menu-clean",
-  "description": "affectUI profile-menu-clean",
+  "description": "Profile Menu (Clean) – an account card with the signed-in user, menu actions and profile setup progress, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

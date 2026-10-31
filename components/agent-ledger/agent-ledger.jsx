@@ -1,11 +1,3 @@
-/*
- * affectUI · agent-ledger (Pro)
- * Implementation recovered from public bundle asset: demo-CGzh0xx5.js
- * Styles inlined in the module -> agent-ledger.css (1 block(s))
- * Demo usage: agent-ledger.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

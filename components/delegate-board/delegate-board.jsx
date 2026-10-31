@@ -1,11 +1,3 @@
-/*
- * affectUI · delegate-board (Pro)
- * Implementation recovered from public bundle asset: demo-DHNjSsE4.js
- * Styles inlined in the module -> delegate-board.css (1 block(s))
- * Demo usage: delegate-board.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

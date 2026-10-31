@@ -1,11 +1,3 @@
-/*
- * affectUI · change-summary
- * Implementation recovered from public bundle asset: demo-IBGa6B_0.js
- * Styles inlined in the module -> change-summary.css (0 block(s))
- * Demo usage: change-summary.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var t = e();
 function n({ title: e = `What's changed`, period: n, icon: s, changes: c, className: l }) {

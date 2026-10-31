@@ -1,11 +1,3 @@
-/*
- * affectUI · project-flow (Pro)
- * Implementation recovered from public bundle asset: demo-Cwdm4ytX.js
- * Styles inlined in the module -> project-flow.css (1 block(s))
- * Demo usage: project-flow.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

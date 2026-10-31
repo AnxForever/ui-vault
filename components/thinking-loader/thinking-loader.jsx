@@ -1,11 +1,3 @@
-/*
- * affectUI · thinking-loader
- * Implementation recovered from public bundle asset: component-Ek9d4icg.js
- * Styles inlined in the module -> thinking-loader.css (0 block(s))
- * Demo usage: thinking-loader.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

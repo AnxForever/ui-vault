@@ -1,11 +1,3 @@
-/*
- * affectUI · integration-picker (Pro)
- * Implementation recovered from public bundle asset: demo-BbtxcaBE.js
- * Styles inlined in the module -> integration-picker.css (1 block(s))
- * Demo usage: integration-picker.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

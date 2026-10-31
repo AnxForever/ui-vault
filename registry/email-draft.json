@@ -3,7 +3,7 @@
   "name": "email-draft",
   "type": "registry:ui",
   "title": "Email Draft",
-  "description": "affectUI email-draft",
+  "description": "Email Draft – an agent-written email waiting for review, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "demo-BqE2nm6j.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

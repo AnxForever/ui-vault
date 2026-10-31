@@ -1,11 +1,3 @@
-/*
- * affectUI · world-map (Pro)
- * Implementation recovered from public bundle asset: demo-Q0wmIwEm.js
- * Styles inlined in the module -> world-map.css (1 block(s))
- * Demo usage: world-map.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

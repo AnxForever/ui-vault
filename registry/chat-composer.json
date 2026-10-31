@@ -10,14 +10,10 @@
     {
       "path": "chat-composer.tsx",
       "type": "registry:ui",
-      "content": "/* Usage example (recovered from demo-ap1FpgjI.js) */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { t } from \"./component-CDhV0WHL.js\";\n/* empty css             */ var n = e();\nfunction r() {\n  return (0, n.jsx)(`div`, {\n    className: `chat-composer-demo`,\n    onClick: (e) => e.stopPropagation(),\n    children: (0, n.jsx)(t, {}),\n  });\n}\n"
+      "content": "import { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { t } from \"./component-CDhV0WHL.js\";\n/* empty css             */ var n = e();\nfunction r() {\n  return (0, n.jsx)(`div`, {\n    className: `chat-composer-demo`,\n    onClick: (e) => e.stopPropagation(),\n    children: (0, n.jsx)(t, {}),\n  });\n}\n"
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": true,
-      "recoveredFrom": "component-CDhV0WHL.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": true
   }
 }

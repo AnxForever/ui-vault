@@ -3,7 +3,7 @@
   "name": "smart-recommendation-clean",
   "type": "registry:ui",
   "title": "smart-recommendation-clean",
-  "description": "affectUI smart-recommendation-clean",
+  "description": "Smart Recommendation (Clean) – a suggestion card with a confidence signal, alternatives and one-click accept, in a",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

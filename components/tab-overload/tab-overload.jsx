@@ -1,11 +1,3 @@
-/*
- * affectUI · tab-overload
- * Implementation recovered from public bundle asset: demo-CVKU8Uzh.js
- * Styles inlined in the module -> tab-overload.css (0 block(s))
- * Demo usage: tab-overload.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

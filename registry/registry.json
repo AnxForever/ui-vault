@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "affectui-local",
+  "name": "local",
   "homepage": "http://127.0.0.1:8787",
   "items": [
     {
@@ -15,11 +15,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -34,11 +30,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-T2vp62ci.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -53,11 +45,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-oWyfFMeM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -72,11 +60,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-zt7AXopF.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -91,11 +75,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BbHNVcxq.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -110,11 +90,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CW_0t88D.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -129,11 +105,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Ck6EJPHF.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -148,11 +120,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-D2be2q7n.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -167,11 +135,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CGzh0xx5.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -186,18 +150,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BbTawgt2.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "agent-plan",
       "type": "registry:ui",
       "title": "Agent Plan",
-      "description": "affectUI agent-plan",
+      "description": "",
       "files": [
         {
           "path": "agent-plan.tsx",
@@ -205,11 +165,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-CZU1So1R.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -224,11 +180,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CRKNaMKk.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -243,11 +195,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-CZU1So1R.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -262,11 +210,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BlCEXjmy.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -281,11 +225,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BtlH6dH8.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -300,11 +240,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-B_JQedQ8.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -319,11 +255,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DBAxVX0U.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -338,11 +270,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-CDhV0WHL.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -357,11 +285,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -376,68 +300,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-S9qKZHRx.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "app-shell-flat",
-      "type": "registry:ui",
-      "title": "App Shell Flat",
-      "description": "The App Shell laid flat – gray sidebar and an edge-to-edge page, split by a single hairline",
-      "files": [
-        {
-          "path": "app-shell-flat.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-90nTR1WK.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "app-shell-workspace-flat",
-      "type": "registry:ui",
-      "title": "App Shell Workspace Flat",
-      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
-      "files": [
-        {
-          "path": "app-shell-workspace-flat.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-90nTR1WK.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "app-shell-workspace",
-      "type": "registry:ui",
-      "title": "App Shell Workspace Flat",
-      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
-      "files": [
-        {
-          "path": "app-shell-workspace.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-90nTR1WK.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -452,11 +315,52 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-90nTR1WK.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": true
+      }
+    },
+    {
+      "name": "app-shell-flat",
+      "type": "registry:ui",
+      "title": "App Shell Flat",
+      "description": "The App Shell laid flat – gray sidebar and an edge-to-edge page, split by a single hairline",
+      "files": [
+        {
+          "path": "app-shell-flat.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": true
+      }
+    },
+    {
+      "name": "app-shell-workspace",
+      "type": "registry:ui",
+      "title": "App Shell Workspace Flat",
+      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
+      "files": [
+        {
+          "path": "app-shell-workspace.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "pro": true
+      }
+    },
+    {
+      "name": "app-shell-workspace-flat",
+      "type": "registry:ui",
+      "title": "App Shell Workspace Flat",
+      "description": "The flat App Shell with a resizable work area on the right – sidebar, page and tools, each split by a hairline",
+      "files": [
+        {
+          "path": "app-shell-workspace-flat.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "meta": {
+        "pro": true
       }
     },
     {
@@ -471,11 +375,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-LmNOI4Lq.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -490,11 +390,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-CX7lsfhr.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -509,11 +405,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-D1Cm2Y4U.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -528,11 +420,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-COJAGeNk.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -547,11 +435,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Ye53Zfy1.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -566,30 +450,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-oa1F6huF.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "button-clean",
-      "type": "registry:ui",
-      "title": "button-clean",
-      "description": "affectUI button-clean",
-      "files": [
-        {
-          "path": "button-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -604,30 +465,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
-      "name": "change-summary-clean",
+      "name": "button-clean",
       "type": "registry:ui",
-      "title": "change-summary-clean",
-      "description": "affectUI change-summary-clean",
+      "title": "button-clean",
+      "description": "Button – a single self-contained file, clean style.",
       "files": [
         {
-          "path": "change-summary-clean.tsx",
+          "path": "button-clean.tsx",
           "type": "registry:ui"
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -642,11 +495,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-IBGa6B_0.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "change-summary-clean",
+      "type": "registry:ui",
+      "title": "change-summary-clean",
+      "description": "Change Summary (Clean) – what moved since last time, one metric per row, in a single self-contained file.",
+      "files": [
+        {
+          "path": "change-summary-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -661,11 +525,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-CDhV0WHL.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -680,11 +540,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Dvsf4FXI.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -699,11 +555,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-borEBI1Z.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -718,11 +570,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DqZv_kIm.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -737,30 +585,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BloxR6eN.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "comment-thread-clean",
-      "type": "registry:ui",
-      "title": "comment-thread-clean",
-      "description": "affectUI comment-thread-clean",
-      "files": [
-        {
-          "path": "comment-thread-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -775,11 +600,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-ElZs8qP_.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "comment-thread-clean",
+      "type": "registry:ui",
+      "title": "comment-thread-clean",
+      "description": "Comment Thread (Clean) – one comment with its replies, including an assistant that reports what it did, in a single",
+      "files": [
+        {
+          "path": "comment-thread-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -794,11 +630,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Ioffv_GL.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -813,11 +645,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-v8zKTRWM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -832,11 +660,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-C8n-KhXq.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -851,11 +675,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-B9Q3KRp_.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -870,11 +690,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-C8rgC34B.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -889,11 +705,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-C2jfF4UB.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -908,18 +720,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-DD7VCqiB.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "data-table",
       "type": "registry:ui",
       "title": "Data Table",
-      "description": "affectUI data-table",
+      "description": "",
       "files": [
         {
           "path": "data-table.tsx",
@@ -927,11 +735,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-DD7VCqiB.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -946,30 +750,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BFXVVPt-.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "decision-inbox-clean",
-      "type": "registry:ui",
-      "title": "decision-inbox-clean",
-      "description": "affectUI decision-inbox-clean",
-      "files": [
-        {
-          "path": "decision-inbox-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -984,11 +765,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BTRtmfz4.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "decision-inbox-clean",
+      "type": "registry:ui",
+      "title": "decision-inbox-clean",
+      "description": "Decision Inbox (clean style) – open decisions with two quick answers each, in one white card, in a single self-contained file.",
+      "files": [
+        {
+          "path": "decision-inbox-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -1003,11 +795,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BCVR2Hhf.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1022,11 +810,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DHNjSsE4.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1041,37 +825,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BaVYNLv-.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "email-draft-clean",
-      "type": "registry:ui",
-      "title": "email-draft-clean",
-      "description": "affectUI email-draft-clean",
-      "files": [
-        {
-          "path": "email-draft-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "email-draft",
       "type": "registry:ui",
       "title": "Email Draft",
-      "description": "affectUI email-draft",
+      "description": "Email Draft – an agent-written email waiting for review, in a single self-contained file.",
       "files": [
         {
           "path": "email-draft.tsx",
@@ -1079,11 +840,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BqE2nm6j.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "email-draft-clean",
+      "type": "registry:ui",
+      "title": "email-draft-clean",
+      "description": "Email Draft (Clean) – an agent-written email waiting for review, in a single self-contained file.",
+      "files": [
+        {
+          "path": "email-draft-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -1098,11 +870,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-MXjIQshC.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1117,11 +885,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-CU49Fdlm.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1136,11 +900,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1155,11 +915,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DBtQYhoC.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1174,11 +930,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Cr3cCxya.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1193,11 +945,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BFd3gKrI.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1212,30 +960,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "filter-menu-clean",
-      "type": "registry:ui",
-      "title": "filter-menu-clean",
-      "description": "affectUI filter-menu-clean",
-      "files": [
-        {
-          "path": "filter-menu-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1250,11 +975,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-CuOxVraS.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "filter-menu-clean",
+      "type": "registry:ui",
+      "title": "filter-menu-clean",
+      "description": "Filter Menu (Clean) – grouped filters with chips, in a single self-contained file.",
+      "files": [
+        {
+          "path": "filter-menu-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -1269,11 +1005,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1288,11 +1020,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-DrDu-VuE.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1307,11 +1035,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Cm2FVMWj.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1326,11 +1050,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DO6U7ZR7.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1345,11 +1065,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Cm8kSHcX.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1364,11 +1080,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CfD9afHB.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1383,11 +1095,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-B-TgH1P-.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1402,11 +1110,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Dcdtba_V.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1421,11 +1125,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-S1hMjDCH.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1440,11 +1140,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-LiY5Y6pa.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1459,11 +1155,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-B_Bc7Zla.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1478,18 +1170,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CL_ySX-H.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "integration-grid",
       "type": "registry:ui",
       "title": "Integration Grid",
-      "description": "affectUI integration-grid",
+      "description": "Integration Grid – a card illustration, in a single self-contained file.",
       "files": [
         {
           "path": "integration-grid.tsx",
@@ -1497,11 +1185,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-WEwHkvy1.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1516,11 +1200,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BbtxcaBE.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1535,11 +1215,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BSW5akXq.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1554,11 +1230,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1573,11 +1245,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-C-iCHBJN.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1592,11 +1260,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DVOt8T4-.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1611,11 +1275,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-x03t8EYo.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1630,11 +1290,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-KQRMxKWn.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1649,11 +1305,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BTBcqeeL.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1668,11 +1320,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-CkkSZhS9.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1687,11 +1335,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-dPDkooNn.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1706,30 +1350,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Dzop4bhP.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "message-actions-clean",
-      "type": "registry:ui",
-      "title": "message-actions-clean",
-      "description": "affectUI message-actions-clean",
-      "files": [
-        {
-          "path": "message-actions-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1744,11 +1365,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-DrVDkZ74.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "message-actions-clean",
+      "type": "registry:ui",
+      "title": "message-actions-clean",
+      "description": "Message Actions (Clean) – the small bar under an AI chat message, in one self-contained file.",
+      "files": [
+        {
+          "path": "message-actions-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -1763,11 +1395,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Coprs2Jd.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1782,11 +1410,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-ousVLbdn.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1801,30 +1425,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-OZULToi6.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "notification-stack-clean",
-      "type": "registry:ui",
-      "title": "notification-stack-clean",
-      "description": "affectUI notification-stack-clean",
-      "files": [
-        {
-          "path": "notification-stack-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -1839,18 +1440,29 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-B6G7VOmY.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "notification-stack-clean",
+      "type": "registry:ui",
+      "title": "notification-stack-clean",
+      "description": "Notification Stack (clean style) – notices stacked behind each other, in a single self-contained file.",
+      "files": [
+        {
+          "path": "notification-stack-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
       "name": "number-ticker",
       "type": "registry:ui",
       "title": "Number Ticker",
-      "description": "affectUI number-ticker",
+      "description": "Number Ticker – animated numbers like an odometer, in a single self-contained file.",
       "files": [
         {
           "path": "number-ticker.tsx",
@@ -1858,18 +1470,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-0IZOAjVo.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
       "name": "onboarding",
       "type": "registry:ui",
       "title": "Project Card",
-      "description": "affectUI onboarding",
+      "description": "",
       "files": [
         {
           "path": "onboarding.tsx",
@@ -1877,30 +1485,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "otp-input-clean",
-      "type": "registry:ui",
-      "title": "otp-input-clean",
-      "description": "affectUI otp-input-clean",
-      "files": [
-        {
-          "path": "otp-input-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1915,11 +1500,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-DNDBlImO.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "otp-input-clean",
+      "type": "registry:ui",
+      "title": "otp-input-clean",
+      "description": "OTP Input (Clean) – the verification code field, in a single self-contained file.",
+      "files": [
+        {
+          "path": "otp-input-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -1934,11 +1530,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-D-FldunI.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1953,11 +1545,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DNq6dj3m.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -1972,18 +1560,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-277u-kzk.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "plan-vs-actual",
       "type": "registry:ui",
       "title": "plan-vs-actual",
-      "description": "affectUI plan-vs-actual",
+      "description": "",
       "files": [
         {
           "path": "plan-vs-actual.tsx",
@@ -1991,11 +1575,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2010,30 +1590,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-CGLaBJBw.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "profile-menu-clean",
-      "type": "registry:ui",
-      "title": "profile-menu-clean",
-      "description": "affectUI profile-menu-clean",
-      "files": [
-        {
-          "path": "profile-menu-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2048,30 +1605,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Dk3NEbkP.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
-      "name": "progress-tracker-clean",
+      "name": "profile-menu-clean",
       "type": "registry:ui",
-      "title": "progress-tracker-clean",
-      "description": "affectUI progress-tracker-clean",
+      "title": "profile-menu-clean",
+      "description": "Profile Menu (Clean) – an account card with the signed-in user, menu actions and profile setup progress, in a single self-contained file.",
       "files": [
         {
-          "path": "progress-tracker-clean.tsx",
+          "path": "profile-menu-clean.tsx",
           "type": "registry:ui"
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2086,18 +1635,29 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-CRM2yhps.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "progress-tracker-clean",
+      "type": "registry:ui",
+      "title": "progress-tracker-clean",
+      "description": "Progress Tracker – a checklist with a progress bar, in a single self-contained file.",
+      "files": [
+        {
+          "path": "progress-tracker-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
       "name": "project-card",
       "type": "registry:ui",
       "title": "Project Card",
-      "description": "affectUI project-card",
+      "description": "",
       "files": [
         {
           "path": "project-card.tsx",
@@ -2105,11 +1665,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-mVJMtnH2.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2124,11 +1680,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Cwdm4ytX.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2143,30 +1695,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Dag7eJtM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "reaction-bar-clean",
-      "type": "registry:ui",
-      "title": "reaction-bar-clean",
-      "description": "affectUI reaction-bar-clean",
-      "files": [
-        {
-          "path": "reaction-bar-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2181,11 +1710,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-x4AxvLaI.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "reaction-bar-clean",
+      "type": "registry:ui",
+      "title": "reaction-bar-clean",
+      "description": "Reaction Bar (clean style) – like, comment, repost and share as a row of quiet chips, in a single self-contained file.",
+      "files": [
+        {
+          "path": "reaction-bar-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -2200,11 +1740,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Ci6RIQmr.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2219,18 +1755,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-ocpQ0Pxs.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
       "name": "scheduled-runs",
       "type": "registry:ui",
       "title": "scheduled-runs",
-      "description": "affectUI scheduled-runs",
+      "description": "",
       "files": [
         {
           "path": "scheduled-runs.tsx",
@@ -2238,30 +1770,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "segmented-control-clean",
-      "type": "registry:ui",
-      "title": "segmented-control-clean",
-      "description": "affectUI segmented-control-clean",
-      "files": [
-        {
-          "path": "segmented-control-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2276,11 +1785,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-uGOWYpxY.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "segmented-control-clean",
+      "type": "registry:ui",
+      "title": "segmented-control-clean",
+      "description": "Segmented Control (Clean) – switch between two to six options, in a single self-contained file.",
+      "files": [
+        {
+          "path": "segmented-control-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -2295,11 +1815,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-fbzjv3kM.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2314,11 +1830,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-B3wch4yo.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2333,11 +1845,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Cc3_N5Az.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2352,30 +1860,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-ClUxDNiT.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "smart-recommendation-clean",
-      "type": "registry:ui",
-      "title": "smart-recommendation-clean",
-      "description": "affectUI smart-recommendation-clean",
-      "files": [
-        {
-          "path": "smart-recommendation-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2390,18 +1875,29 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-Bmw88bzb.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "smart-recommendation-clean",
+      "type": "registry:ui",
+      "title": "smart-recommendation-clean",
+      "description": "Smart Recommendation (Clean) – a suggestion card with a confidence signal, alternatives and one-click accept, in a",
+      "files": [
+        {
+          "path": "smart-recommendation-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
       "name": "stepper-form",
       "type": "registry:ui",
       "title": "Stepper Form",
-      "description": "affectUI stepper-form",
+      "description": "",
       "files": [
         {
           "path": "stepper-form.tsx",
@@ -2409,11 +1905,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DnMvqnaQ.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2428,11 +1920,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-CVKU8Uzh.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2447,11 +1935,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-oa1F6huF.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2466,18 +1950,14 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-cWsVSmbI.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
       "name": "testimonial-wall",
       "type": "registry:ui",
       "title": "Testimonial Wall",
-      "description": "affectUI testimonial-wall",
+      "description": "Testimonial Wall – the landing-page wall of quotes, in a single self-contained file.",
       "files": [
         {
           "path": "testimonial-wall.tsx",
@@ -2485,11 +1965,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BOeM0CYP.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2504,30 +1980,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-BEzbCisV.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "thinking-loader-clean",
-      "type": "registry:ui",
-      "title": "thinking-loader-clean",
-      "description": "affectUI thinking-loader-clean",
-      "files": [
-        {
-          "path": "thinking-loader-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": false
       }
     },
     {
@@ -2542,11 +1995,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-Ek9d4icg.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "thinking-loader-clean",
+      "type": "registry:ui",
+      "title": "thinking-loader-clean",
+      "description": "Thinking Loader (clean style) – a small \"the model is working\" chip, in a single self-contained file.",
+      "files": [
+        {
+          "path": "thinking-loader-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -2561,11 +2025,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-DXKdUXEH.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2580,30 +2040,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BijqyLh8.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "tips-panel-clean",
-      "type": "registry:ui",
-      "title": "tips-panel-clean",
-      "description": "affectUI tips-panel-clean",
-      "files": [
-        {
-          "path": "tips-panel-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2618,11 +2055,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "demo-CeNLDeWD.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "tips-panel-clean",
+      "type": "registry:ui",
+      "title": "tips-panel-clean",
+      "description": "Tips Panel (clean style) – a panel of short tips, each with one action, in one white card, in a single self-contained file.",
+      "files": [
+        {
+          "path": "tips-panel-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -2637,30 +2085,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-BMvVHXrh.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
-      }
-    },
-    {
-      "name": "tool-call-card-clean",
-      "type": "registry:ui",
-      "title": "tool-call-card-clean",
-      "description": "affectUI tool-call-card-clean",
-      "files": [
-        {
-          "path": "tool-call-card-clean.tsx",
-          "type": "registry:ui"
-        }
-      ],
-      "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "site bundle",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2675,11 +2100,22 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": false,
-          "recoveredFrom": "component-DR7LKODg.js",
-          "license": "affectUI commercial / MIT for free items"
+        "pro": false
+      }
+    },
+    {
+      "name": "tool-call-card-clean",
+      "type": "registry:ui",
+      "title": "tool-call-card-clean",
+      "description": "Tool Call Card (Clean) – one tool call of an AI agent, in a single self-contained file.",
+      "files": [
+        {
+          "path": "tool-call-card-clean.tsx",
+          "type": "registry:ui"
         }
+      ],
+      "meta": {
+        "pro": false
       }
     },
     {
@@ -2694,11 +2130,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-OLdSLdLw.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2713,11 +2145,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "component-D_GYVBcE.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2732,11 +2160,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-B3RzKcXL.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2751,11 +2175,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-Q0wmIwEm.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     },
     {
@@ -2770,11 +2190,7 @@
         }
       ],
       "meta": {
-        "affectui": {
-          "pro": true,
-          "recoveredFrom": "demo-DeFFCGcX.js",
-          "license": "affectUI commercial / MIT for free items"
-        }
+        "pro": true
       }
     }
   ]

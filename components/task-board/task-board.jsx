@@ -1,11 +1,3 @@
-/*
- * affectUI · task-board (Pro)
- * Implementation recovered from public bundle asset: component-oa1F6huF.js
- * Styles inlined in the module -> task-board.css (1 block(s))
- * Demo usage: task-board.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

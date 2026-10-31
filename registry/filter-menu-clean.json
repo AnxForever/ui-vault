@@ -3,7 +3,7 @@
   "name": "filter-menu-clean",
   "type": "registry:ui",
   "title": "filter-menu-clean",
-  "description": "affectUI filter-menu-clean",
+  "description": "Filter Menu (Clean) – grouped filters with chips, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

@@ -3,7 +3,7 @@
   "name": "email-draft-clean",
   "type": "registry:ui",
   "title": "email-draft-clean",
-  "description": "affectUI email-draft-clean",
+  "description": "Email Draft (Clean) – an agent-written email waiting for review, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

@@ -3,7 +3,7 @@
   "name": "number-ticker",
   "type": "registry:ui",
   "title": "Number Ticker",
-  "description": "affectUI number-ticker",
+  "description": "Number Ticker – animated numbers like an odometer, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "demo-0IZOAjVo.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

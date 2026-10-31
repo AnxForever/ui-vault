@@ -1,11 +1,3 @@
-/*
- * affectUI · billing-schedule (Pro)
- * Implementation recovered from public bundle asset: demo-COJAGeNk.js
- * Styles inlined in the module -> billing-schedule.css (1 block(s))
- * Demo usage: billing-schedule.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

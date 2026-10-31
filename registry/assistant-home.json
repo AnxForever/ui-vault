@@ -10,14 +10,10 @@
     {
       "path": "assistant-home.tsx",
       "type": "registry:ui",
-      "content": "/* Usage example (recovered from demo-v8ywOoa-.js) */\n\nimport { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { d as t, f as n } from \"./index-CFGVEsd9.js\";\nimport { t as r } from \"./component-CX7lsfhr.js\";\nvar i = e();\nfunction a() {\n  return (0, i.jsx)(t, { children: (0, i.jsx)(r, { onNavigate: n }) });\n}\n"
+      "content": "import { t as e } from \"./jsx-runtime-CTsRTJUX.js\";\nimport { d as t, f as n } from \"./index-CFGVEsd9.js\";\nimport { t as r } from \"./component-CX7lsfhr.js\";\nvar i = e();\nfunction a() {\n  return (0, i.jsx)(t, { children: (0, i.jsx)(r, { onNavigate: n }) });\n}\n"
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": true,
-      "recoveredFrom": "component-CX7lsfhr.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": true
   }
 }

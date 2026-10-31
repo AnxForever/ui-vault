@@ -3,7 +3,7 @@
   "name": "reaction-bar-clean",
   "type": "registry:ui",
   "title": "reaction-bar-clean",
-  "description": "affectUI reaction-bar-clean",
+  "description": "Reaction Bar (clean style) – like, comment, repost and share as a row of quiet chips, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

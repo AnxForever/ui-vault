@@ -1,11 +1,3 @@
-/*
- * affectUI · crm (Pro)
- * Implementation recovered from public bundle asset: component-DD7VCqiB.js
- * Styles inlined in the module -> crm.css (1 block(s))
- * Demo usage: crm.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

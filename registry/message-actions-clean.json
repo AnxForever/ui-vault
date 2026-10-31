@@ -3,7 +3,7 @@
   "name": "message-actions-clean",
   "type": "registry:ui",
   "title": "message-actions-clean",
-  "description": "affectUI message-actions-clean",
+  "description": "Message Actions (Clean) – the small bar under an AI chat message, in one self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

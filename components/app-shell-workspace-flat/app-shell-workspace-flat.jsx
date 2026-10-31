@@ -1,11 +1,3 @@
-/*
- * affectUI · app-shell-workspace-flat (Pro)
- * Implementation recovered from public bundle asset: component-90nTR1WK.js
- * Styles inlined in the module -> app-shell-workspace-flat.css (1 block(s))
- * Demo usage: app-shell-workspace-flat.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 import { t as n } from "./HugeiconsIcon-C2cDExRS.js";

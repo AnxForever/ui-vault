@@ -1,11 +1,3 @@
-/*
- * affectUI · approval-card (Pro)
- * Implementation recovered from public bundle asset: component-LmNOI4Lq.js
- * Styles inlined in the module -> approval-card.css (1 block(s))
- * Demo usage: approval-card.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

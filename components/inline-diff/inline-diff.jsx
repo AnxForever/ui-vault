@@ -1,11 +1,3 @@
-/*
- * affectUI · inline-diff (Pro)
- * Implementation recovered from public bundle asset: component-LiY5Y6pa.js
- * Styles inlined in the module -> inline-diff.css (1 block(s))
- * Demo usage: inline-diff.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

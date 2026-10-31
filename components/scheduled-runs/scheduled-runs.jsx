@@ -1,5 +1,3 @@
-/* affectUI · scheduled-runs (Pro) — recovered from demo.clean-D0Li_dKw.js */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · agent-tree (Pro)
- * Implementation recovered from public bundle asset: demo-B_JQedQ8.js
- * Styles inlined in the module -> agent-tree.css (1 block(s))
- * Demo usage: agent-tree.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

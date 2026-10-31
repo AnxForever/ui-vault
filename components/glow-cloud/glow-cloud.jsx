@@ -1,11 +1,3 @@
-/*
- * affectUI · glow-cloud
- * Implementation recovered from public bundle asset: demo-Cm8kSHcX.js
- * Styles inlined in the module -> glow-cloud.css (0 block(s))
- * Demo usage: glow-cloud.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

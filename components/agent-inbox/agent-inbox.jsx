@@ -1,11 +1,3 @@
-/*
- * affectUI · agent-inbox (Pro)
- * Implementation recovered from public bundle asset: demo-Ck6EJPHF.js
- * Styles inlined in the module -> agent-inbox.css (1 block(s))
- * Demo usage: agent-inbox.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · kpi-board (Pro)
- * Implementation recovered from public bundle asset: demo-DVOt8T4-.js
- * Styles inlined in the module -> kpi-board.css (1 block(s))
- * Demo usage: kpi-board.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

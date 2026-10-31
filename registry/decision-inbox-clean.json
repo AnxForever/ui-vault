@@ -3,7 +3,7 @@
   "name": "decision-inbox-clean",
   "type": "registry:ui",
   "title": "decision-inbox-clean",
-  "description": "affectUI decision-inbox-clean",
+  "description": "Decision Inbox (clean style) – open decisions with two quick answers each, in one white card, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

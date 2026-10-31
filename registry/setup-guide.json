@@ -10,14 +10,10 @@
     {
       "path": "setup-guide.tsx",
       "type": "registry:ui",
-      "content": "/* Usage example (recovered from demo-CfJSX8BJ.js) */\n\nimport { t as e } from \"./react-BkAXpnfr.js\";\nimport { t } from \"./jsx-runtime-CTsRTJUX.js\";\n/* empty css             */ import { t as n } from \"./component-B3wch4yo.js\";\nvar r = e(),\n  i = t(),\n  a = [\n    {\n      id: `workspace`,\n      title: `Set up your workspace`,\n      tasks: [\n        { id: `name`, label: `Choose a workspace name` },\n        { id: `invite`, label: `Invite your teammates to collaborate` },\n        { id: `calendar`, label: `Connect your calendar` },\n      ],\n    },\n    {\n      id: `billing`,\n      title: `Set up billing`,\n      tasks: [\n        { id: `card`, label: `Add a payment method` },\n        { id: `plan`, label: `Choose a plan` },\n      ],\n    },\n    {\n      id: `verify`,\n      title: `Verify your account`,\n      tasks: [{ id: `email`, label: `Confirm your email address`, done: !0 }],\n    },\n  ];\nfunction o() {\n  let [e, t] = (0, r.useState)(0);\n  return (0, i.jsx)(`div`, {\n    className: `setup-demo`,\n    children: (0, i.jsx)(n, { groups: a, onEdit: () => {}, onClose: () => t((e) => e + 1) }, e),\n  });\n}\n"
+      "content": "import { t as e } from \"./react-BkAXpnfr.js\";\nimport { t } from \"./jsx-runtime-CTsRTJUX.js\";\n/* empty css             */ import { t as n } from \"./component-B3wch4yo.js\";\nvar r = e(),\n  i = t(),\n  a = [\n    {\n      id: `workspace`,\n      title: `Set up your workspace`,\n      tasks: [\n        { id: `name`, label: `Choose a workspace name` },\n        { id: `invite`, label: `Invite your teammates to collaborate` },\n        { id: `calendar`, label: `Connect your calendar` },\n      ],\n    },\n    {\n      id: `billing`,\n      title: `Set up billing`,\n      tasks: [\n        { id: `card`, label: `Add a payment method` },\n        { id: `plan`, label: `Choose a plan` },\n      ],\n    },\n    {\n      id: `verify`,\n      title: `Verify your account`,\n      tasks: [{ id: `email`, label: `Confirm your email address`, done: !0 }],\n    },\n  ];\nfunction o() {\n  let [e, t] = (0, r.useState)(0);\n  return (0, i.jsx)(`div`, {\n    className: `setup-demo`,\n    children: (0, i.jsx)(n, { groups: a, onEdit: () => {}, onClose: () => t((e) => e + 1) }, e),\n  });\n}\n"
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": true,
-      "recoveredFrom": "component-B3wch4yo.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": true
   }
 }

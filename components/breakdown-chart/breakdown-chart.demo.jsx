@@ -1,5 +1,3 @@
-/* Usage example (recovered from demo-_DBbejj2.js) */
-
 import { t as e } from "./jsx-runtime-CTsRTJUX.js";
 import { n as t, t as n } from "./component-oa1F6huF.js";
 /* empty css             */ var r = e(),

@@ -1,11 +1,3 @@
-/*
- * affectUI · autonomy-dial (Pro)
- * Implementation recovered from public bundle asset: demo-D1Cm2Y4U.js
- * Styles inlined in the module -> autonomy-dial.css (1 block(s))
- * Demo usage: autonomy-dial.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

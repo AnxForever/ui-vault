@@ -1,11 +1,3 @@
-/*
- * affectUI · blur-crossfade (Pro)
- * Implementation recovered from public bundle asset: demo-Ye53Zfy1.js
- * Styles inlined in the module -> blur-crossfade.css (1 block(s))
- * Demo usage: blur-crossfade.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 var n = e(),

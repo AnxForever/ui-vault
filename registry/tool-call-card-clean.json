@@ -3,7 +3,7 @@
   "name": "tool-call-card-clean",
   "type": "registry:ui",
   "title": "tool-call-card-clean",
-  "description": "affectUI tool-call-card-clean",
+  "description": "Tool Call Card (Clean) – one tool call of an AI agent, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

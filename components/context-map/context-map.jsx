@@ -1,11 +1,3 @@
-/*
- * affectUI · context-map (Pro)
- * Implementation recovered from public bundle asset: demo-B9Q3KRp_.js
- * Styles inlined in the module -> context-map.css (1 block(s))
- * Demo usage: context-map.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

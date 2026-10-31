@@ -3,7 +3,7 @@
   "name": "change-summary-clean",
   "type": "registry:ui",
   "title": "change-summary-clean",
-  "description": "affectUI change-summary-clean",
+  "description": "Change Summary (Clean) – what moved since last time, one metric per row, in a single self-contained file.",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

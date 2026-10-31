@@ -1,11 +1,3 @@
-/*
- * affectUI · context-window (Pro)
- * Implementation recovered from public bundle asset: demo-C8rgC34B.js
- * Styles inlined in the module -> context-window.css (1 block(s))
- * Demo usage: context-window.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

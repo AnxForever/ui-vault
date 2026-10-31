@@ -3,7 +3,7 @@
   "name": "comment-thread-clean",
   "type": "registry:ui",
   "title": "comment-thread-clean",
-  "description": "affectUI comment-thread-clean",
+  "description": "Comment Thread (Clean) – one comment with its replies, including an assistant that reports what it did, in a single",
   "dependencies": [],
   "registryDependencies": [],
   "files": [
@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "site bundle",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

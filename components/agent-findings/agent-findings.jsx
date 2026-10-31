@@ -1,11 +1,3 @@
-/*
- * affectUI · agent-findings (Pro)
- * Implementation recovered from public bundle asset: demo-oWyfFMeM.js
- * Styles inlined in the module -> agent-findings.css (1 block(s))
- * Demo usage: agent-findings.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

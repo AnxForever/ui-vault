@@ -1,5 +1,3 @@
-/* Usage example (recovered from demo-v8ywOoa-.js) */
-
 import { t as e } from "./jsx-runtime-CTsRTJUX.js";
 import { d as t, f as n } from "./index-CFGVEsd9.js";
 import { t as r } from "./component-CX7lsfhr.js";

@@ -1,11 +1,3 @@
-/*
- * affectUI · fallback-chain (Pro)
- * Implementation recovered from public bundle asset: demo-Cr3cCxya.js
- * Styles inlined in the module -> fallback-chain.css (1 block(s))
- * Demo usage: fallback-chain.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

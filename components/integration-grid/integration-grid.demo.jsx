@@ -1,5 +1,3 @@
-/* Usage example (recovered from demo-BABw5NIJ.js) */
-
 import { t as e } from "./jsx-runtime-CTsRTJUX.js";
 import { IntegrationGrid as t } from "./component-WEwHkvy1.js";
 var n = e();

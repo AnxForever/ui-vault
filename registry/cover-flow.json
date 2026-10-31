@@ -14,10 +14,6 @@
     }
   ],
   "meta": {
-    "affectui": {
-      "pro": false,
-      "recoveredFrom": "demo-C2jfF4UB.js",
-      "license": "affectUI commercial / MIT for free items"
-    }
+    "pro": false
   }
 }

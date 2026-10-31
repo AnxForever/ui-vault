@@ -1,5 +1,3 @@
-/* Usage example (recovered from demo-tzLI_I9e.js) */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ import { t as n } from "./component-LiY5Y6pa.js";

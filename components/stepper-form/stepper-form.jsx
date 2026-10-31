@@ -1,11 +1,3 @@
-/*
- * affectUI · stepper-form (Pro)
- * Implementation recovered from public bundle asset: demo-DnMvqnaQ.js
- * Styles inlined in the module -> stepper-form.css (1 block(s))
- * Demo usage: stepper-form.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),

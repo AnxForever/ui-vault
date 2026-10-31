@@ -1,11 +1,3 @@
-/*
- * affectUI · ai-answer (Pro)
- * Implementation recovered from public bundle asset: demo-DBAxVX0U.js
- * Styles inlined in the module -> ai-answer.css (1 block(s))
- * Demo usage: ai-answer.demo.jsx
- * Minified identifiers kept; formatting by prettier.
- */
-
 import { t as e } from "./react-BkAXpnfr.js";
 import { t } from "./jsx-runtime-CTsRTJUX.js";
 /* empty css             */ var n = e(),
