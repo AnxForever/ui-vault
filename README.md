@@ -84,7 +84,7 @@ node serve.mjs                       # http://127.0.0.1:8787
 
 之后 `npx shadcn@latest add @affectui/agent-tree` 即可，无 key、无 401。
 
-## 持续监控
+## 持续监控（云端）
 
 `watch.mjs` 以三个信号判断站点是否更新，按可靠性排序：
 
@@ -92,13 +92,24 @@ node serve.mjs                       # http://127.0.0.1:8787
 2. `sitemap.xml` 的组件列表 —— 新增组件
 3. 每个条目的 demo/component chunk 名（`__vite__mapDeps`）—— 单条目重建
 
+`.github/workflows/watch.yml` 每 6 小时（UTC `17 */6 * * *`）在 GitHub 上跑一次，没有漂移就什么都不写，有漂移才抓取、重建 registry、追加 `CHANGELOG.md` 并自动提交。本机不需要常驻任何进程。
+
+```
+gh workflow run watch.yml -f check_only=true   # 先看漂移，不落盘
+gh workflow run watch.yml                      # 抓取并提交
+gh run list --workflow=watch.yml               # 运行历史
+```
+
+每次运行的 JSON 报告都在该次 Actions 的 Step Summary 里。状态基线是 `.state.json`（随仓库提交），删掉它等于要求下次全量重建。
+
+本地想手动跑也可以：
+
 ```
 npm i            # 装 prettier（缺失时只跳过格式化）
 npm run check    # 只报告漂移，不写盘
-npm run update   # 拉新增/变更条目，重建 registry，追加 CHANGELOG.md
+npm run update   # 拉新增/变更条目，重建 registry
 ```
 
-状态在 `.state.json`，每次运行把时间、bundle、新 slug、刷新条目写进 `CHANGELOG.md`。
 
 ## 备注
 
