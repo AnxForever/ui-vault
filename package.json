@@ -1,8 +1,9 @@
-﻿{
-  "name": "affectui-mirror",
+{
+  "name": "ui-vault",
   "private": true,
   "version": "1.0.0",
-  "description": "Local mirror + shadcn registry for affectUI components (free and Pro)",
+  "description": "Local component archive with a shadcn-compatible registry; third-party component rights remain with their authors",
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "scripts": {
     "serve": "node serve.mjs",

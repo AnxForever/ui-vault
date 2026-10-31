@@ -70,26 +70,22 @@ node serve.mjs        # http://127.0.0.1:8787
 
 `watch.mjs` 跟踪三个信号判断上游是否变化：入口 bundle 名、`sitemap.xml` 的条目列表、单条目的模块名。任何一处变化都会重新拉取该条目并重建 registry。
 
-`.github/workflows/watch.yml` 每 6 小时在 GitHub 上跑一次。无变化时不产生提交；有变化才抓取、重建并自动提交，时间线写入 `CHANGELOG.md`。本机无需常驻任何进程。
+本地按需运行，仓库不包含任何 CI 配置：
 
 ```
-gh workflow run watch.yml -f check_only=true   # 只报告，不落盘
-gh workflow run watch.yml                      # 抓取并提交
-gh run list --workflow=watch.yml               # 运行历史
+node watch.mjs --check   # 只报告漂移，不写盘
+node watch.mjs           # 抓取、重建 registry 并写入 CHANGELOG.md
 ```
 
-## 使用条款
+无变化时不产生任何写入；有变化才更新条目并追加时间线。结果自行提交。
 
-**仅限自用。** 本仓库由仓库所有者建立并维护，供其在本人私有项目中阅读、修改与组合使用。
+## 许可
 
-明确禁止：
+本仓库自有内容（`serve.mjs`、`watch.mjs`、`registry/`、`manifest.json`、`.state.json`、文档整理）以 **PolyForm Strict 1.0.0** 授权：仅限非商业目的使用，禁止分发，禁止分发修改版或衍生作品，不授予再许可。全文见 [LICENSE](LICENSE)。
 
-- 再分发：公开发布、镜像、转载、上传公开仓库或网盘、打包进对外分发的产品
-- 商业使用：售卖、作为付费产品或服务的一部分、用于客户交付或外包项目
-- 转授权：转让、共享、出借访问权限或副本
-- 数据集用途：用于训练、微调或构建对外提供的模型与数据集
+`components/<slug>/` 下各组件的著作权归 affectUI 原作者，本仓库不附带、不转让、不隐含原作者对任何人的许可；上述许可不适用于这些条目，也不能替代原作者许可。需在受限场景使用请向原作者取得正式授权。
 
-所有条目的著作权归 affectUI 原作者。本仓库不附带、不转让任何 affectUI 的授权，也不构成对原作者任何权利的许可。使用者自行承担全部合规责任；如需在受限场景使用，请向原作者取得正式授权。
+商业使用、对外分发、数据集用途一律不在授权范围内。
 
 ## 附注
 
